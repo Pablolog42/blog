@@ -84,11 +84,46 @@
     "text": "Cambiar metadatos del sitio\nEdita _quarto.yml en la raíz para modificar el título del blog, el link de GitHub, o el dominio. Después de cualquier cambio en _quarto.yml, vuelve a ejecutar quarto publish gh-pages."
   },
   {
+    "objectID": "categorias/transporte.html",
+    "href": "categorias/transporte.html",
+    "title": "Transporte",
+    "section": "",
+    "text": "Posts sobre transporte.\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "categorias/musica.html",
+    "href": "categorias/musica.html",
+    "title": "Música",
+    "section": "",
+    "text": "Posts sobre música.\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "categorias/electrica.html",
+    "href": "categorias/electrica.html",
+    "title": "Eléctrica",
+    "section": "",
+    "text": "Posts sobre electricidad y electrónica.\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "Sobre mí",
     "section": "",
     "text": "Escribe aquí una breve descripción sobre ti."
+  },
+  {
+    "objectID": "categorias/fotos.html",
+    "href": "categorias/fotos.html",
+    "title": "Fotos",
+    "section": "",
+    "text": "Posts con fotos.\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "categorias/otros.html",
+    "href": "categorias/otros.html",
+    "title": "Otros",
+    "section": "",
+    "text": "Posts misceláneos.\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",

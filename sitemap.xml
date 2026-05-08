@@ -2,15 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://diezvariante.cl/blog/posts/hola-mundo/index.html</loc>
-    <lastmod>2026-05-08T01:56:22.441Z</lastmod>
+    <lastmod>2026-05-08T02:57:12.805Z</lastmod>
   </url>
   <url>
     <loc>https://diezvariante.cl/blog/posts/como-publicar/index.html</loc>
     <lastmod>2026-05-08T01:56:22.436Z</lastmod>
   </url>
   <url>
+    <loc>https://diezvariante.cl/blog/categorias/transporte.html</loc>
+    <lastmod>2026-05-08T02:55:01.635Z</lastmod>
+  </url>
+  <url>
+    <loc>https://diezvariante.cl/blog/categorias/musica.html</loc>
+    <lastmod>2026-05-08T02:55:04.029Z</lastmod>
+  </url>
+  <url>
+    <loc>https://diezvariante.cl/blog/categorias/electrica.html</loc>
+    <lastmod>2026-05-08T02:55:02.832Z</lastmod>
+  </url>
+  <url>
     <loc>https://diezvariante.cl/blog/about.html</loc>
     <lastmod>2026-05-08T01:56:22.431Z</lastmod>
+  </url>
+  <url>
+    <loc>https://diezvariante.cl/blog/categorias/fotos.html</loc>
+    <lastmod>2026-05-08T02:55:05.195Z</lastmod>
+  </url>
+  <url>
+    <loc>https://diezvariante.cl/blog/categorias/otros.html</loc>
+    <lastmod>2026-05-08T02:55:06.328Z</lastmod>
   </url>
   <url>
     <loc>https://diezvariante.cl/blog/index.html</loc>

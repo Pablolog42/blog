@@ -1,5 +1,25 @@
 [
   {
+    "listing": "/categorias/transporte.html",
+    "items": []
+  },
+  {
+    "listing": "/categorias/musica.html",
+    "items": []
+  },
+  {
+    "listing": "/categorias/electrica.html",
+    "items": []
+  },
+  {
+    "listing": "/categorias/fotos.html",
+    "items": []
+  },
+  {
+    "listing": "/categorias/otros.html",
+    "items": []
+  },
+  {
     "listing": "/index.html",
     "items": [
       "/posts/hola-mundo/index.html",
