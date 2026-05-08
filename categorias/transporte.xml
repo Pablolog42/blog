@@ -5,11 +5,11 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/" 
       version="2.0">
 <channel>
-<title>Diez variante</title>
+<title>Diez variante 🚌</title>
 <link>https://diezvariante.cl/blog/categorias/transporte.html</link>
 <atom:link href="https://diezvariante.cl/blog/categorias/transporte.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.9.37</generator>
-<lastBuildDate>Fri, 08 May 2026 03:38:39 GMT</lastBuildDate>
+<lastBuildDate>Fri, 08 May 2026 03:43:04 GMT</lastBuildDate>
 </channel>
 </rss>
