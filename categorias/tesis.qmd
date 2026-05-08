@@ -1,14 +1,14 @@
 ---
 title: "Tesis"
 listing:
-contents: "../posts/*/index.qmd"
-sort: "date desc"
-type: default
-fields: [date, title, description, categories]
-date-format: "MMM D, YYYY"
-feed: true
-include: true
-categories: "Tesis"
+    contents: "../posts/*/index.qmd"
+    sort: "date desc"
+    type: default
+    fields: [date, title, description, categories]
+    date-format: "D-MM-YYYY"
+    feed: true
+    include:
+        categories: "Tesis"
 page-layout: article
 ---
 
