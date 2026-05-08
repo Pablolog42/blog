@@ -1,0 +1,28 @@
+project:
+  type: website
+
+website:
+  title: "Tu blog"
+  favicon: favicon.svg
+  site-url: https://tudominio.com
+  navbar:
+    left:
+      - text: "Inicio"
+        href: index.qmd
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/tu-usuario
+        aria-label: GitHub
+
+format:
+  html:
+    theme:
+      light: [litera, custom.scss]
+      dark: [darkly, dark.scss]
+    toc: true
+    toc-depth: 3
+    code-copy: true
+    code-overflow: wrap
+    fontsize: 1.05em
+    smooth-scroll: true

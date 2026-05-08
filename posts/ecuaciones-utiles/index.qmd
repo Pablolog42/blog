@@ -1,0 +1,73 @@
+---
+title: "Ecuaciones que uso seguido"
+description: "Una colección de fórmulas de referencia rápida: cálculo, álgebra lineal y probabilidad."
+date: "2026-05-06"
+categories: [matemáticas, referencia]
+---
+
+Un post de referencia personal. Lo actualizo cuando aparece algo que vale la pena anotar.
+
+## Cálculo
+
+**Regla de la cadena:**
+
+$$\frac{d}{dx}[f(g(x))] = f'(g(x)) \cdot g'(x)$$
+
+**Integral por partes:**
+
+$$\int u \, dv = uv - \int v \, du$$
+
+**Serie de Taylor** alrededor de $a$:
+
+$$f(x) = \sum_{n=0}^{\infty} \frac{f^{(n)}(a)}{n!}(x-a)^n$$
+
+## Álgebra lineal
+
+El **determinante** de una matriz $2 \times 2$:
+
+$$\det\begin{pmatrix} a & b \\ c & d \end{pmatrix} = ad - bc$$
+
+La solución de $A\mathbf{x} = \mathbf{b}$ existe y es única cuando $\det(A) \neq 0$:
+
+$$\mathbf{x} = A^{-1}\mathbf{b}$$
+
+**Norma euclidiana** de un vector $\mathbf{v} = (v_1, \ldots, v_n)$:
+
+$$\|\mathbf{v}\| = \sqrt{\sum_{i=1}^{n} v_i^2}$$
+
+## Probabilidad
+
+**Teorema de Bayes:**
+
+$$P(A \mid B) = \frac{P(B \mid A)\, P(A)}{P(B)}$$
+
+**Esperanza** de una variable discreta:
+
+$$\mathbb{E}[X] = \sum_{x} x \cdot P(X = x)$$
+
+**Distribución normal** $X \sim \mathcal{N}(\mu, \sigma^2)$:
+
+$$f(x) = \frac{1}{\sigma\sqrt{2\pi}} \exp\!\left(-\frac{(x - \mu)^2}{2\sigma^2}\right)$$
+
+## Código de ejemplo
+
+Calcular la norma de un vector en Python:
+
+```python
+import numpy as np
+
+v = np.array([3.0, 4.0])
+norma = np.linalg.norm(v)  # → 5.0
+print(f"‖v‖ = {norma}")
+```
+
+Y lo mismo desde cero sin NumPy:
+
+```python
+import math
+
+def norma(v: list[float]) -> float:
+    return math.sqrt(sum(x**2 for x in v))
+
+print(norma([3, 4]))  # 5.0
+```

@@ -1,0 +1,23 @@
+/*-- scss:defaults --*/
+
+$body-bg: #0f0f0f;
+$body-color: #e5e5e5;
+$link-color: #60a5fa;
+$link-hover-color: #93c5fd;
+$border-color: #262626;
+
+/*-- scss:rules --*/
+
+pre {
+  background-color: #1a1a1a !important;
+  border-color: #262626;
+}
+
+code:not(pre code) { background-color: #1f1f1f; }
+
+.navbar { background-color: $body-bg !important; }
+
+blockquote {
+  border-left-color: #404040;
+  color: #a3a3a3;
+}

@@ -1,0 +1,13 @@
+---
+title: "Tu nombre"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  fields: [date, title, description, categories]
+  date-format: "MMM D, YYYY"
+  feed: true
+page-layout: article
+---
+
+Notas sobre matemáticas, código y lo que vaya cayendo.
