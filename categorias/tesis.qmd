@@ -7,7 +7,7 @@ type: default
 fields: [date, title, description, categories]
 date-format: "MMM D, YYYY"
 feed: true
-include:
+include: true
 categories: "Tesis"
 page-layout: article
 ---
