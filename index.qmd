@@ -1,5 +1,5 @@
 ---
-title: "Tu nombre"
+title: "Blog - Pablo González"
 listing:
   contents: posts
   sort: "date desc"
@@ -10,4 +10,4 @@ listing:
 page-layout: article
 ---
 
-Notas sobre matemáticas, código y lo que vaya cayendo.
+Notas sobre transporte y otras cosas que he ido haciendo con el tiempo.

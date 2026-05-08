@@ -1,8 +1,8 @@
 ---
-title: "Hola, mundo"
-description: "El primer post del blog — una demostración de texto, código y ecuaciones."
+title: "Preferencias declaradas"
+description: "Resultados preliminares de la primera encuesta de preferencias declaradas (PD) de la tesis."
 date: "2026-05-07"
-categories: [meta]
+categories: [tesis]
 ---
 
 Bienvenido al blog. Este primer post muestra las capacidades básicas del formato.

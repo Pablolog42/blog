@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "Tu blog"
+  title: "Diez variante"
   favicon: favicon.svg
   site-url: https://diezvariante.cl/blog
   navbar:
@@ -11,6 +11,8 @@ website:
         href: index.qmd
       - text: "Transporte"
         href: categorias/transporte.qmd
+      - text: "Tesis"
+        href: categorias/tesis.qmd      
       - text: "Eléctrica"
         href: categorias/electrica.qmd
       - text: "Música"
@@ -21,9 +23,9 @@ website:
         href: categorias/otros.qmd
     right:
       - about.qmd
-      - icon: github
-        href: https://github.com/Pablolog42/blog
-        aria-label: GitHub
+#      - icon: github
+#        href: https://github.com/Pablolog42/blog
+#        aria-label: GitHub
 
 format:
   html:

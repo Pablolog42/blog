@@ -3,4 +3,4 @@ title: "Sobre mí"
 page-layout: article
 ---
 
-Escribe aquí una breve descripción sobre ti.
+Hola! Soy Pablo. Acá dejaré algunas cosas que he hecho últimamente.
