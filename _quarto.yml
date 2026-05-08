@@ -4,7 +4,7 @@ project:
 website:
   title: "Tu blog"
   favicon: favicon.svg
-  site-url: https://tudominio.com
+  site-url: https://pablolog42.github.io/diez-variante-web
   navbar:
     left:
       - text: "Inicio"
@@ -12,7 +12,7 @@ website:
     right:
       - about.qmd
       - icon: github
-        href: https://github.com/tu-usuario
+        href: https://github.com/Pablolog42/diez-variante-web
         aria-label: GitHub
 
 format:
