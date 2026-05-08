@@ -6,14 +6,14 @@
       version="2.0">
 <channel>
 <title>Tu blog</title>
-<link>https://pablolog42.github.io/diez-variante-web/</link>
-<atom:link href="https://pablolog42.github.io/diez-variante-web/index.xml" rel="self" type="application/rss+xml"/>
+<link>https://pablo42.me/diez-variante-web/</link>
+<atom:link href="https://pablo42.me/diez-variante-web/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.9.37</generator>
 <lastBuildDate>Thu, 07 May 2026 04:00:00 GMT</lastBuildDate>
 <item>
   <title>Hola, mundo</title>
-  <link>https://pablolog42.github.io/diez-variante-web/posts/hola-mundo/</link>
+  <link>https://pablo42.me/diez-variante-web/posts/hola-mundo/</link>
   <description><![CDATA[ 
 
 
@@ -99,12 +99,12 @@ font-style: inherit;">10</span>))</span></code></pre></div></div>
 
  ]]></description>
   <category>meta</category>
-  <guid>https://pablolog42.github.io/diez-variante-web/posts/hola-mundo/</guid>
+  <guid>https://pablo42.me/diez-variante-web/posts/hola-mundo/</guid>
   <pubDate>Thu, 07 May 2026 04:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Ecuaciones que uso seguido</title>
-  <link>https://pablolog42.github.io/diez-variante-web/posts/ecuaciones-utiles/</link>
+  <link>https://pablo42.me/diez-variante-web/posts/ecuaciones-utiles/</link>
   <description><![CDATA[ 
 
 
@@ -221,12 +221,12 @@ font-style: inherit;"># 5.0</span></span></code></pre></div></div>
  ]]></description>
   <category>matemáticas</category>
   <category>referencia</category>
-  <guid>https://pablolog42.github.io/diez-variante-web/posts/ecuaciones-utiles/</guid>
+  <guid>https://pablo42.me/diez-variante-web/posts/ecuaciones-utiles/</guid>
   <pubDate>Wed, 06 May 2026 04:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Cómo publicar un post nuevo</title>
-  <link>https://pablolog42.github.io/diez-variante-web/posts/como-publicar/</link>
+  <link>https://pablo42.me/diez-variante-web/posts/como-publicar/</link>
   <description><![CDATA[ 
 
 
@@ -383,7 +383,7 @@ font-style: inherit;">![](mi-imagen.png)</span>{width=60%}</span></code></pre></
  ]]></description>
   <category>meta</category>
   <category>guía</category>
-  <guid>https://pablolog42.github.io/diez-variante-web/posts/como-publicar/</guid>
+  <guid>https://pablo42.me/diez-variante-web/posts/como-publicar/</guid>
   <pubDate>Tue, 05 May 2026 04:00:00 GMT</pubDate>
 </item>
 </channel>
