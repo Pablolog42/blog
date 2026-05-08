@@ -9,6 +9,16 @@ website:
     left:
       - text: "Inicio"
         href: index.qmd
+      - text: "Transporte"
+        href: categorias/transporte.qmd
+      - text: "Eléctrica"
+        href: categorias/electrica.qmd
+      - text: "Música"
+        href: categorias/musica.qmd
+      - text: "Fotos"
+        href: categorias/fotos.qmd
+      - text: "Otros"
+        href: categorias/otros.qmd
     right:
       - about.qmd
       - icon: github

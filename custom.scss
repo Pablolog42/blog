@@ -38,6 +38,18 @@ p, li, td, blockquote,
   }
 }
 
+@media (min-width: 1400px) {
+  .page-columns {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 1800px) {
+  .page-columns {
+    max-width: 1280px;
+  }
+}
+
 main { padding-top: 2rem; }
 
 .navbar {

@@ -1,0 +1,15 @@
+---
+title: "Música"
+listing:
+  contents: "../posts/*/index.qmd"
+  sort: "date desc"
+  type: default
+  fields: [date, title, description, categories]
+  date-format: "MMM D, YYYY"
+  feed: true
+  include:
+    categories: "Música"
+page-layout: article
+---
+
+Posts sobre música.
