@@ -4,7 +4,7 @@ project:
 website:
   title: "Tu blog"
   favicon: favicon.svg
-  site-url: https://pablolog42.github.io/diez-variante-web
+  site-url: https://pablo42.me/diez-variante-web
   navbar:
     left:
       - text: "Inicio"
