@@ -6,10 +6,10 @@
       version="2.0">
 <channel>
 <title>Diez variante</title>
-<link>https://diezvariante.cl/blog/categorias/musica.html</link>
-<atom:link href="https://diezvariante.cl/blog/categorias/musica.xml" rel="self" type="application/rss+xml"/>
+<link>https://diezvariante.cl/blog/categorias/tesis.html</link>
+<atom:link href="https://diezvariante.cl/blog/categorias/tesis.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.9.37</generator>
-<lastBuildDate>Fri, 08 May 2026 03:30:06 GMT</lastBuildDate>
+<lastBuildDate>Fri, 08 May 2026 03:30:07 GMT</lastBuildDate>
 </channel>
 </rss>

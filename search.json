@@ -1,94 +1,52 @@
 [
   {
-    "objectID": "posts/hola-mundo/index.html",
-    "href": "posts/hola-mundo/index.html",
-    "title": "Hola, mundo",
+    "objectID": "posts/preferencias-declaradas-1/pd-1.html",
+    "href": "posts/preferencias-declaradas-1/pd-1.html",
+    "title": "Variables latentes",
     "section": "",
     "text": "Bienvenido al blog. Este primer post muestra las capacidades básicas del formato."
   },
   {
-    "objectID": "posts/hola-mundo/index.html#texto-y-listas",
-    "href": "posts/hola-mundo/index.html#texto-y-listas",
-    "title": "Hola, mundo",
+    "objectID": "posts/preferencias-declaradas-1/pd-1.html#texto-y-listas",
+    "href": "posts/preferencias-declaradas-1/pd-1.html#texto-y-listas",
+    "title": "Variables latentes",
     "section": "Texto y listas",
     "text": "Texto y listas\nPuedes escribir en Markdown normal. Las listas funcionan como siempre:\n\nPunto uno\nPunto dos\nPunto tres"
   },
   {
-    "objectID": "posts/hola-mundo/index.html#ecuaciones-con-latex",
-    "href": "posts/hola-mundo/index.html#ecuaciones-con-latex",
-    "title": "Hola, mundo",
+    "objectID": "posts/preferencias-declaradas-1/pd-1.html#ecuaciones-con-latex",
+    "href": "posts/preferencias-declaradas-1/pd-1.html#ecuaciones-con-latex",
+    "title": "Variables latentes",
     "section": "Ecuaciones con LaTeX",
     "text": "Ecuaciones con LaTeX\nInline: la fórmula de Euler es \\(e^{i\\pi} + 1 = 0\\).\nBloque centrado:\n\\[\n\\int_{-\\infty}^{\\infty} e^{-x^2} \\, dx = \\sqrt{\\pi}\n\\]\nOtra más:\n\\[\nf(x) = \\frac{1}{\\sigma\\sqrt{2\\pi}} \\exp\\!\\left(-\\frac{(x-\\mu)^2}{2\\sigma^2}\\right)\n\\]"
   },
   {
-    "objectID": "posts/hola-mundo/index.html#código",
-    "href": "posts/hola-mundo/index.html#código",
-    "title": "Hola, mundo",
+    "objectID": "posts/preferencias-declaradas-1/pd-1.html#código",
+    "href": "posts/preferencias-declaradas-1/pd-1.html#código",
+    "title": "Variables latentes",
     "section": "Código",
     "text": "Código\ndef fibonacci(n: int) -&gt; list[int]:\n    a, b = 0, 1\n    result = []\n    for _ in range(n):\n        result.append(a)\n        a, b = b, a + b\n    return result\n\nprint(fibonacci(10))"
   },
   {
-    "objectID": "posts/hola-mundo/index.html#cita",
-    "href": "posts/hola-mundo/index.html#cita",
-    "title": "Hola, mundo",
+    "objectID": "posts/preferencias-declaradas-1/pd-1.html#cita",
+    "href": "posts/preferencias-declaradas-1/pd-1.html#cita",
+    "title": "Variables latentes",
     "section": "Cita",
     "text": "Cita\n\n“La simplicidad es la sofisticación definitiva.” — Leonardo da Vinci"
   },
   {
-    "objectID": "posts/como-publicar/index.html",
-    "href": "posts/como-publicar/index.html",
-    "title": "Cómo publicar un post nuevo",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Blog - Pablo González",
     "section": "",
-    "text": "Esta es la guía de referencia para mantener el blog. Todo el flujo se hace desde la terminal en la carpeta raíz del proyecto."
+    "text": "Notas sobre transporte y otras cosas que he ido haciendo con el tiempo.\n\n\n\n\n\n\n\n\n\nPreferencias declaradas\n\n\n\ntesis\n\n\n\nResultados preliminares de la primera encuesta de preferencias declaradas (PD) de la tesis.\n\n\n\n\n\nMay 7, 2026\n\n\n\n\n\n\n\nVariables latentes\n\n\n\nmeta\n\n\n\nEl primer post del blog — una demostración de texto, código y ecuaciones.\n\n\n\n\n\nMay 7, 2026\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "posts/como-publicar/index.html#estructura-de-un-post",
-    "href": "posts/como-publicar/index.html#estructura-de-un-post",
-    "title": "Cómo publicar un post nuevo",
-    "section": "Estructura de un post",
-    "text": "Estructura de un post\nCada post vive en su propia carpeta dentro de posts/:\nposts/\n└── nombre-del-post/\n    └── index.qmd        # el post\n    └── imagen.png       # (opcional) imágenes del post\nCrea la carpeta y el archivo index.qmd con esta cabecera mínima:\n---\ntitle: \"Título del post\"\ndescription: \"Una oración que describe el contenido.\"\ndate: \"YYYY-MM-DD\"\ncategories: [etiqueta1, etiqueta2]\n---\n\nContenido en Markdown aquí..."
-  },
-  {
-    "objectID": "posts/como-publicar/index.html#previsualizar-en-local",
-    "href": "posts/como-publicar/index.html#previsualizar-en-local",
-    "title": "Cómo publicar un post nuevo",
-    "section": "Previsualizar en local",
-    "text": "Previsualizar en local\nAntes de publicar, verifica cómo se ve:\nquarto preview\nAbre el navegador en http://localhost:4321 con recarga automática al guardar."
-  },
-  {
-    "objectID": "posts/como-publicar/index.html#publicar-en-github-pages",
-    "href": "posts/como-publicar/index.html#publicar-en-github-pages",
-    "title": "Cómo publicar un post nuevo",
-    "section": "Publicar en GitHub Pages",
-    "text": "Publicar en GitHub Pages\nCuando el post esté listo, el flujo es siempre el mismo:\n# 1. Guardar cambios en git\ngit add .\ngit commit -m \"Nuevo post: nombre-del-post\"\ngit push\n\n# 2. Publicar el sitio (genera _site/ y hace push a gh-pages)\nquarto publish gh-pages\nquarto publish gh-pages construye el sitio y lo sube automáticamente a la rama gh-pages. GitHub Pages lo publica en segundos.\n\n\n\n\n\n\nTip\n\n\n\nEl paso git push guarda el código fuente (los .qmd). El quarto publish sube el sitio compilado. Ambos son necesarios."
-  },
-  {
-    "objectID": "posts/como-publicar/index.html#escribir-ecuaciones-latex",
-    "href": "posts/como-publicar/index.html#escribir-ecuaciones-latex",
-    "title": "Cómo publicar un post nuevo",
-    "section": "Escribir ecuaciones LaTeX",
-    "text": "Escribir ecuaciones LaTeX\nInline con $...$:\nLa identidad de Euler es $e^{i\\pi} + 1 = 0$.\nBloque centrado con $$...$$:\n$$\n\\int_{-\\infty}^{\\infty} e^{-x^2} dx = \\sqrt{\\pi}\n$$"
-  },
-  {
-    "objectID": "posts/como-publicar/index.html#agregar-imágenes",
-    "href": "posts/como-publicar/index.html#agregar-imágenes",
-    "title": "Cómo publicar un post nuevo",
-    "section": "Agregar imágenes",
-    "text": "Agregar imágenes\nPon la imagen en la misma carpeta que el index.qmd y referénciala así:\n![Descripción de la imagen](mi-imagen.png)\nO con ancho controlado:\n![](mi-imagen.png){width=60%}"
-  },
-  {
-    "objectID": "posts/como-publicar/index.html#cambiar-metadatos-del-sitio",
-    "href": "posts/como-publicar/index.html#cambiar-metadatos-del-sitio",
-    "title": "Cómo publicar un post nuevo",
-    "section": "Cambiar metadatos del sitio",
-    "text": "Cambiar metadatos del sitio\nEdita _quarto.yml en la raíz para modificar el título del blog, el link de GitHub, o el dominio. Después de cualquier cambio en _quarto.yml, vuelve a ejecutar quarto publish gh-pages."
-  },
-  {
-    "objectID": "categorias/transporte.html",
-    "href": "categorias/transporte.html",
-    "title": "Transporte",
+    "objectID": "categorias/tesis.html",
+    "href": "categorias/tesis.html",
+    "title": "Tesis",
     "section": "",
-    "text": "Posts sobre transporte.\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Avances en mi tesis de magister.\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "categorias/musica.html",
@@ -109,7 +67,7 @@
     "href": "about.html",
     "title": "Sobre mí",
     "section": "",
-    "text": "Escribe aquí una breve descripción sobre ti."
+    "text": "Hola! Soy Pablo. Acá dejaré algunas cosas que he hecho últimamente."
   },
   {
     "objectID": "categorias/fotos.html",
@@ -126,45 +84,45 @@
     "text": "Posts misceláneos.\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Tu nombre",
+    "objectID": "categorias/transporte.html",
+    "href": "categorias/transporte.html",
+    "title": "Transporte",
     "section": "",
-    "text": "Notas sobre matemáticas, código y lo que vaya cayendo.\n\n\n\n\n\n\n\n\n\nHola, mundo\n\n\n\nmeta\n\n\n\nEl primer post del blog — una demostración de texto, código y ecuaciones.\n\n\n\n\n\nMay 7, 2026\n\n\n\n\n\n\n\nEcuaciones que uso seguido\n\n\n\nmatemáticas\n\nreferencia\n\n\n\nUna colección de fórmulas de referencia rápida: cálculo, álgebra lineal y probabilidad.\n\n\n\n\n\nMay 6, 2026\n\n\n\n\n\n\n\nCómo publicar un post nuevo\n\n\n\nmeta\n\nguía\n\n\n\nFlujo de trabajo completo: escribir, previsualizar y publicar en GitHub Pages.\n\n\n\n\n\nMay 5, 2026\n\n\n\n\n\nNo matching items"
+    "text": "Posts sobre transporte.\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "posts/ecuaciones-utiles/index.html",
-    "href": "posts/ecuaciones-utiles/index.html",
-    "title": "Ecuaciones que uso seguido",
+    "objectID": "posts/iclv-1/iclv-1.html",
+    "href": "posts/iclv-1/iclv-1.html",
+    "title": "Preferencias declaradas",
     "section": "",
-    "text": "Un post de referencia personal. Lo actualizo cuando aparece algo que vale la pena anotar."
+    "text": "Bienvenido al blog. Este primer post muestra las capacidades básicas del formato."
   },
   {
-    "objectID": "posts/ecuaciones-utiles/index.html#cálculo",
-    "href": "posts/ecuaciones-utiles/index.html#cálculo",
-    "title": "Ecuaciones que uso seguido",
-    "section": "Cálculo",
-    "text": "Cálculo\nRegla de la cadena:\n\\[\\frac{d}{dx}[f(g(x))] = f'(g(x)) \\cdot g'(x)\\]\nIntegral por partes:\n\\[\\int u \\, dv = uv - \\int v \\, du\\]\nSerie de Taylor alrededor de \\(a\\):\n\\[f(x) = \\sum_{n=0}^{\\infty} \\frac{f^{(n)}(a)}{n!}(x-a)^n\\]"
+    "objectID": "posts/iclv-1/iclv-1.html#texto-y-listas",
+    "href": "posts/iclv-1/iclv-1.html#texto-y-listas",
+    "title": "Preferencias declaradas",
+    "section": "Texto y listas",
+    "text": "Texto y listas\nPuedes escribir en Markdown normal. Las listas funcionan como siempre:\n\nPunto uno\nPunto dos\nPunto tres"
   },
   {
-    "objectID": "posts/ecuaciones-utiles/index.html#álgebra-lineal",
-    "href": "posts/ecuaciones-utiles/index.html#álgebra-lineal",
-    "title": "Ecuaciones que uso seguido",
-    "section": "Álgebra lineal",
-    "text": "Álgebra lineal\nEl determinante de una matriz \\(2 \\times 2\\):\n\\[\\det\\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix} = ad - bc\\]\nLa solución de \\(A\\mathbf{x} = \\mathbf{b}\\) existe y es única cuando \\(\\det(A) \\neq 0\\):\n\\[\\mathbf{x} = A^{-1}\\mathbf{b}\\]\nNorma euclidiana de un vector \\(\\mathbf{v} = (v_1, \\ldots, v_n)\\):\n\\[\\|\\mathbf{v}\\| = \\sqrt{\\sum_{i=1}^{n} v_i^2}\\]"
+    "objectID": "posts/iclv-1/iclv-1.html#ecuaciones-con-latex",
+    "href": "posts/iclv-1/iclv-1.html#ecuaciones-con-latex",
+    "title": "Preferencias declaradas",
+    "section": "Ecuaciones con LaTeX",
+    "text": "Ecuaciones con LaTeX\nInline: la fórmula de Euler es \\(e^{i\\pi} + 1 = 0\\).\nBloque centrado:\n\\[\n\\int_{-\\infty}^{\\infty} e^{-x^2} \\, dx = \\sqrt{\\pi}\n\\]\nOtra más:\n\\[\nf(x) = \\frac{1}{\\sigma\\sqrt{2\\pi}} \\exp\\!\\left(-\\frac{(x-\\mu)^2}{2\\sigma^2}\\right)\n\\]"
   },
   {
-    "objectID": "posts/ecuaciones-utiles/index.html#probabilidad",
-    "href": "posts/ecuaciones-utiles/index.html#probabilidad",
-    "title": "Ecuaciones que uso seguido",
-    "section": "Probabilidad",
-    "text": "Probabilidad\nTeorema de Bayes:\n\\[P(A \\mid B) = \\frac{P(B \\mid A)\\, P(A)}{P(B)}\\]\nEsperanza de una variable discreta:\n\\[\\mathbb{E}[X] = \\sum_{x} x \\cdot P(X = x)\\]\nDistribución normal \\(X \\sim \\mathcal{N}(\\mu, \\sigma^2)\\):\n\\[f(x) = \\frac{1}{\\sigma\\sqrt{2\\pi}} \\exp\\!\\left(-\\frac{(x - \\mu)^2}{2\\sigma^2}\\right)\\]"
+    "objectID": "posts/iclv-1/iclv-1.html#código",
+    "href": "posts/iclv-1/iclv-1.html#código",
+    "title": "Preferencias declaradas",
+    "section": "Código",
+    "text": "Código\ndef fibonacci(n: int) -&gt; list[int]:\n    a, b = 0, 1\n    result = []\n    for _ in range(n):\n        result.append(a)\n        a, b = b, a + b\n    return result\n\nprint(fibonacci(10))"
   },
   {
-    "objectID": "posts/ecuaciones-utiles/index.html#código-de-ejemplo",
-    "href": "posts/ecuaciones-utiles/index.html#código-de-ejemplo",
-    "title": "Ecuaciones que uso seguido",
-    "section": "Código de ejemplo",
-    "text": "Código de ejemplo\nCalcular la norma de un vector en Python:\nimport numpy as np\n\nv = np.array([3.0, 4.0])\nnorma = np.linalg.norm(v)  # → 5.0\nprint(f\"‖v‖ = {norma}\")\nY lo mismo desde cero sin NumPy:\nimport math\n\ndef norma(v: list[float]) -&gt; float:\n    return math.sqrt(sum(x**2 for x in v))\n\nprint(norma([3, 4]))  # 5.0"
+    "objectID": "posts/iclv-1/iclv-1.html#cita",
+    "href": "posts/iclv-1/iclv-1.html#cita",
+    "title": "Preferencias declaradas",
+    "section": "Cita",
+    "text": "Cita\n\n“La simplicidad es la sofisticación definitiva.” — Leonardo da Vinci"
   }
 ]

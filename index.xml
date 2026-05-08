@@ -5,15 +5,106 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/" 
       version="2.0">
 <channel>
-<title>Tu blog</title>
+<title>Diez variante</title>
 <link>https://diezvariante.cl/blog/</link>
 <atom:link href="https://diezvariante.cl/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.9.37</generator>
 <lastBuildDate>Thu, 07 May 2026 04:00:00 GMT</lastBuildDate>
 <item>
-  <title>Hola, mundo</title>
-  <link>https://diezvariante.cl/blog/posts/hola-mundo/</link>
+  <title>Preferencias declaradas</title>
+  <link>https://diezvariante.cl/blog/posts/iclv-1/iclv-1.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Bienvenido al blog. Este primer post muestra las capacidades básicas del formato.</p>
+<section id="texto-y-listas" class="level2">
+<h2 class="anchored" data-anchor-id="texto-y-listas">Texto y listas</h2>
+<p>Puedes escribir en <strong>Markdown</strong> normal. Las listas funcionan como siempre:</p>
+<ul>
+<li>Punto uno</li>
+<li>Punto dos</li>
+<li>Punto tres</li>
+</ul>
+</section>
+<section id="ecuaciones-con-latex" class="level2">
+<h2 class="anchored" data-anchor-id="ecuaciones-con-latex">Ecuaciones con LaTeX</h2>
+<p>Inline: la fórmula de Euler es <img src="https://latex.codecogs.com/png.latex?e%5E%7Bi%5Cpi%7D%20+%201%20=%200">.</p>
+<p>Bloque centrado:</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cint_%7B-%5Cinfty%7D%5E%7B%5Cinfty%7D%20e%5E%7B-x%5E2%7D%20%5C,%20dx%20=%20%5Csqrt%7B%5Cpi%7D%0A"></p>
+<p>Otra más:</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0Af(x)%20=%20%5Cfrac%7B1%7D%7B%5Csigma%5Csqrt%7B2%5Cpi%7D%7D%20%5Cexp%5C!%5Cleft(-%5Cfrac%7B(x-%5Cmu)%5E2%7D%7B2%5Csigma%5E2%7D%5Cright)%0A"></p>
+</section>
+<section id="código" class="level2">
+<h2 class="anchored" data-anchor-id="código">Código</h2>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">def</span> fibonacci(n: <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">int</span>) <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-&gt;</span> <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">list</span>[<span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">int</span>]:</span>
+<span id="cb1-2">    a, b <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span></span>
+<span id="cb1-3">    result <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> []</span>
+<span id="cb1-4">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">for</span> _ <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">in</span> <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">range</span>(n):</span>
+<span id="cb1-5">        result.append(a)</span>
+<span id="cb1-6">        a, b <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> b, a <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> b</span>
+<span id="cb1-7">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">return</span> result</span>
+<span id="cb1-8"></span>
+<span id="cb1-9"><span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">print</span>(fibonacci(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">10</span>))</span></code></pre></div></div>
+</section>
+<section id="cita" class="level2">
+<h2 class="anchored" data-anchor-id="cita">Cita</h2>
+<blockquote class="blockquote">
+<p>“La simplicidad es la sofisticación definitiva.” — Leonardo da Vinci</p>
+</blockquote>
+
+
+</section>
+
+ ]]></description>
+  <category>tesis</category>
+  <guid>https://diezvariante.cl/blog/posts/iclv-1/iclv-1.html</guid>
+  <pubDate>Thu, 07 May 2026 04:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Variables latentes</title>
+  <link>https://diezvariante.cl/blog/posts/preferencias-declaradas-1/pd-1.html</link>
   <description><![CDATA[ 
 
 
@@ -99,292 +190,8 @@ font-style: inherit;">10</span>))</span></code></pre></div></div>
 
  ]]></description>
   <category>meta</category>
-  <guid>https://diezvariante.cl/blog/posts/hola-mundo/</guid>
+  <guid>https://diezvariante.cl/blog/posts/preferencias-declaradas-1/pd-1.html</guid>
   <pubDate>Thu, 07 May 2026 04:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Ecuaciones que uso seguido</title>
-  <link>https://diezvariante.cl/blog/posts/ecuaciones-utiles/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>Un post de referencia personal. Lo actualizo cuando aparece algo que vale la pena anotar.</p>
-<section id="cálculo" class="level2">
-<h2 class="anchored" data-anchor-id="cálculo">Cálculo</h2>
-<p><strong>Regla de la cadena:</strong></p>
-<p><img src="https://latex.codecogs.com/png.latex?%5Cfrac%7Bd%7D%7Bdx%7D%5Bf(g(x))%5D%20=%20f'(g(x))%20%5Ccdot%20g'(x)"></p>
-<p><strong>Integral por partes:</strong></p>
-<p><img src="https://latex.codecogs.com/png.latex?%5Cint%20u%20%5C,%20dv%20=%20uv%20-%20%5Cint%20v%20%5C,%20du"></p>
-<p><strong>Serie de Taylor</strong> alrededor de <img src="https://latex.codecogs.com/png.latex?a">:</p>
-<p><img src="https://latex.codecogs.com/png.latex?f(x)%20=%20%5Csum_%7Bn=0%7D%5E%7B%5Cinfty%7D%20%5Cfrac%7Bf%5E%7B(n)%7D(a)%7D%7Bn!%7D(x-a)%5En"></p>
-</section>
-<section id="álgebra-lineal" class="level2">
-<h2 class="anchored" data-anchor-id="álgebra-lineal">Álgebra lineal</h2>
-<p>El <strong>determinante</strong> de una matriz <img src="https://latex.codecogs.com/png.latex?2%20%5Ctimes%202">:</p>
-<p><img src="https://latex.codecogs.com/png.latex?%5Cdet%5Cbegin%7Bpmatrix%7D%20a%20&amp;%20b%20%5C%5C%20c%20&amp;%20d%20%5Cend%7Bpmatrix%7D%20=%20ad%20-%20bc"></p>
-<p>La solución de <img src="https://latex.codecogs.com/png.latex?A%5Cmathbf%7Bx%7D%20=%20%5Cmathbf%7Bb%7D"> existe y es única cuando <img src="https://latex.codecogs.com/png.latex?%5Cdet(A)%20%5Cneq%200">:</p>
-<p><img src="https://latex.codecogs.com/png.latex?%5Cmathbf%7Bx%7D%20=%20A%5E%7B-1%7D%5Cmathbf%7Bb%7D"></p>
-<p><strong>Norma euclidiana</strong> de un vector <img src="https://latex.codecogs.com/png.latex?%5Cmathbf%7Bv%7D%20=%20(v_1,%20%5Cldots,%20v_n)">:</p>
-<p><img src="https://latex.codecogs.com/png.latex?%5C%7C%5Cmathbf%7Bv%7D%5C%7C%20=%20%5Csqrt%7B%5Csum_%7Bi=1%7D%5E%7Bn%7D%20v_i%5E2%7D"></p>
-</section>
-<section id="probabilidad" class="level2">
-<h2 class="anchored" data-anchor-id="probabilidad">Probabilidad</h2>
-<p><strong>Teorema de Bayes:</strong></p>
-<p><img src="https://latex.codecogs.com/png.latex?P(A%20%5Cmid%20B)%20=%20%5Cfrac%7BP(B%20%5Cmid%20A)%5C,%20P(A)%7D%7BP(B)%7D"></p>
-<p><strong>Esperanza</strong> de una variable discreta:</p>
-<p><img src="https://latex.codecogs.com/png.latex?%5Cmathbb%7BE%7D%5BX%5D%20=%20%5Csum_%7Bx%7D%20x%20%5Ccdot%20P(X%20=%20x)"></p>
-<p><strong>Distribución normal</strong> <img src="https://latex.codecogs.com/png.latex?X%20%5Csim%20%5Cmathcal%7BN%7D(%5Cmu,%20%5Csigma%5E2)">:</p>
-<p><img src="https://latex.codecogs.com/png.latex?f(x)%20=%20%5Cfrac%7B1%7D%7B%5Csigma%5Csqrt%7B2%5Cpi%7D%7D%20%5Cexp%5C!%5Cleft(-%5Cfrac%7B(x%20-%20%5Cmu)%5E2%7D%7B2%5Csigma%5E2%7D%5Cright)"></p>
-</section>
-<section id="código-de-ejemplo" class="level2">
-<h2 class="anchored" data-anchor-id="código-de-ejemplo">Código de ejemplo</h2>
-<p>Calcular la norma de un vector en Python:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">import</span> numpy <span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">as</span> np</span>
-<span id="cb1-2"></span>
-<span id="cb1-3">v <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> np.array([<span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">3.0</span>, <span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">4.0</span>])</span>
-<span id="cb1-4">norma <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> np.linalg.norm(v)  <span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># → 5.0</span></span>
-<span id="cb1-5"><span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">print</span>(<span class="ss" style="color: #20794D;
-background-color: null;
-font-style: inherit;">f"‖v‖ = </span><span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">{</span>norma<span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">}</span><span class="ss" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"</span>)</span></code></pre></div></div>
-<p>Y lo mismo desde cero sin NumPy:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">import</span> math</span>
-<span id="cb2-2"></span>
-<span id="cb2-3"><span class="kw" style="color: #003B4F;
-background-color: null;
-font-weight: bold;
-font-style: inherit;">def</span> norma(v: <span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">list</span>[<span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">float</span>]) <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">-&gt;</span> <span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">float</span>:</span>
-<span id="cb2-4">    <span class="cf" style="color: #003B4F;
-background-color: null;
-font-weight: bold;
-font-style: inherit;">return</span> math.sqrt(<span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">sum</span>(x<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">**</span><span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">2</span> <span class="cf" style="color: #003B4F;
-background-color: null;
-font-weight: bold;
-font-style: inherit;">for</span> x <span class="kw" style="color: #003B4F;
-background-color: null;
-font-weight: bold;
-font-style: inherit;">in</span> v))</span>
-<span id="cb2-5"></span>
-<span id="cb2-6"><span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">print</span>(norma([<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">3</span>, <span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">4</span>]))  <span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># 5.0</span></span></code></pre></div></div>
-
-
-</section>
-
- ]]></description>
-  <category>matemáticas</category>
-  <category>referencia</category>
-  <guid>https://diezvariante.cl/blog/posts/ecuaciones-utiles/</guid>
-  <pubDate>Wed, 06 May 2026 04:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Cómo publicar un post nuevo</title>
-  <link>https://diezvariante.cl/blog/posts/como-publicar/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>Esta es la guía de referencia para mantener el blog. Todo el flujo se hace desde la terminal en la carpeta raíz del proyecto.</p>
-<section id="estructura-de-un-post" class="level2">
-<h2 class="anchored" data-anchor-id="estructura-de-un-post">Estructura de un post</h2>
-<p>Cada post vive en su propia carpeta dentro de <code>posts/</code>:</p>
-<pre><code>posts/
-└── nombre-del-post/
-    └── index.qmd        # el post
-    └── imagen.png       # (opcional) imágenes del post</code></pre>
-<p>Crea la carpeta y el archivo <code>index.qmd</code> con esta cabecera mínima:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb2-1"><span class="pp" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">---</span></span>
-<span id="cb2-2"><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">title</span><span class="kw" style="color: #003B4F;
-background-color: null;
-font-weight: bold;
-font-style: inherit;">:</span><span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;"> </span><span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"Título del post"</span></span>
-<span id="cb2-3"><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">description</span><span class="kw" style="color: #003B4F;
-background-color: null;
-font-weight: bold;
-font-style: inherit;">:</span><span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;"> </span><span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"Una oración que describe el contenido."</span></span>
-<span id="cb2-4"><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">date</span><span class="kw" style="color: #003B4F;
-background-color: null;
-font-weight: bold;
-font-style: inherit;">:</span><span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;"> </span><span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"YYYY-MM-DD"</span></span>
-<span id="cb2-5"><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">categories</span><span class="kw" style="color: #003B4F;
-background-color: null;
-font-weight: bold;
-font-style: inherit;">:</span><span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;"> </span><span class="kw" style="color: #003B4F;
-background-color: null;
-font-weight: bold;
-font-style: inherit;">[</span><span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">etiqueta1</span><span class="kw" style="color: #003B4F;
-background-color: null;
-font-weight: bold;
-font-style: inherit;">,</span><span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;"> etiqueta2</span><span class="kw" style="color: #003B4F;
-background-color: null;
-font-weight: bold;
-font-style: inherit;">]</span></span>
-<span id="cb2-6"><span class="pp" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">---</span></span>
-<span id="cb2-7"></span>
-<span id="cb2-8"><span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">Contenido en Markdown aquí...</span></span></code></pre></div></div>
-</section>
-<section id="previsualizar-en-local" class="level2">
-<h2 class="anchored" data-anchor-id="previsualizar-en-local">Previsualizar en local</h2>
-<p>Antes de publicar, verifica cómo se ve:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><span class="ex" style="color: null;
-background-color: null;
-font-style: inherit;">quarto</span> preview</span></code></pre></div></div>
-<p>Abre el navegador en <code>http://localhost:4321</code> con recarga automática al guardar.</p>
-</section>
-<section id="publicar-en-github-pages" class="level2">
-<h2 class="anchored" data-anchor-id="publicar-en-github-pages">Publicar en GitHub Pages</h2>
-<p>Cuando el post esté listo, el flujo es siempre el mismo:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># 1. Guardar cambios en git</span></span>
-<span id="cb4-2"><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">git</span> add .</span>
-<span id="cb4-3"><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">git</span> commit <span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">-m</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"Nuevo post: nombre-del-post"</span></span>
-<span id="cb4-4"><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">git</span> push</span>
-<span id="cb4-5"></span>
-<span id="cb4-6"><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># 2. Publicar el sitio (genera _site/ y hace push a gh-pages)</span></span>
-<span id="cb4-7"><span class="ex" style="color: null;
-background-color: null;
-font-style: inherit;">quarto</span> publish gh-pages</span></code></pre></div></div>
-<p><code>quarto publish gh-pages</code> construye el sitio y lo sube automáticamente a la rama <code>gh-pages</code>. GitHub Pages lo publica en segundos.</p>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Tip
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>El paso <code>git push</code> guarda el <strong>código fuente</strong> (los <code>.qmd</code>). El <code>quarto publish</code> sube el <strong>sitio compilado</strong>. Ambos son necesarios.</p>
-</div>
-</div>
-</section>
-<section id="escribir-ecuaciones-latex" class="level2">
-<h2 class="anchored" data-anchor-id="escribir-ecuaciones-latex">Escribir ecuaciones LaTeX</h2>
-<p>Inline con <code>$...$</code>:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb5-1">La identidad de Euler es $e^{i\pi} + 1 = 0$.</span></code></pre></div></div>
-<p>Bloque centrado con <code>$$...$$</code>:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb6-1">$$</span>
-<span id="cb6-2">\int_{-\infty}^{\infty} e^{-x^2} dx = \sqrt{\pi}</span>
-<span id="cb6-3">$$</span></code></pre></div></div>
-</section>
-<section id="agregar-imágenes" class="level2">
-<h2 class="anchored" data-anchor-id="agregar-imágenes">Agregar imágenes</h2>
-<p>Pon la imagen en la misma carpeta que el <code>index.qmd</code> y referénciala así:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb7-1"><span class="al" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">![Descripción de la imagen](mi-imagen.png)</span></span></code></pre></div></div>
-<p>O con ancho controlado:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8" style="background: #f1f3f5;"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb8-1"><span class="al" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">![](mi-imagen.png)</span>{width=60%}</span></code></pre></div></div>
-</section>
-<section id="cambiar-metadatos-del-sitio" class="level2">
-<h2 class="anchored" data-anchor-id="cambiar-metadatos-del-sitio">Cambiar metadatos del sitio</h2>
-<p>Edita <code>_quarto.yml</code> en la raíz para modificar el título del blog, el link de GitHub, o el dominio. Después de cualquier cambio en <code>_quarto.yml</code>, vuelve a ejecutar <code>quarto publish gh-pages</code>.</p>
-
-
-</section>
-
- ]]></description>
-  <category>meta</category>
-  <category>guía</category>
-  <guid>https://diezvariante.cl/blog/posts/como-publicar/</guid>
-  <pubDate>Tue, 05 May 2026 04:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

@@ -1,6 +1,13 @@
 [
   {
-    "listing": "/categorias/transporte.html",
+    "listing": "/index.html",
+    "items": [
+      "/posts/iclv-1/iclv-1.html",
+      "/posts/preferencias-declaradas-1/pd-1.html"
+    ]
+  },
+  {
+    "listing": "/categorias/tesis.html",
     "items": []
   },
   {
@@ -20,11 +27,7 @@
     "items": []
   },
   {
-    "listing": "/index.html",
-    "items": [
-      "/posts/hola-mundo/index.html",
-      "/posts/ecuaciones-utiles/index.html",
-      "/posts/como-publicar/index.html"
-    ]
+    "listing": "/categorias/transporte.html",
+    "items": []
   }
 ]
