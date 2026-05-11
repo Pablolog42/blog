@@ -8,7 +8,7 @@ listing:
   date-format: "MMM D, YYYY"
   feed: true
   include:
-    categories: "Música"
+    categories: "musica"
 page-layout: article
 ---
 

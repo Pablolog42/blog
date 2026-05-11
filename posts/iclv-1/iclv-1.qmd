@@ -1,5 +1,5 @@
 ---
-title: "Preferencias declaradas"
+title: "Modelos iniciales"
 description: "Modelo 1 de Variables latentes. Usando solo encuesta PD de Netquest."
 date: "2026-05-07"
 categories: [transporte tesis]

@@ -8,7 +8,7 @@ listing:
     date-format: "D-MM-YYYY"
     feed: true
     include:
-        categories: "Tesis"
+        categories: "tesis"
 page-layout: article
 ---
 

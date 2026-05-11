@@ -1,0 +1,87 @@
+---
+title: "Resultados piloto encuesta 1"
+description: "Resultados de piloto de encuesta sobre elección entre micro bus y tren entre Santiago y Rancagua"
+date: "2026-05-11"
+categories: [tesis, transporte]
+---
+
+
+
+## Caracterización de la muestra
+
+El primer piloto contó con 224 respuestas desde [Netquest](https://www.netquest.com/encuestas-online-investigacion), de las cuales 96 respuestas fueron consideradas válidas (gente que efectivamente usaba el corredor).
+
+Es un poco complejo el índice de incidencia (estamos bajo el 50% de opbacioón objetivo vs población encuestada). Ojalá se pueda hacer algo al respecto desde Netquest.
+
+A continuación, se muestran algunos gráficos de caracterización:
+
+[Caract. Demográfica](demografia.png) 
+
+[Caract. viajes](viajes.png) 
+
+[Resultados Items Likert](likert.png) 
+
+
+## Modelos preliminares
+
+Se plantearon 3 modelos de Logit Mixto. Las especificaciones se muestran a continuación
+
+### MXL - Efecto panel + variables instrumentales (medibles)
+
+### MXL - Efecto panel + variables instrumentales + variables hedónicas
+
+### MXL - Indicadores de satisfacción por modo agregados
+
+
+
+## Resultados
+
+A continuación, se muestran los resultados de las estimaciones de los modelos anteriores:
+
+$$
+\begin{table}[htbp]
+\centering
+\caption{Comparison of Mixed Logit Specifications (Hess Error-Component Spec, Panel Data)}
+\label{tab:mxl_comparison}
+\begin{tabular}{llccc}
+\toprule
+\textbf{Parameter} & \textbf{Category} & \textbf{Model 0} & \textbf{Model 1} & \textbf{Model 2} \\
+\midrule
+$ASC_{train}$ (Fixed)              & --           & 0.0000 (--)                & 0.0000 (--)                & 0.0000 (--)                \\
+$ASC_{bus}$                         & --           & $-1.4232$ ($-4.64$)\sym{***}   & $-1.6964$ ($-5.02$)\sym{***}   & $\phantom{-}0.6692$ ($\phantom{-}0.38$)  \\
+$ASC_{micro}$                       & --           & $-1.2302$ ($-2.57$)\sym{**}    & $-1.2080$ ($-2.49$)\sym{**}    & $-0.1689$ ($-0.09$)            \\
+\midrule
+$\beta_{tt}$ (Travel Time)          & Instrumental & $-0.01295$ ($-2.78$)\sym{***}  & $-0.01253$ ($-2.62$)\sym{***}  & $-0.01212$ ($-2.55$)\sym{**}   \\
+$\beta_{cost}$ (Cost)               & Instrumental & $-0.000173$ ($-2.86$)\sym{***} & $-0.000150$ ($-2.45$)\sym{**}  & $-0.000151$ ($-2.48$)\sym{**}  \\
+$\beta_{hw}$ (Headway)              & Instrumental & $-0.00452$ ($-1.26$)           & $-0.00334$ ($-0.92$)           & $-0.00332$ ($-0.90$)           \\
+$\beta_{var}$ (Variability)         & Instrumental & $-0.00107$ ($-0.18$)           & $\phantom{-}3.4\!\times\!10^{-5}$ ($\phantom{-}0.01$) & $-8.2\!\times\!10^{-5}$ ($-0.01$) \\
+$\beta_{lmt}$ (Last-Mile Time)      & Instrumental & $\phantom{-}0.00220$ ($\phantom{-}0.17$) & $\phantom{-}0.00783$ ($\phantom{-}0.58$) & $\phantom{-}0.00612$ ($\phantom{-}0.45$) \\
+$\beta_{crowd}$ (Crowding)          & Hedonic      & --                             & $-0.1569$ ($-3.58$)\sym{***}   & $-0.1570$ ($-3.57$)\sym{***}   \\
+$\beta_{aircon}$ (Air Conditioning) & Hedonic      & --                             & $\phantom{-}0.1223$ ($\phantom{-}0.92$) & $\phantom{-}0.1200$ ($\phantom{-}0.90$) \\
+$\beta_{sellers}$ (Vendors)         & Hedonic      & --                             & $-0.1033$ ($-0.73$)            & $-0.0985$ ($-0.70$)            \\
+\midrule
+\multicolumn{5}{l}{\textbf{Satisfaction Indices (sum of 9 Likert items per mode, range 9--45)}} \\
+$\beta_{satisf,train}$              & Latent proxy & --                             & --                             & $\phantom{-}0.1628$ ($\phantom{-}3.54$)\sym{***} \\
+$\beta_{satisf,bus}$                & Latent proxy & --                             & --                             & $\phantom{-}0.1040$ ($\phantom{-}1.96$)\sym{*}   \\
+$\beta_{satisf,micro}$              & Latent proxy & --                             & --                             & $\phantom{-}0.1551$ ($\phantom{-}3.58$)\sym{***} \\
+\midrule
+\multicolumn{5}{l}{\textbf{Error Components (Hess et~al.\ 2008 spec, single shared $\sigma$)}} \\
+$\sigma_{panel}$                    & --           & 1.6260 (8.88)\sym{***}         & 1.6592 (8.90)\sym{***}         & 1.4820 (9.11)\sym{***}         \\
+\midrule
+\multicolumn{5}{l}{\textbf{Fit Statistics}} \\
+Observations / Individuals          & --           & 1225 / 96                      & 1225 / 96                      & 1225 / 96                      \\
+Estimated parameters                & --           & 8                              & 11                             & 14                             \\
+Final Log-Likelihood                & --           & $-695.26$                      & $-688.38$                      & $-677.46$                      \\
+AIC                                 & --           & 1406.52                        & 1398.77                        & 1382.91                        \\
+BIC                                 & --           & 1447.41                        & 1454.98                        & 1454.46                        \\
+Adj. $\rho^2$ (vs. Equal Shares)    & --           & 0.3450                         & 0.3486                         & 0.3560                         \\
+\bottomrule
+\end{tabular}
+\par\medskip
+\footnotesize\raggedright
+Robust t-ratios in parentheses. Significance: \sym{***} $p<0.01$, \sym{**} $p<0.05$, \sym{*} $p<0.10$.\\
+All three models share the Hess et~al.\ (2008) error-component specification: a single $\sigma_{panel}$ scaling iid normal draws on each of the three alternative-specific error components, identified by the independence of the draws under the panel data structure. Model~0 includes only instrumental attributes; Model~1 adds qualitative hedonic attributes; Model~2 further incorporates a satisfaction index per mode (sum of nine Likert items on perceived service quality), entering only the utility of its respective mode.\\
+Likelihood Ratio Tests: Model~0 vs.\ Model~1: $LR = 13.76$, df=3, $p<0.01$ (rejection of restricted model). Model~1 vs.\ Model~2: $LR = 21.84$, df=3, $\chi^2_{0.01,3}=11.345$, $p<0.01$ (joint significance of the three satisfaction indices).
+\end{table}
+
+$$
