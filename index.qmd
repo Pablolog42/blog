@@ -1,11 +1,11 @@
 ---
-title: "Blog - Pablo González"
+title: "Blog Diez Variante"
 listing:
   contents: posts
   sort: "date desc"
   type: default
   fields: [date, title, description, categories]
-  date-format: "MMM D, YYYY"
+  date-format: "DD-MM-YYYY"
   feed: true
 page-layout: article
 ---

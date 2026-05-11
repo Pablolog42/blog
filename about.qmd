@@ -4,3 +4,9 @@ page-layout: article
 ---
 
 Hola! Soy Pablo. Acá dejaré algunas cosas que he hecho últimamente.
+
+Le puse Diez Variante a esta página por dos cosas: primero, como intento de homenaje a [Matadero Palma](https://mataderopalma.blogspot.com/) y segundo, para recordar un tiempo en cuando aún no estaban estandarizados los recorridos de micro en Temuco y tomabamos la "10 variante" en vez de la "10B".
+
+![Diez Variante](https://www.novenabus.cl/galeria/data/media/54/dsc02723-crop.jpg)
+
+Ojalá alguno de los delirios dentro de estas páginas le sirvan a alguien algun día. Si es así, [avísenme porfa!](pablo.gonzalez.6@uchile.cl)

@@ -45,6 +45,27 @@
             </RMarkdownRenderProfile>
           </value>
         </entry>
+        <entry key="file://$PROJECT_DIR$/posts/01-10-2025-sochitran-micromovilidad/01-10-2025-sochitran-micromovilidad.qmd">
+          <value>
+            <RMarkdownRenderProfile>
+              <option name="outputDirectoryUrl" value="file://$PROJECT_DIR$/posts/01-10-2025-sochitran-micromovilidad" />
+            </RMarkdownRenderProfile>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/posts/01-10-2025-sochitran-micromovilidad/musica-10-5-2026.qmd">
+          <value>
+            <RMarkdownRenderProfile>
+              <option name="outputDirectoryUrl" value="file://$PROJECT_DIR$/posts/01-10-2025-sochitran-micromovilidad" />
+            </RMarkdownRenderProfile>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/posts/10-05-2026-slurm/slurm.qmd">
+          <value>
+            <RMarkdownRenderProfile>
+              <option name="outputDirectoryUrl" value="file://$PROJECT_DIR$/posts/10-05-2026-slurm" />
+            </RMarkdownRenderProfile>
+          </value>
+        </entry>
         <entry key="file://$PROJECT_DIR$/posts/11-05-2026-resultados-piloto-1/resultados-pilot-1.qmd">
           <value>
             <RMarkdownRenderProfile>

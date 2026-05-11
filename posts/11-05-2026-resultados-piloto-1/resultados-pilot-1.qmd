@@ -40,7 +40,7 @@ Se plantearon 3 modelos de Logit Mixto. Las especificaciones se muestran a conti
 A continuación, se muestran los resultados de las estimaciones de los modelos anteriores:
 
 
-![Resultados de los modelos](modelos.png) 
+[//]: # (![Resultados de los modelos]&#40;modelos.png&#41; )
 
 <div style="overflow-x: auto; width: 100%; margin-bottom: 2em;">
   <style>
