@@ -2,7 +2,7 @@
 title: "Variables latentes"
 description: "El primer post del blog — una demostración de texto, código y ecuaciones."
 date: "2026-05-07"
-categories: [meta]
+categories: [transporte tesis]
 ---
 
 Bienvenido al blog. Este primer post muestra las capacidades básicas del formato.
