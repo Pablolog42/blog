@@ -3,7 +3,10 @@ title: "No dejemos morir la micromovilidad compartida"
 description: "Columna Newsletter SOCHITRAN Octubre 2025"
 date: "2025-10-27"
 categories: [transporte]
+css: main.css
 ---
+
+
 
 > Columna originalmente publicada en el [Newsletter de SOCHITRAN](https://www.sochitran.cl/2025/10/27/no-dejemos-morir-la-micromovilidad-compartida/)
 

@@ -3,6 +3,7 @@ title: "OSNCH - Shostakovich 6"
 description: "Concierto N°5 - Armonías Corales"
 date: "2026-05-10"
 categories: [musica]
+css: main.css
 ---
 
 Ayer fue el concierto N°5 "Armonías Corales" del CEAC. Partió con una cantanta de Bach y después del intermedio, la sexta de Shostakovich.

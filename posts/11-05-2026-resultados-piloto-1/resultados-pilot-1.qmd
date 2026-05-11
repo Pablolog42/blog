@@ -3,6 +3,7 @@ title: "Resultados piloto encuesta 1"
 description: "Resultados de piloto de encuesta sobre elección entre micro bus y tren entre Santiago y Rancagua"
 date: "2026-05-11"
 categories: [tesis, transporte]
+css: main.css
 ---
 
 
@@ -265,12 +266,11 @@ A continuación, se muestran los resultados de las estimaciones de los modelos a
     </tbody>
   </table>
 
-  <div class="qmd-table-notes">
-    Robust t-ratios in parentheses. Significance: *** $p &lt; 0.01$, ** $p &lt; 0.05$, * $p &lt; 0.10$.<br>
-    All three models share the Hess et al. (2008) error-component specification: a single $\sigma_{panel}$ scaling iid normal draws on each of the three alternative-specific error components, identified by the independence of the draws under the panel data structure. Model 0 includes only instrumental attributes; Model 1 adds qualitative hedonic attributes; Model 2 further incorporates a satisfaction index per mode (sum of nine Likert items on perceived service quality), entering only the utility of its respective mode.<br>
-    Likelihood Ratio Tests: Model 0 vs. Model 1: $LR = 13.76$, df=3, $p &lt; 0.01$ (rejection of restricted model). Model 1 vs. Model 2: $LR = 21.84$, df=3, $\chi^2_{0.01,3}=11.345$, $p &lt; 0.01$ (joint significance of the three satisfaction indices).
-  </div>
 </div>
+
+> Robust t-ratios entre parentesís. Significancias: *** p < 0.01, ** p < 0.05, * p < 0.10.
+
+
 
 
 ## Código

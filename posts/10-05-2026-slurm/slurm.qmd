@@ -3,6 +3,7 @@ title: "Automatizando ejecución de código en el NLHPC"
 description: "Cómo usar un Supercomputador y R sin morir en el intento"
 date: "2026-05-10"
 categories: [tesis, electrica]
+css: main.css
 ---
 
 El [NLHPC](nlhpc.cl) es increible. Hay que valorar el hecho de que lo tengamos ahí a disposición como estudiantes de la FCFM (hay que simplemente solicitar una cuenta).

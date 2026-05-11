@@ -3,4 +3,5 @@ title: "Preferencias declaradas"
 description: "¿Cómo se diseña realmente una encuesta de preferencias declaradas?"
 date: "2026-05-07"
 categories: [transporte, tesis]
+css: main.css
 ---
