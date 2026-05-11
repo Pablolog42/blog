@@ -18,8 +18,7 @@ No podemos quedarnos de brazos cruzados viendo como de la noche a la mañana se 
 Resulta desconcertante ver la falta de congruencia y unidad que mostramos como país en el marco de implementación de este tipo de sistemas. Basta contrastar los casos de Santiago Centro, o Concepción (Canal 9 Bío Bío, 2025) con lo que está pasando en otras localidades del país como Las Condes o Temuco (Forbes Chile, 2024; Municipalidad de Temuco, 2024): mientras en los primeros casos, este tipo de iniciativas sufre de abandono y estigmatización (principalmente relacionada al vandalismo o “desorden”), en los dos últimos, estos esquemas compartidos han llegado a ser un aporte a la comunidad, permitiendo que personas que nunca habían considerado la opción de irse en bicicleta o scooter a sus empleos, ahora lo vean como algo atractivo e incluso conveniente.
 
 
-![Micromovilidad  compartida  en  regiones  (Estación Plaza  Manuel  Recabarren, Temuco).
-Fotografía: temucotelevisión.cl.] (plaza.png)
+![Micromovilidad  compartida  en  regiones  (Estación Plaza  Manuel  Recabarren, Temuco). Fotografía: temucotelevisión.cl.](plaza.png)
 
 Dado lo anterior, es natural preguntarse: **¿qué pasaría si existieran estándares mínimos o guías de implementación de este tipo de sistemas? ¿cómo cambiaría la demanda de viajes si, en vez de tener una ciudad con múltiples sistemas (que por lo demás, quedan a merced de las municipalidades y autoridades locales de turno), existiera un sólo sistema integrado, con infraestructura ciclista de calidad y conectada?**
 
