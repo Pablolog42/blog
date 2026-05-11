@@ -10,6 +10,4288 @@
 <atom:link href="https://diezvariante.cl/blog/categorias/transporte.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.9.37</generator>
-<lastBuildDate>Mon, 11 May 2026 07:12:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 11 May 2026 04:00:00 GMT</lastBuildDate>
+<item>
+  <title>Resultados piloto encuesta 1</title>
+  <link>https://diezvariante.cl/blog/posts/11-05-2026-resultados-piloto-1/resultados-pilot-1.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="caracterización-de-la-muestra" class="level2">
+<h2 class="anchored" data-anchor-id="caracterización-de-la-muestra">Caracterización de la muestra</h2>
+<p>El primer piloto contó con 224 respuestas desde <a href="https://www.netquest.com/encuestas-online-investigacion">Netquest</a>, de las cuales 96 respuestas fueron consideradas válidas (gente que efectivamente usaba el corredor).</p>
+<p>Es un poco complejo el índice de incidencia (estamos bajo el 50% de opbacioón objetivo vs población encuestada). Ojalá se pueda hacer algo al respecto desde Netquest.</p>
+<p>A continuación, se muestran algunos gráficos de caracterización:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://diezvariante.cl/blog/posts/11-05-2026-resultados-piloto-1/demografia.png" class="img-fluid figure-img"></p>
+<figcaption>Caract. Demográfica</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://diezvariante.cl/blog/posts/11-05-2026-resultados-piloto-1/viajes.png" class="img-fluid figure-img"></p>
+<figcaption>Caract. viajes</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://diezvariante.cl/blog/posts/11-05-2026-resultados-piloto-1/likert.png" class="img-fluid figure-img"></p>
+<figcaption>Resultados Items Likert</figcaption>
+</figure>
+</div>
+</section>
+<section id="modelos-preliminares" class="level2">
+<h2 class="anchored" data-anchor-id="modelos-preliminares">Modelos preliminares</h2>
+<p>Se plantearon 3 modelos de Logit Mixto. Las especificaciones se muestran a continuación</p>
+<section id="mxl---efecto-panel-variables-instrumentales-medibles" class="level3">
+<h3 class="anchored" data-anchor-id="mxl---efecto-panel-variables-instrumentales-medibles">MXL - Efecto panel + variables instrumentales (medibles)</h3>
+</section>
+<section id="mxl---efecto-panel-variables-instrumentales-variables-hedónicas" class="level3">
+<h3 class="anchored" data-anchor-id="mxl---efecto-panel-variables-instrumentales-variables-hedónicas">MXL - Efecto panel + variables instrumentales + variables hedónicas</h3>
+</section>
+<section id="mxl---indicadores-de-satisfacción-por-modo-agregados" class="level3">
+<h3 class="anchored" data-anchor-id="mxl---indicadores-de-satisfacción-por-modo-agregados">MXL - Indicadores de satisfacción por modo agregados</h3>
+</section>
+</section>
+<section id="resultados" class="level2">
+<h2 class="anchored" data-anchor-id="resultados">Resultados</h2>
+<p>A continuación, se muestran los resultados de las estimaciones de los modelos anteriores:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://diezvariante.cl/blog/posts/11-05-2026-resultados-piloto-1/modelos.png" class="img-fluid figure-img"></p>
+<figcaption>Resultados de los modelos</figcaption>
+</figure>
+</div>
+<div style="overflow-x: auto; width: 100%; margin-bottom: 2em;">
+<p><style> .qmd-latex-table { width: 100%; border-collapse: collapse; font-family: inherit; font-size: 0.75em; /* Letra más pequeña <em>/ min-width: 800px; } .qmd-latex-table caption { caption-side: top; font-weight: bold; margin-bottom: 0.5em; /</em> Margen reducido <em>/ text-align: center; color: inherit; } .qmd-latex-table th, .qmd-latex-table td { padding: 3px 8px; /</em> Espaciado vertical mucho más apretado <em>/ text-align: left; } .qmd-latex-table th { border-top: 2px solid currentColor; border-bottom: 1px solid currentColor; font-weight: bold; padding-top: 4px; padding-bottom: 4px; } .qmd-latex-table .center-col { text-align: center; } .qmd-latex-table tbody tr.midrule td { border-top: 1px solid currentColor; } .qmd-latex-table tbody tr.bottomrule td { border-bottom: 2px solid currentColor; } .qmd-latex-table .subheading td { font-weight: bold; padding-top: 8px; /</em> Reducido para que no se expanda tanto <em>/ padding-bottom: 2px; } .qmd-table-notes { font-size: 0.75em; /</em> Notas más pequeñas <em>/ line-height: 1.3; /</em> Interlineado más compacto <em>/ margin-top: 8px; /</em> Más cerca de la tabla */ text-align: justify; } .phantom { visibility: hidden; } </style></p>
+<table class="qmd-latex-table">
+<caption>
+Table 1: Comparison of Mixed Logit Specifications (Hess Error-Component Spec, Panel Data)
+</caption>
+<thead>
+<tr>
+<th>
+Parameter
+</th>
+<th>
+Category
+</th>
+<th class="center-col">
+Model 0
+</th>
+<th class="center-col">
+Model 1
+</th>
+<th class="center-col">
+Model 2
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="midrule">
+<td>
+<img src="https://latex.codecogs.com/png.latex?ASC_%7Btrain%7D"> (Fixed)
+</td>
+<td>
+–
+</td>
+<td class="center-col">
+0.0000 (–)
+</td>
+<td class="center-col">
+0.0000 (–)
+</td>
+<td class="center-col">
+0.0000 (–)
+</td>
+</tr>
+<tr>
+<td>
+<img src="https://latex.codecogs.com/png.latex?ASC_%7Bbus%7D">
+</td>
+<td>
+–
+</td>
+<td class="center-col">
+-1.4232 (-4.64)***
+</td>
+<td class="center-col">
+-1.6964 (-5.02)***
+</td>
+<td class="center-col">
+<span class="phantom">-</span>0.6692 (<span class="phantom">-</span>0.38)
+</td>
+</tr>
+<tr>
+<td>
+<img src="https://latex.codecogs.com/png.latex?ASC_%7Bmicro%7D">
+</td>
+<td>
+–
+</td>
+<td class="center-col">
+-1.2302 (-2.57)**
+</td>
+<td class="center-col">
+-1.2080 (-2.49)**
+</td>
+<td class="center-col">
+-0.1689 (-0.09)
+</td>
+</tr>
+<tr class="midrule">
+<td>
+<img src="https://latex.codecogs.com/png.latex?%5Cbeta_%7Btt%7D"> (Travel Time)
+</td>
+<td>
+Instrumental
+</td>
+<td class="center-col">
+-0.01295 (-2.78)***
+</td>
+<td class="center-col">
+-0.01253 (-2.62)***
+</td>
+<td class="center-col">
+-0.01212 (-2.55)**
+</td>
+</tr>
+<tr>
+<td>
+<img src="https://latex.codecogs.com/png.latex?%5Cbeta_%7Bcost%7D"> (Cost)
+</td>
+<td>
+Instrumental
+</td>
+<td class="center-col">
+-0.000173 (-2.86)***
+</td>
+<td class="center-col">
+-0.000150 (-2.45)**
+</td>
+<td class="center-col">
+-0.000151 (-2.48)**
+</td>
+</tr>
+<tr>
+<td>
+<img src="https://latex.codecogs.com/png.latex?%5Cbeta_%7Bhw%7D"> (Headway)
+</td>
+<td>
+Instrumental
+</td>
+<td class="center-col">
+-0.00452 (-1.26)
+</td>
+<td class="center-col">
+-0.00334 (-0.92)
+</td>
+<td class="center-col">
+-0.00332 (-0.90)
+</td>
+</tr>
+<tr>
+<td>
+<img src="https://latex.codecogs.com/png.latex?%5Cbeta_%7Bvar%7D"> (Variability)
+</td>
+<td>
+Instrumental
+</td>
+<td class="center-col">
+-0.00107 (-0.18)
+</td>
+<td class="center-col">
+<span class="phantom">-</span><img src="https://latex.codecogs.com/png.latex?3.4%20%5Ctimes%2010%5E%7B-5%7D"> (<span class="phantom">-</span>0.01)
+</td>
+<td class="center-col">
+-<img src="https://latex.codecogs.com/png.latex?8.2%20%5Ctimes%2010%5E%7B-5%7D"> (-0.01)
+</td>
+</tr>
+<tr>
+<td>
+<img src="https://latex.codecogs.com/png.latex?%5Cbeta_%7Blmt%7D"> (Last-Mile Time)
+</td>
+<td>
+Instrumental
+</td>
+<td class="center-col">
+<span class="phantom">-</span>0.00220 (<span class="phantom">-</span>0.17)
+</td>
+<td class="center-col">
+<span class="phantom">-</span>0.00783 (<span class="phantom">-</span>0.58)
+</td>
+<td class="center-col">
+<span class="phantom">-</span>0.00612 (<span class="phantom">-</span>0.45)
+</td>
+</tr>
+<tr>
+<td>
+<img src="https://latex.codecogs.com/png.latex?%5Cbeta_%7Bcrowd%7D"> (Crowding)
+</td>
+<td>
+Hedonic
+</td>
+<td class="center-col">
+–
+</td>
+<td class="center-col">
+-0.1569 (-3.58)***
+</td>
+<td class="center-col">
+-0.1570 (-3.57)***
+</td>
+</tr>
+<tr>
+<td>
+<img src="https://latex.codecogs.com/png.latex?%5Cbeta_%7Baircon%7D"> (Air Conditioning)
+</td>
+<td>
+Hedonic
+</td>
+<td class="center-col">
+–
+</td>
+<td class="center-col">
+<span class="phantom">-</span>0.1223 (<span class="phantom">-</span>0.92)
+</td>
+<td class="center-col">
+<span class="phantom">-</span>0.1200 (<span class="phantom">-</span>0.90)
+</td>
+</tr>
+<tr>
+<td>
+<img src="https://latex.codecogs.com/png.latex?%5Cbeta_%7Bsellers%7D"> (Vendors)
+</td>
+<td>
+Hedonic
+</td>
+<td class="center-col">
+–
+</td>
+<td class="center-col">
+-0.1033 (-0.73)
+</td>
+<td class="center-col">
+-0.0985 (-0.70)
+</td>
+</tr>
+<tr class="midrule subheading">
+<td colspan="5">
+Satisfaction Indices (sum of 9 Likert items per mode, range 9–45)
+</td>
+</tr>
+<tr>
+<td>
+<img src="https://latex.codecogs.com/png.latex?%5Cbeta_%7Bsatisf,train%7D">
+</td>
+<td>
+Latent proxy
+</td>
+<td class="center-col">
+–
+</td>
+<td class="center-col">
+–
+</td>
+<td class="center-col">
+<span class="phantom">-</span>0.1628 (<span class="phantom">-</span>3.54)***
+</td>
+</tr>
+<tr>
+<td>
+<img src="https://latex.codecogs.com/png.latex?%5Cbeta_%7Bsatisf,bus%7D">
+</td>
+<td>
+Latent proxy
+</td>
+<td class="center-col">
+–
+</td>
+<td class="center-col">
+–
+</td>
+<td class="center-col">
+<span class="phantom">-</span>0.1040 (<span class="phantom">-</span>1.96)*
+</td>
+</tr>
+<tr>
+<td>
+<img src="https://latex.codecogs.com/png.latex?%5Cbeta_%7Bsatisf,micro%7D">
+</td>
+<td>
+Latent proxy
+</td>
+<td class="center-col">
+–
+</td>
+<td class="center-col">
+–
+</td>
+<td class="center-col">
+<span class="phantom">-</span>0.1551 (<span class="phantom">-</span>3.58)***
+</td>
+</tr>
+<tr class="midrule subheading">
+<td colspan="5">
+Error Components (Hess et al.&nbsp;2008 spec, single shared <img src="https://latex.codecogs.com/png.latex?%5Csigma">)
+</td>
+</tr>
+<tr>
+<td>
+<img src="https://latex.codecogs.com/png.latex?%5Csigma_%7Bpanel%7D">
+</td>
+<td>
+–
+</td>
+<td class="center-col">
+1.6260 (8.88)***
+</td>
+<td class="center-col">
+1.6592 (8.90)***
+</td>
+<td class="center-col">
+1.4820 (9.11)***
+</td>
+</tr>
+<tr class="midrule subheading">
+<td colspan="5">
+Fit Statistics
+</td>
+</tr>
+<tr>
+<td>
+Observations / Individuals
+</td>
+<td>
+–
+</td>
+<td class="center-col">
+1225 / 96
+</td>
+<td class="center-col">
+1225 / 96
+</td>
+<td class="center-col">
+1225 / 96
+</td>
+</tr>
+<tr>
+<td>
+Estimated parameters
+</td>
+<td>
+–
+</td>
+<td class="center-col">
+8
+</td>
+<td class="center-col">
+11
+</td>
+<td class="center-col">
+14
+</td>
+</tr>
+<tr>
+<td>
+Final Log-Likelihood
+</td>
+<td>
+–
+</td>
+<td class="center-col">
+-695.26
+</td>
+<td class="center-col">
+-688.38
+</td>
+<td class="center-col">
+-677.46
+</td>
+</tr>
+<tr>
+<td>
+AIC
+</td>
+<td>
+–
+</td>
+<td class="center-col">
+1406.52
+</td>
+<td class="center-col">
+1398.77
+</td>
+<td class="center-col">
+1382.91
+</td>
+</tr>
+<tr>
+<td>
+BIC
+</td>
+<td>
+–
+</td>
+<td class="center-col">
+1447.41
+</td>
+<td class="center-col">
+1454.98
+</td>
+<td class="center-col">
+1454.46
+</td>
+</tr>
+<tr class="bottomrule">
+<td>
+Adj. <img src="https://latex.codecogs.com/png.latex?%5Crho%5E2"> (vs.&nbsp;Equal Shares)
+</td>
+<td>
+–
+</td>
+<td class="center-col">
+0.3450
+</td>
+<td class="center-col">
+0.3486
+</td>
+<td class="center-col">
+0.3560
+</td>
+</tr>
+</tbody>
+</table>
+<div class="qmd-table-notes">
+<pre><code>Robust t-ratios in parentheses. Significance: *** $p &amp;lt; 0.01$, ** $p &amp;lt; 0.05$, * $p &amp;lt; 0.10$.&lt;br&gt;
+All three models share the Hess et al. (2008) error-component specification: a single $\sigma_{panel}$ scaling iid normal draws on each of the three alternative-specific error components, identified by the independence of the draws under the panel data structure. Model 0 includes only instrumental attributes; Model 1 adds qualitative hedonic attributes; Model 2 further incorporates a satisfaction index per mode (sum of nine Likert items on perceived service quality), entering only the utility of its respective mode.&lt;br&gt;
+Likelihood Ratio Tests: Model 0 vs. Model 1: $LR = 13.76$, df=3, $p &amp;lt; 0.01$ (rejection of restricted model). Model 1 vs. Model 2: $LR = 21.84$, df=3, $\chi^2_{0.01,3}=11.345$, $p &amp;lt; 0.01$ (joint significance of the three satisfaction indices).</code></pre>
+</div>
+</div>
+</section>
+<section id="código" class="level2">
+<h2 class="anchored" data-anchor-id="código">Código</h2>
+<section id="mxl---efecto-panel" class="level3">
+<h3 class="anchored" data-anchor-id="mxl---efecto-panel">MXL - Efecto panel</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># ==============================================================================</span></span>
+<span id="cb2-2"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># LOGIT MIXTO PANEL - ESPECIFICACION HESS et al. (2008)</span></span>
+<span id="cb2-3"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># ==============================================================================</span></span>
+<span id="cb2-4"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Componentes de error iid (entre alternativas, no entre observaciones)</span></span>
+<span id="cb2-5"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># en las TRES alternativas, con UNA sola sigma compartida.</span></span>
+<span id="cb2-6"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Identificacion garantizada por la independencia de los draws entre</span></span>
+<span id="cb2-7"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># alternativas y la estructura panel.</span></span>
+<span id="cb2-8"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Referencia: Apollo Manual, seccion 6.2 / Figura 6.7.</span></span>
+<span id="cb2-9"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># ==============================================================================</span></span>
+<span id="cb2-10"></span>
+<span id="cb2-11"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># -- Configuracion SLURM (procesado por submit_to_nlhpc.py) -------------------</span></span>
+<span id="cb2-12"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># @slurm partition   = "debug"</span></span>
+<span id="cb2-13"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># @slurm time        = "00:30:00"</span></span>
+<span id="cb2-14"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># @slurm cores       = 44</span></span>
+<span id="cb2-15"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># @slurm mem_per_cpu = 345</span></span>
+<span id="cb2-16"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># @db C:/Users/Pablo/Desktop/tesis-magister/SP/netquest-soft_start-v2/data/master_db_netquest_soft_start_v2.csv</span></span>
+<span id="cb2-17"></span>
+<span id="cb2-18"></span>
+<span id="cb2-19"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 1. ENTORNO -------------------------------------------------------------------</span></span>
+<span id="cb2-20"><span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">if</span> (<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">!</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">nzchar</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">Sys.getenv</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"SLURM_JOB_ID"</span>)) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&amp;&amp;</span></span>
+<span id="cb2-21">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">requireNamespace</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"rstudioapi"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">quietly =</span> <span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">TRUE</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&amp;&amp;</span></span>
+<span id="cb2-22">  rstudioapi<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">isAvailable</span>()) {</span>
+<span id="cb2-23">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">setwd</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">dirname</span>(rstudioapi<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">getSourceEditorContext</span>()<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>path))</span>
+<span id="cb2-24">}</span>
+<span id="cb2-25"></span>
+<span id="cb2-26"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># install.packages("apollo")</span></span>
+<span id="cb2-27"></span>
+<span id="cb2-28"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(apollo)</span>
+<span id="cb2-29"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(dplyr)</span>
+<span id="cb2-30"></span>
+<span id="cb2-31"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">rm</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">list =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">ls</span>())</span>
+<span id="cb2-32"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">apollo_initialise</span>()</span>
+<span id="cb2-33"></span>
+<span id="cb2-34"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Cores: NLHPC lo dicta via SLURM; local default = 8</span></span>
+<span id="cb2-35">nCores_use <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">as.integer</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">Sys.getenv</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"SLURM_CPUS_PER_TASK"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">unset =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"8"</span>))</span>
+<span id="cb2-36"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">cat</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"[INFO] Usando"</span>, nCores_use, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"cores</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">\n</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span>)</span>
+<span id="cb2-37"></span>
+<span id="cb2-38"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Path BBDD</span></span>
+<span id="cb2-39">db_dir <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">Sys.getenv</span>(</span>
+<span id="cb2-40">  <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"NLHPC_DB_DIR"</span>,</span>
+<span id="cb2-41">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">unset =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"C:/Users/Pablo/Desktop/tesis-magister/SP/netquest-soft_start-v2/data/"</span></span>
+<span id="cb2-42">)</span>
+<span id="cb2-43">database <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">read.csv</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">file.path</span>(db_dir, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"master_db_netquest_soft_start_v2.csv"</span>))</span>
+<span id="cb2-44"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">names</span>(database) <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">trimws</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">names</span>(database))</span>
+<span id="cb2-45">database[<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">is.na</span>(database)] <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span></span>
+<span id="cb2-46"></span>
+<span id="cb2-47"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># FILTRO: Eliminar observaciones donde se eligio el opt-out (alternativa 4)</span></span>
+<span id="cb2-48">database <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">subset</span>(database, choice <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">!=</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">4</span>)</span>
+<span id="cb2-49"></span>
+<span id="cb2-50"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># ==============================================================================</span></span>
+<span id="cb2-51"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 2. CONFIGURACION DE APOLLO</span></span>
+<span id="cb2-52"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># ==============================================================================</span></span>
+<span id="cb2-53">apollo_control <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">list</span>(</span>
+<span id="cb2-54">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">modelName       =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"modelo3-Panel_Hess_SinOptOut - Netquest v2"</span>,</span>
+<span id="cb2-55">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">modelDescr      =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Logit Mixto Panel - Hess et al. 2008 (EC iid en las 3 alternativas) - Sin Opt-Out - Netquest v2"</span>,</span>
+<span id="cb2-56">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">indivID         =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"id_response"</span>,</span>
+<span id="cb2-57">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">mixing          =</span> <span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">TRUE</span>,</span>
+<span id="cb2-58">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">nCores          =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">8</span>,</span>
+<span id="cb2-59">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">outputDirectory =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"output"</span></span>
+<span id="cb2-60">)</span>
+<span id="cb2-61"></span>
+<span id="cb2-62"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># ==============================================================================</span></span>
+<span id="cb2-63"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 3. DEFINICION DE PARAMETROS A ESTIMAR</span></span>
+<span id="cb2-64"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># ==============================================================================</span></span>
+<span id="cb2-65">apollo_beta <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(</span>
+<span id="cb2-66">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">asc_train =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>,</span>
+<span id="cb2-67">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">asc_bus   =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>,</span>
+<span id="cb2-68">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">asc_micro =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>,</span>
+<span id="cb2-69"></span>
+<span id="cb2-70">  <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Nivel de Servicio</span></span>
+<span id="cb2-71">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">b_tt      =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>,</span>
+<span id="cb2-72">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">b_cost    =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>,</span>
+<span id="cb2-73">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">b_lmt     =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>,</span>
+<span id="cb2-74">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">b_hw      =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>,</span>
+<span id="cb2-75"></span>
+<span id="cb2-76">  <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Confort y Confiabilidad</span></span>
+<span id="cb2-77">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">b_var     =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>,</span>
+<span id="cb2-78">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">b_crowd   =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>,</span>
+<span id="cb2-79">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">b_aircon  =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>,</span>
+<span id="cb2-80">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">b_sellers =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>,</span>
+<span id="cb2-81"></span>
+<span id="cb2-82">  <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># ----------------------------------------------------------------------------</span></span>
+<span id="cb2-83">  <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># CAMBIO CLAVE 1: una sola sigma compartida en lugar de sigma_bus y sigma_micro</span></span>
+<span id="cb2-84">  <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Valor inicial 0.5 (no 0) para evitar partida en una region plana de la LL.</span></span>
+<span id="cb2-85">  <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># ----------------------------------------------------------------------------</span></span>
+<span id="cb2-86">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">sigma_panel =</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.5</span></span>
+<span id="cb2-87">)</span>
+<span id="cb2-88"></span>
+<span id="cb2-89"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Constante del tren como referencia (esto no cambia respecto al modelo anterior)</span></span>
+<span id="cb2-90">apollo_fixed <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"asc_train"</span></span>
+<span id="cb2-91"></span>
+<span id="cb2-92"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># ==============================================================================</span></span>
+<span id="cb2-93"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 4. CONFIGURACION DE DRAWS</span></span>
+<span id="cb2-94"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># ------------------------------------------------------------------------------</span></span>
+<span id="cb2-95"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># CAMBIO CLAVE 2: TRES draws normales independientes, uno por alternativa</span></span>
+<span id="cb2-96"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># (antes habian dos: draw_bus y draw_micro). Ahora se incluye tambien draw_train.</span></span>
+<span id="cb2-97"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># La independencia entre estos tres draws es lo que garantiza identificacion</span></span>
+<span id="cb2-98"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># en datos panel pese a tener EC en TODAS las alternativas.</span></span>
+<span id="cb2-99"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># ==============================================================================</span></span>
+<span id="cb2-100">apollo_draws <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">=</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">list</span>(</span>
+<span id="cb2-101">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">interDrawsType =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"mlhs"</span>,</span>
+<span id="cb2-102">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">interNDraws    =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2000</span>,</span>
+<span id="cb2-103">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">interUnifDraws =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(),</span>
+<span id="cb2-104">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">interNormDraws =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"draw_train"</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"draw_bus"</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"draw_micro"</span>),</span>
+<span id="cb2-105">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">intraDrawsType =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"halton"</span>,</span>
+<span id="cb2-106">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">intraNDraws    =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>,</span>
+<span id="cb2-107">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">intraUnifDraws =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(),</span>
+<span id="cb2-108">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">intraNormDraws =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>()</span>
+<span id="cb2-109">)</span>
+<span id="cb2-110"></span>
+<span id="cb2-111"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># ==============================================================================</span></span>
+<span id="cb2-112"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 5. COEFICIENTES ALEATORIOS</span></span>
+<span id="cb2-113"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># ------------------------------------------------------------------------------</span></span>
+<span id="cb2-114"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Tres EC, todos con la MISMA sigma_panel (homocedasticidad). Cada EC usa</span></span>
+<span id="cb2-115"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># un draw distinto, lo que los hace independientes entre alternativas pero</span></span>
+<span id="cb2-116"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># constantes a lo largo de las T situaciones de cada persona (efecto panel).</span></span>
+<span id="cb2-117"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># ==============================================================================</span></span>
+<span id="cb2-118">apollo_randCoeff <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">=</span> <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">function</span>(apollo_beta, apollo_inputs){</span>
+<span id="cb2-119">  randcoeff <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">=</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">list</span>()</span>
+<span id="cb2-120">  randcoeff[[<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"ec_train"</span>]] <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">=</span> sigma_panel <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span> draw_train</span>
+<span id="cb2-121">  randcoeff[[<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"ec_bus"</span>]]   <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">=</span> sigma_panel <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span> draw_bus</span>
+<span id="cb2-122">  randcoeff[[<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"ec_micro"</span>]] <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">=</span> sigma_panel <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span> draw_micro</span>
+<span id="cb2-123">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">return</span>(randcoeff)</span>
+<span id="cb2-124">}</span>
+<span id="cb2-125"></span>
+<span id="cb2-126">apollo_inputs <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">apollo_validateInputs</span>()</span>
+<span id="cb2-127"></span>
+<span id="cb2-128"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># ==============================================================================</span></span>
+<span id="cb2-129"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 6. FUNCION DE PROBABILIDADES</span></span>
+<span id="cb2-130"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># ------------------------------------------------------------------------------</span></span>
+<span id="cb2-131"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># CAMBIO CLAVE 3: el EC se suma a las TRES utilidades (incluida la del tren),</span></span>
+<span id="cb2-132"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># no solo a las J-1 alternativas como en el modelo anterior.</span></span>
+<span id="cb2-133"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># ==============================================================================</span></span>
+<span id="cb2-134">apollo_probabilities <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">function</span>(apollo_beta, apollo_inputs, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">functionality =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"estimate"</span>){</span>
+<span id="cb2-135"></span>
+<span id="cb2-136">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">apollo_attach</span>(apollo_beta, apollo_inputs)</span>
+<span id="cb2-137">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">on.exit</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">apollo_detach</span>(apollo_beta, apollo_inputs))</span>
+<span id="cb2-138"></span>
+<span id="cb2-139">  P <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">list</span>()</span>
+<span id="cb2-140">  V <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">list</span>()</span>
+<span id="cb2-141"></span>
+<span id="cb2-142">  V[[<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"train"</span>]] <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> asc_train <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> ec_train <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb2-143">    b_tt      <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span> train_tt <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb2-144">    b_cost    <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span> train_cost <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb2-145">    b_lmt     <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span> train_lmt <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb2-146">    b_hw      <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span> train_headway <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb2-147">    b_var     <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span> train_arrival_time_variability <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb2-148">    b_crowd   <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span> train_crowding_ordinal <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb2-149">    b_aircon  <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span> train_aircon_ordinal <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb2-150">    b_sellers <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span> train_sellers_ordinal</span>
+<span id="cb2-151"></span>
+<span id="cb2-152">  V[[<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"bus"</span>]]   <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> asc_bus <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> ec_bus <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb2-153">    b_tt      <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span> bus_tt <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb2-154">    b_cost    <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span> bus_cost <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb2-155">    b_lmt     <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span> bus_lmt <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb2-156">    b_hw      <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span> bus_headway <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb2-157">    b_var     <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span> bus_arrival_time_variability <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb2-158">    b_crowd   <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span> bus_crowding_ordinal <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb2-159">    b_aircon  <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span> bus_aircon_ordinal <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb2-160">    b_sellers <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span> bus_sellers_ordinal</span>
+<span id="cb2-161"></span>
+<span id="cb2-162">  V[[<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"micro"</span>]] <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> asc_micro <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> ec_micro <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb2-163">    b_tt      <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span> micro_tt <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb2-164">    b_cost    <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span> micro_cost <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb2-165">    b_lmt     <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span> micro_lmt <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb2-166">    b_hw      <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span> micro_headway <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb2-167">    b_var     <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span> micro_arrival_time_variability <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb2-168">    b_crowd   <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span> micro_crowding_ordinal <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb2-169">    b_aircon  <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span> micro_aircon_ordinal <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb2-170">    b_sellers <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span> micro_sellers_ordinal</span>
+<span id="cb2-171"></span>
+<span id="cb2-172">  mnl_settings <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">list</span>(</span>
+<span id="cb2-173">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">alternatives =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">train =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">bus =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">micro =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">3</span>),</span>
+<span id="cb2-174">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">avail        =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">list</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">train =</span> av_train, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">bus =</span> av_bus, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">micro =</span> av_micro),</span>
+<span id="cb2-175">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">choiceVar    =</span> choice,</span>
+<span id="cb2-176">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">utilities    =</span> V</span>
+<span id="cb2-177">  )</span>
+<span id="cb2-178"></span>
+<span id="cb2-179">  P[[<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"model"</span>]] <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">apollo_mnl</span>(mnl_settings, functionality)</span>
+<span id="cb2-180">  P <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">apollo_panelProd</span>(P, apollo_inputs, functionality)</span>
+<span id="cb2-181">  P <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">apollo_avgInterDraws</span>(P, apollo_inputs, functionality)</span>
+<span id="cb2-182">  P <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">apollo_prepareProb</span>(P, apollo_inputs, functionality)</span>
+<span id="cb2-183"></span>
+<span id="cb2-184">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">return</span>(P)</span>
+<span id="cb2-185">}</span>
+<span id="cb2-186"></span>
+<span id="cb2-187"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># ==============================================================================</span></span>
+<span id="cb2-188"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 7. ESTIMACION Y RESULTADOS</span></span>
+<span id="cb2-189"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># ==============================================================================</span></span>
+<span id="cb2-190">model <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">apollo_estimate</span>(apollo_beta, apollo_fixed, apollo_probabilities, apollo_inputs)</span>
+<span id="cb2-191"></span>
+<span id="cb2-192"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">apollo_modelOutput</span>(model)</span>
+<span id="cb2-193"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">apollo_saveOutput</span>(model)</span></code></pre></div></div>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>tesis</category>
+  <category>transporte</category>
+  <guid>https://diezvariante.cl/blog/posts/11-05-2026-resultados-piloto-1/resultados-pilot-1.html</guid>
+  <pubDate>Mon, 11 May 2026 04:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Automatizando ejecución de código en el NLHPC</title>
+  <link>https://diezvariante.cl/blog/posts/10-05-2026-slurm/slurm.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>El <a href="nlhpc.cl">NLHPC</a> es increible. Hay que valorar el hecho de que lo tengamos ahí a disposición como estudiantes de la FCFM (hay que simplemente solicitar una cuenta).</p>
+<p>Durante el desarrollo de mi tesis, tengo que correr distintos modelos de elección discreta. En particular, debo ejecutar algunos <a href="iclv.pdf">modelos de variables latentes</a> que tienen funciones de verosimilitud muy complejas (no convexas). La estimación de estos modelos toma mucho tiempo (del orden de varias horas a varios días), y yo no tengo ganas de dejar inutilizable mi computador por dos semanas mientras el modelo corre.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://diezvariante.cl/blog/posts/10-05-2026-slurm/iclv.png" class="img-fluid figure-img"></p>
+<figcaption>Modelo ICLV</figcaption>
+</figure>
+</div>
+<p>Es por lo anterior que traté de ingeniarmelas (junto a Claudio) para poder hacer una herramienta que me permitiera autimatizar la subida de modelos de Apollo en R directo desde mi IDE (PyCharm).</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"></span>
+<span id="cb1-2"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#!/usr/bin/env python3</span></span>
+<span id="cb1-3"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">r"""</span></span>
+<span id="cb1-4"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">submit_to_nlhpc.py</span></span>
+<span id="cb1-5"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">==================</span></span>
+<span id="cb1-6"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">Genera el script SLURM, sube por SFTP y ejecuta jobs de R en NLHPC.</span></span>
+<span id="cb1-7"></span>
+<span id="cb1-8"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">Estructura remota generada en $HOME:</span></span>
+<span id="cb1-9"></span>
+<span id="cb1-10"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">    nlhpc-sender-runs/</span></span>
+<span id="cb1-11"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">    +-- dbs/                              &lt;- bases compartidas</span></span>
+<span id="cb1-12"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">    |   </span><span class="er" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">\</span><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-- ...</span></span>
+<span id="cb1-13"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">    </span><span class="er" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">\</span><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-- &lt;YYYYMMDD_HHMMSS&gt;_&lt;r_stem&gt;/       &lt;- una carpeta por corrida</span></span>
+<span id="cb1-14"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">        +-- script.R</span></span>
+<span id="cb1-15"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">        +-- script.sh</span></span>
+<span id="cb1-16"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">        +-- *.out / *.err</span></span>
+<span id="cb1-17"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">        </span><span class="er" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">\</span><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-- &lt;db&gt;.csv -&gt; ../dbs/&lt;db&gt;.csv   &lt;- symlinks a las bbdd</span></span>
+<span id="cb1-18"></span>
+<span id="cb1-19"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">Magic comments aceptados al inicio del .R:</span></span>
+<span id="cb1-20"></span>
+<span id="cb1-21"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">    # @slurm partition   = "main"        # cualquier directiva SLURM</span></span>
+<span id="cb1-22"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">    # @slurm cores       = 45</span></span>
+<span id="cb1-23"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">    # @slurm exclusive   = true</span></span>
+<span id="cb1-24"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">    # @db data/big.csv                    # sube si no existe</span></span>
+<span id="cb1-25"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">    # @db data/big.csv force              # siempre re-sube</span></span>
+<span id="cb1-26"></span>
+<span id="cb1-27"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">Uso:</span></span>
+<span id="cb1-28"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">    python submit_to_nlhpc.py mi_script.R</span></span>
+<span id="cb1-29"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">    python submit_to_nlhpc.py mi_script.R --monitor</span></span>
+<span id="cb1-30"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">    python submit_to_nlhpc.py mi_script.R --config otro.toml --env otro.env</span></span>
+<span id="cb1-31"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">"""</span></span>
+<span id="cb1-32"></span>
+<span id="cb1-33"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> argparse</span>
+<span id="cb1-34"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> os</span>
+<span id="cb1-35"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> re</span>
+<span id="cb1-36"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> sys</span>
+<span id="cb1-37"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> time</span>
+<span id="cb1-38"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">from</span> datetime <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> datetime</span>
+<span id="cb1-39"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">from</span> pathlib <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> Path</span>
+<span id="cb1-40"></span>
+<span id="cb1-41"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># -- TOML: stdlib en Python 3.11+, fallback a tomli -------------------------</span></span>
+<span id="cb1-42"><span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">if</span> sys.version_info <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&gt;=</span> (<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">3</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">11</span>):</span>
+<span id="cb1-43">    <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> tomllib</span>
+<span id="cb1-44"><span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">else</span>:</span>
+<span id="cb1-45">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">try</span>:</span>
+<span id="cb1-46">        <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> tomli <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">as</span> tomllib</span>
+<span id="cb1-47">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">except</span> <span class="pp" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">ImportError</span>:</span>
+<span id="cb1-48">        <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">print</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"[ERROR] Python &lt; 3.11 requiere 'tomli'. Ejecuta: pip install tomli"</span>)</span>
+<span id="cb1-49">        sys.exit(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>)</span>
+<span id="cb1-50"></span>
+<span id="cb1-51"><span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">try</span>:</span>
+<span id="cb1-52">    <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> paramiko</span>
+<span id="cb1-53"><span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">except</span> <span class="pp" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">ImportError</span>:</span>
+<span id="cb1-54">    <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">print</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"[ERROR] Falta paramiko. Ejecuta: pip install paramiko"</span>)</span>
+<span id="cb1-55">    sys.exit(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>)</span>
+<span id="cb1-56"></span>
+<span id="cb1-57"></span>
+<span id="cb1-58"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># ---------------------------------------------</span></span>
+<span id="cb1-59"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 1. .env loader</span></span>
+<span id="cb1-60"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># ---------------------------------------------</span></span>
+<span id="cb1-61"></span>
+<span id="cb1-62"><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">def</span> load_dotenv(env_path: Path, override: <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">bool</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">False</span>) <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-&gt;</span> <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">int</span>:</span>
+<span id="cb1-63">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">if</span> <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">not</span> env_path.exists():</span>
+<span id="cb1-64">        <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">return</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span></span>
+<span id="cb1-65">    count <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span></span>
+<span id="cb1-66">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">with</span> <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">open</span>(env_path, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"r"</span>, encoding<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"utf-8"</span>) <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">as</span> f:</span>
+<span id="cb1-67">        <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">for</span> raw <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">in</span> f:</span>
+<span id="cb1-68">            line <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> raw.strip()</span>
+<span id="cb1-69">            <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">if</span> <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">not</span> line <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">or</span> line.startswith(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"#"</span>) <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">or</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"="</span> <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">not</span> <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">in</span> line:</span>
+<span id="cb1-70">                <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">continue</span></span>
+<span id="cb1-71">            key, _, value <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> line.partition(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"="</span>)</span>
+<span id="cb1-72">            key <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> key.strip()</span>
+<span id="cb1-73">            value <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> value.strip()</span>
+<span id="cb1-74">            <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">if</span> (value.startswith(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'"'</span>) <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">and</span> value.endswith(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'"'</span>)) <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">or</span> (</span>
+<span id="cb1-75">                    value.startswith(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"'"</span>) <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">and</span> value.endswith(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"'"</span>)</span>
+<span id="cb1-76">            ):</span>
+<span id="cb1-77">                value <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> value[<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>:<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>]</span>
+<span id="cb1-78">            <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">if</span> override <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">or</span> key <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">not</span> <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">in</span> os.environ:</span>
+<span id="cb1-79">                os.environ[key] <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> value</span>
+<span id="cb1-80">                count <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+=</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span></span>
+<span id="cb1-81">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">return</span> count</span>
+<span id="cb1-82"></span>
+<span id="cb1-83"></span>
+<span id="cb1-84"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># ---------------------------------------------</span></span>
+<span id="cb1-85"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 2. Interpolacion ${VAR}</span></span>
+<span id="cb1-86"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># ---------------------------------------------</span></span>
+<span id="cb1-87"></span>
+<span id="cb1-88">_ENV_VAR_RE <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> re.<span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">compile</span>(<span class="vs" style="color: #20794D;
+background-color: null;
+font-style: inherit;">r"</span><span class="ch" style="color: #20794D;
+background-color: null;
+font-style: inherit;">\$\{</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">(</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">\w</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">)</span><span class="ch" style="color: #20794D;
+background-color: null;
+font-style: inherit;">\}</span><span class="vs" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span>)</span>
+<span id="cb1-89"></span>
+<span id="cb1-90"></span>
+<span id="cb1-91"><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">def</span> expand_env_vars(obj):</span>
+<span id="cb1-92">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">if</span> <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">isinstance</span>(obj, <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">str</span>):</span>
+<span id="cb1-93">        <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">def</span> _repl(m: re.Match) <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-&gt;</span> <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">str</span>:</span>
+<span id="cb1-94">            var <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> m.group(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>)</span>
+<span id="cb1-95">            val <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> os.environ.get(var)</span>
+<span id="cb1-96">            <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">if</span> val <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">is</span> <span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">None</span>:</span>
+<span id="cb1-97">                <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">raise</span> <span class="pp" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">ValueError</span>(</span>
+<span id="cb1-98">                    <span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f"Variable de entorno '$</span><span class="ch" style="color: #20794D;
+background-color: null;
+font-style: inherit;">{{</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>var<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ch" style="color: #20794D;
+background-color: null;
+font-style: inherit;">}}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">' usada en config "</span></span>
+<span id="cb1-99">                    <span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f"pero no esta definida (revisa tu .env o el sistema)."</span></span>
+<span id="cb1-100">                )</span>
+<span id="cb1-101">            <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">return</span> val</span>
+<span id="cb1-102">        <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">return</span> _ENV_VAR_RE.sub(_repl, obj)</span>
+<span id="cb1-103">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">if</span> <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">isinstance</span>(obj, <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">dict</span>):</span>
+<span id="cb1-104">        <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">return</span> {k: expand_env_vars(v) <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">for</span> k, v <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">in</span> obj.items()}</span>
+<span id="cb1-105">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">if</span> <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">isinstance</span>(obj, <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">list</span>):</span>
+<span id="cb1-106">        <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">return</span> [expand_env_vars(v) <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">for</span> v <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">in</span> obj]</span>
+<span id="cb1-107">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">return</span> obj</span>
+<span id="cb1-108"></span>
+<span id="cb1-109"></span>
+<span id="cb1-110"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># ---------------------------------------------</span></span>
+<span id="cb1-111"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 3. Cargar configuracion</span></span>
+<span id="cb1-112"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># ---------------------------------------------</span></span>
+<span id="cb1-113"></span>
+<span id="cb1-114"><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">def</span> load_config(config_path: <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">str</span>, env_path: <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">str</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">|</span> <span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">None</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">None</span>) <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-&gt;</span> <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">dict</span>:</span>
+<span id="cb1-115">    config_path <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> Path(config_path)</span>
+<span id="cb1-116">    env_path <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> Path(env_path) <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">if</span> env_path <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">else</span> config_path.parent <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">/</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">".env"</span></span>
+<span id="cb1-117"></span>
+<span id="cb1-118">    n <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> load_dotenv(env_path)</span>
+<span id="cb1-119">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">if</span> n:</span>
+<span id="cb1-120">        <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">print</span>(<span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f"[i] Cargadas </span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>n<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;"> variables desde </span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>env_path<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span>)</span>
+<span id="cb1-121"></span>
+<span id="cb1-122">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">with</span> <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">open</span>(config_path, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"rb"</span>) <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">as</span> f:</span>
+<span id="cb1-123">        cfg <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> tomllib.load(f)</span>
+<span id="cb1-124">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">return</span> expand_env_vars(cfg)</span>
+<span id="cb1-125"></span>
+<span id="cb1-126"></span>
+<span id="cb1-127"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># ---------------------------------------------</span></span>
+<span id="cb1-128"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 4. Magic comments (@slurm + @db)</span></span>
+<span id="cb1-129"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># ---------------------------------------------</span></span>
+<span id="cb1-130"></span>
+<span id="cb1-131">_SLURM_MAGIC_RE <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> re.<span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">compile</span>(<span class="vs" style="color: #20794D;
+background-color: null;
+font-style: inherit;">r"</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">^\s</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span><span class="vs" style="color: #20794D;
+background-color: null;
+font-style: inherit;">#</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">\s</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span><span class="vs" style="color: #20794D;
+background-color: null;
+font-style: inherit;">@slurm</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">\s</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">(</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">\w</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">)</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">\s</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span><span class="vs" style="color: #20794D;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">\s</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">(</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">.</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+?</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">)</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">\s</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">$</span><span class="vs" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span>)</span>
+<span id="cb1-132">_DB_MAGIC_RE    <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> re.<span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">compile</span>(<span class="vs" style="color: #20794D;
+background-color: null;
+font-style: inherit;">r"</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">^\s</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span><span class="vs" style="color: #20794D;
+background-color: null;
+font-style: inherit;">#</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">\s</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span><span class="vs" style="color: #20794D;
+background-color: null;
+font-style: inherit;">@db</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">\s</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">(</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">.</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+?</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">)</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">\s</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">$</span><span class="vs" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span>)</span>
+<span id="cb1-133"></span>
+<span id="cb1-134"></span>
+<span id="cb1-135"><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">def</span> _strip_quotes(s: <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">str</span>) <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-&gt;</span> <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">str</span>:</span>
+<span id="cb1-136">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">if</span> (s.startswith(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'"'</span>) <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">and</span> s.endswith(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'"'</span>)) <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">or</span> (</span>
+<span id="cb1-137">            s.startswith(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"'"</span>) <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">and</span> s.endswith(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"'"</span>)</span>
+<span id="cb1-138">    ):</span>
+<span id="cb1-139">        <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">return</span> s[<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>:<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>]</span>
+<span id="cb1-140">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">return</span> s</span>
+<span id="cb1-141"></span>
+<span id="cb1-142"></span>
+<span id="cb1-143"><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">def</span> parse_magic_comments(r_file: Path, max_lines: <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">int</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">80</span>) <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-&gt;</span> <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">tuple</span>[<span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">dict</span>, <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">list</span>[<span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">dict</span>]]:</span>
+<span id="cb1-144">    <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">"""</span></span>
+<span id="cb1-145"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">    Devuelve (slurm_overrides, dbs).</span></span>
+<span id="cb1-146"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">    `dbs` es una lista de {'path': str_local, 'force': bool}.</span></span>
+<span id="cb1-147"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">    """</span></span>
+<span id="cb1-148">    slurm_overrides: <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">dict</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> {}</span>
+<span id="cb1-149">    dbs: <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">list</span>[<span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">dict</span>] <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> []</span>
+<span id="cb1-150">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">try</span>:</span>
+<span id="cb1-151">        <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">with</span> <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">open</span>(r_file, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"r"</span>, encoding<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"utf-8"</span>) <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">as</span> f:</span>
+<span id="cb1-152">            <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">for</span> i, line <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">in</span> <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">enumerate</span>(f):</span>
+<span id="cb1-153">                <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">if</span> i <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&gt;=</span> max_lines:</span>
+<span id="cb1-154">                    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">break</span></span>
+<span id="cb1-155">                stripped <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> line.strip()</span>
+<span id="cb1-156">                <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">if</span> stripped <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">and</span> <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">not</span> stripped.startswith(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"#"</span>):</span>
+<span id="cb1-157">                    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">break</span></span>
+<span id="cb1-158"></span>
+<span id="cb1-159">                <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># @slurm key = value</span></span>
+<span id="cb1-160">                m <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> _SLURM_MAGIC_RE.match(line)</span>
+<span id="cb1-161">                <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">if</span> m:</span>
+<span id="cb1-162">                    key, raw <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> m.group(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>), _strip_quotes(m.group(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span>).strip())</span>
+<span id="cb1-163">                    low <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> raw.lower()</span>
+<span id="cb1-164">                    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">if</span> low <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">in</span> (<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"true"</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"false"</span>):</span>
+<span id="cb1-165">                        val: <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">object</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> (low <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">==</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"true"</span>)</span>
+<span id="cb1-166">                    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">else</span>:</span>
+<span id="cb1-167">                        <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">try</span>:</span>
+<span id="cb1-168">                            val <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">int</span>(raw)</span>
+<span id="cb1-169">                        <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">except</span> <span class="pp" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">ValueError</span>:</span>
+<span id="cb1-170">                            val <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> raw</span>
+<span id="cb1-171">                    slurm_overrides[key] <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> val</span>
+<span id="cb1-172">                    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">continue</span></span>
+<span id="cb1-173"></span>
+<span id="cb1-174">                <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># @db &lt;path&gt; [force]</span></span>
+<span id="cb1-175">                m <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> _DB_MAGIC_RE.match(line)</span>
+<span id="cb1-176">                <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">if</span> m:</span>
+<span id="cb1-177">                    raw <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> _strip_quotes(m.group(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>).strip())</span>
+<span id="cb1-178">                    parts <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> raw.rsplit(<span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">None</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>)</span>
+<span id="cb1-179">                    force <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">False</span></span>
+<span id="cb1-180">                    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">if</span> <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">len</span>(parts) <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">==</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span> <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">and</span> parts[<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>].lower() <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">==</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"force"</span>:</span>
+<span id="cb1-181">                        path_str, force <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> parts[<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>], <span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">True</span></span>
+<span id="cb1-182">                    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">else</span>:</span>
+<span id="cb1-183">                        path_str <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> raw</span>
+<span id="cb1-184">                    dbs.append({<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"path"</span>: _strip_quotes(path_str), <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"force"</span>: force})</span>
+<span id="cb1-185">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">except</span> <span class="pp" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">Exception</span> <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">as</span> e:</span>
+<span id="cb1-186">        <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">print</span>(<span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f"[!] No se pudo leer magic comments: </span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>e<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span>)</span>
+<span id="cb1-187">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">return</span> slurm_overrides, dbs</span>
+<span id="cb1-188"></span>
+<span id="cb1-189"></span>
+<span id="cb1-190"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># ---------------------------------------------</span></span>
+<span id="cb1-191"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 5. Generar el script SLURM</span></span>
+<span id="cb1-192"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># ---------------------------------------------</span></span>
+<span id="cb1-193"></span>
+<span id="cb1-194"><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">def</span> generate_slurm_script(r_filename: <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">str</span>, slurm_cfg: <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">dict</span>,</span>
+<span id="cb1-195">                          db_dir_abs: <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">str</span>, run_dir_abs: <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">str</span>) <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-&gt;</span> <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">str</span>:</span>
+<span id="cb1-196">    s <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> slurm_cfg</span>
+<span id="cb1-197">    stem <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> Path(r_filename).stem</span>
+<span id="cb1-198">    job_name <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f"</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>s<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">.</span>get(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'job_name_prefix'</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'R'</span>)<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">_</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>stem<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span></span>
+<span id="cb1-199">    exclusive <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">bool</span>(s.get(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"exclusive"</span>, <span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">False</span>))</span>
+<span id="cb1-200"></span>
+<span id="cb1-201">    header <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> [</span>
+<span id="cb1-202">        <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"#!/bin/bash"</span>,</span>
+<span id="cb1-203">        <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"#--------------- Script SBATCH - NLHPC ----------------"</span>,</span>
+<span id="cb1-204">        <span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f"#SBATCH -J </span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>job_name<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span>,</span>
+<span id="cb1-205">        <span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f"#SBATCH -p </span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>s[<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'partition'</span>]<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span>,</span>
+<span id="cb1-206">        <span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f"#SBATCH --ntasks=1"</span>,</span>
+<span id="cb1-207">        <span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f"#SBATCH --cpus-per-task=</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>s[<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'cores'</span>]<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span>,</span>
+<span id="cb1-208">        <span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f"#SBATCH --mem-per-cpu=</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>s[<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'mem_per_cpu'</span>]<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span>,</span>
+<span id="cb1-209">        <span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f"#SBATCH --hint=nomultithread"</span>,</span>
+<span id="cb1-210">        <span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f"#SBATCH --mail-user=</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>s[<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'mail'</span>]<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span>,</span>
+<span id="cb1-211">        <span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f"#SBATCH --mail-type=</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>s[<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'mail_type'</span>]<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span>,</span>
+<span id="cb1-212">        <span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f"#SBATCH -t </span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>s[<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'time'</span>]<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span>,</span>
+<span id="cb1-213">        <span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f"#SBATCH -o </span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>job_name<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">_%j.out"</span>,</span>
+<span id="cb1-214">        <span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f"#SBATCH -e </span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>job_name<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">_%j.err"</span>,</span>
+<span id="cb1-215">    ]</span>
+<span id="cb1-216">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">if</span> exclusive:</span>
+<span id="cb1-217">        header.append(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"#SBATCH --exclusive"</span>)</span>
+<span id="cb1-218"></span>
+<span id="cb1-219">    body <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> [</span>
+<span id="cb1-220">        <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">""</span>,</span>
+<span id="cb1-221">        <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"#----------------- Toolchain -------------------------"</span>,</span>
+<span id="cb1-222">        <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"module purge"</span>,</span>
+<span id="cb1-223">        <span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f"module load </span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>s[<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'r_module'</span>]<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span>,</span>
+<span id="cb1-224">        <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">""</span>,</span>
+<span id="cb1-225">        <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"#----------------- Threading -------------------------"</span>,</span>
+<span id="cb1-226">        <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"# BLAS a 1 hilo: Apollo (mclapply/fork) maneja la paralelizacion en R."</span>,</span>
+<span id="cb1-227">        <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"# Si tu workload NO usa fork (e.g. brms/Stan, lm gigante), invierte:"</span>,</span>
+<span id="cb1-228">        <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"# pon BLAS=$SLURM_CPUS_PER_TASK y no uses parallel:: en R."</span>,</span>
+<span id="cb1-229">        <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"export OMP_NUM_THREADS=1"</span>,</span>
+<span id="cb1-230">        <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"export OPENBLAS_NUM_THREADS=1"</span>,</span>
+<span id="cb1-231">        <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"export MKL_NUM_THREADS=1"</span>,</span>
+<span id="cb1-232">        <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"export VECLIB_MAXIMUM_THREADS=1"</span>,</span>
+<span id="cb1-233">        <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"export NUMEXPR_NUM_THREADS=1"</span>,</span>
+<span id="cb1-234">        <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"export OMP_PLACES=cores"</span>,</span>
+<span id="cb1-235">        <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"export OMP_PROC_BIND=close"</span>,</span>
+<span id="cb1-236">        <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">""</span>,</span>
+<span id="cb1-237">        <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"#----------------- Variables para R ------------------"</span>,</span>
+<span id="cb1-238">        <span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f'export NLHPC_DB_DIR="</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>db_dir_abs<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"'</span>,</span>
+<span id="cb1-239">        <span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f'export NLHPC_RUN_DIR="</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>run_dir_abs<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"'</span>,</span>
+<span id="cb1-240">        <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">""</span>,</span>
+<span id="cb1-241">        <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"#----------------- Logging ---------------------------"</span>,</span>
+<span id="cb1-242">        <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'echo "============================================"'</span>,</span>
+<span id="cb1-243">        <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'echo "Job ID         : $SLURM_JOB_ID"'</span>,</span>
+<span id="cb1-244">        <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'echo "Job Name       : $SLURM_JOB_NAME"'</span>,</span>
+<span id="cb1-245">        <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'echo "Node           : $SLURMD_NODENAME"'</span>,</span>
+<span id="cb1-246">        <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'echo "Partition      : $SLURM_JOB_PARTITION"'</span>,</span>
+<span id="cb1-247">        <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'echo "CPUs por tarea : $SLURM_CPUS_PER_TASK"'</span>,</span>
+<span id="cb1-248">        <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'echo "Mem por CPU    : $</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{SLURM_MEM_PER_CPU}</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;"> MB"'</span>,</span>
+<span id="cb1-249">        <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'echo "Mem total      : $((SLURM_MEM_PER_CPU * SLURM_CPUS_PER_TASK)) MB"'</span>,</span>
+<span id="cb1-250">        <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'echo "Run dir        : $NLHPC_RUN_DIR"'</span>,</span>
+<span id="cb1-251">        <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'echo "DB dir         : $NLHPC_DB_DIR"'</span>,</span>
+<span id="cb1-252">        <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'echo "Inicio         : $(date)"'</span>,</span>
+<span id="cb1-253">        <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'echo "============================================"'</span>,</span>
+<span id="cb1-254">        <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">""</span>,</span>
+<span id="cb1-255">        <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"#----------------- Ejecucion -------------------------"</span>,</span>
+<span id="cb1-256">        <span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f"time Rscript </span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>r_filename<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span>,</span>
+<span id="cb1-257">        <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"RC=$?"</span>,</span>
+<span id="cb1-258">        <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">""</span>,</span>
+<span id="cb1-259">        <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"#----------------- Cierre + seff ---------------------"</span>,</span>
+<span id="cb1-260">        <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'echo "============================================"'</span>,</span>
+<span id="cb1-261">        <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'echo "Fin            : $(date)"'</span>,</span>
+<span id="cb1-262">        <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'echo "Exit code      : $RC"'</span>,</span>
+<span id="cb1-263">        <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'echo "--- seff (eficiencia CPU/RAM) ---"'</span>,</span>
+<span id="cb1-264">        <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'seff $SLURM_JOB_ID 2&gt;/dev/null || echo "(seff no disponible aun)"'</span>,</span>
+<span id="cb1-265">        <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'echo "============================================"'</span>,</span>
+<span id="cb1-266">        <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">""</span>,</span>
+<span id="cb1-267">        <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"exit $RC"</span>,</span>
+<span id="cb1-268">        <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">""</span>,</span>
+<span id="cb1-269">    ]</span>
+<span id="cb1-270">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">return</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span><span class="ch" style="color: #20794D;
+background-color: null;
+font-style: inherit;">\n</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span>.join(header <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> body)</span>
+<span id="cb1-271"></span>
+<span id="cb1-272"></span>
+<span id="cb1-273"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># ---------------------------------------------</span></span>
+<span id="cb1-274"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 6. Helpers SFTP</span></span>
+<span id="cb1-275"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># ---------------------------------------------</span></span>
+<span id="cb1-276"></span>
+<span id="cb1-277"><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">def</span> sftp_exists(sftp: paramiko.SFTPClient, path: <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">str</span>) <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-&gt;</span> <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">bool</span>:</span>
+<span id="cb1-278">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">try</span>:</span>
+<span id="cb1-279">        sftp.stat(path)</span>
+<span id="cb1-280">        <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">return</span> <span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">True</span></span>
+<span id="cb1-281">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">except</span> <span class="pp" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">FileNotFoundError</span>:</span>
+<span id="cb1-282">        <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">return</span> <span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">False</span></span>
+<span id="cb1-283">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">except</span> <span class="pp" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">IOError</span>:</span>
+<span id="cb1-284">        <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">return</span> <span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">False</span></span>
+<span id="cb1-285"></span>
+<span id="cb1-286"></span>
+<span id="cb1-287"><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">def</span> sftp_mkdir_p(sftp: paramiko.SFTPClient, path: <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">str</span>) <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-&gt;</span> <span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">None</span>:</span>
+<span id="cb1-288">    parts <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> path.rstrip(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"/"</span>).split(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"/"</span>)</span>
+<span id="cb1-289">    current <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">""</span></span>
+<span id="cb1-290">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">for</span> part <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">in</span> parts:</span>
+<span id="cb1-291">        <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">if</span> <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">not</span> part:</span>
+<span id="cb1-292">            current <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"/"</span></span>
+<span id="cb1-293">            <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">continue</span></span>
+<span id="cb1-294">        current <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f"</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>current<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">/</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>part<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span> <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">if</span> current <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">!=</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"/"</span> <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">else</span> <span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f"/</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>part<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span></span>
+<span id="cb1-295">        <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">try</span>:</span>
+<span id="cb1-296">            sftp.mkdir(current)</span>
+<span id="cb1-297">        <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">except</span> <span class="pp" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">IOError</span>:</span>
+<span id="cb1-298">            <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">pass</span></span>
+<span id="cb1-299"></span>
+<span id="cb1-300"></span>
+<span id="cb1-301"><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">def</span> sftp_symlink_force(sftp: paramiko.SFTPClient, target: <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">str</span>, link_path: <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">str</span>) <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-&gt;</span> <span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">None</span>:</span>
+<span id="cb1-302">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">try</span>:</span>
+<span id="cb1-303">        sftp.remove(link_path)</span>
+<span id="cb1-304">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">except</span> <span class="pp" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">FileNotFoundError</span>:</span>
+<span id="cb1-305">        <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">pass</span></span>
+<span id="cb1-306">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">except</span> <span class="pp" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">IOError</span>:</span>
+<span id="cb1-307">        <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">pass</span></span>
+<span id="cb1-308">    sftp.symlink(target, link_path)</span>
+<span id="cb1-309"></span>
+<span id="cb1-310"></span>
+<span id="cb1-311"><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">def</span> _make_progress_cb(label: <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">str</span>):</span>
+<span id="cb1-312">    state <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> {<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"last_pct"</span>: <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span><span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">5.0</span>}</span>
+<span id="cb1-313">    <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">def</span> cb(transferred: <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">int</span>, total: <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">int</span>):</span>
+<span id="cb1-314">        <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">if</span> total <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&lt;=</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>:</span>
+<span id="cb1-315">            <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">return</span></span>
+<span id="cb1-316">        pct <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> transferred <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">/</span> total <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">100</span></span>
+<span id="cb1-317">        <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">if</span> pct <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span> state[<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"last_pct"</span>] <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&gt;=</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">5</span> <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">or</span> transferred <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">==</span> total:</span>
+<span id="cb1-318">            state[<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"last_pct"</span>] <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> pct</span>
+<span id="cb1-319">            mb <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> transferred <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">/</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1_048_576</span></span>
+<span id="cb1-320">            tot_mb <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> total <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">/</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1_048_576</span></span>
+<span id="cb1-321">            sys.stdout.write(</span>
+<span id="cb1-322">                <span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f"</span><span class="ch" style="color: #20794D;
+background-color: null;
+font-style: inherit;">\r</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">    </span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>label<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">: </span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>pct<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:5.1f}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">%  (</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>mb<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:.1f}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">/</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>tot_mb<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:.1f}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;"> MB)"</span></span>
+<span id="cb1-323">            )</span>
+<span id="cb1-324">            sys.stdout.flush()</span>
+<span id="cb1-325">            <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">if</span> transferred <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">==</span> total:</span>
+<span id="cb1-326">                sys.stdout.write(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span><span class="ch" style="color: #20794D;
+background-color: null;
+font-style: inherit;">\n</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span>)</span>
+<span id="cb1-327">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">return</span> cb</span>
+<span id="cb1-328"></span>
+<span id="cb1-329"></span>
+<span id="cb1-330"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># ---------------------------------------------</span></span>
+<span id="cb1-331"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 7. SSH</span></span>
+<span id="cb1-332"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># ---------------------------------------------</span></span>
+<span id="cb1-333"></span>
+<span id="cb1-334"><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">def</span> connect_ssh(config: <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">dict</span>) <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-&gt;</span> paramiko.SSHClient:</span>
+<span id="cb1-335">    cfg <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> config[<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"ssh"</span>]</span>
+<span id="cb1-336">    ssh <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> paramiko.SSHClient()</span>
+<span id="cb1-337">    ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())</span>
+<span id="cb1-338"></span>
+<span id="cb1-339">    kwargs <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> {</span>
+<span id="cb1-340">        <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"hostname"</span>: cfg[<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"host"</span>],</span>
+<span id="cb1-341">        <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"port"</span>:     cfg.get(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"port"</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">22</span>),</span>
+<span id="cb1-342">        <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"username"</span>: cfg[<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"username"</span>],</span>
+<span id="cb1-343">    }</span>
+<span id="cb1-344">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">if</span> cfg.get(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"key_path"</span>):</span>
+<span id="cb1-345">        kwargs[<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"key_filename"</span>] <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> os.path.expanduser(cfg[<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"key_path"</span>])</span>
+<span id="cb1-346">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">elif</span> cfg.get(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"password"</span>):</span>
+<span id="cb1-347">        kwargs[<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"password"</span>] <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> cfg[<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"password"</span>]</span>
+<span id="cb1-348">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">else</span>:</span>
+<span id="cb1-349">        <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">raise</span> <span class="pp" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">ValueError</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Define 'key_path' o 'password' en [ssh]."</span>)</span>
+<span id="cb1-350"></span>
+<span id="cb1-351">    ssh.<span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">connect</span>(<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">**</span>kwargs)</span>
+<span id="cb1-352">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">return</span> ssh</span>
+<span id="cb1-353"></span>
+<span id="cb1-354"></span>
+<span id="cb1-355"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># ---------------------------------------------</span></span>
+<span id="cb1-356"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 8. Monitoreo</span></span>
+<span id="cb1-357"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># ---------------------------------------------</span></span>
+<span id="cb1-358"></span>
+<span id="cb1-359"><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">def</span> monitor_job(ssh: paramiko.SSHClient, job_id: <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">str</span>, interval: <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">int</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">30</span>) <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-&gt;</span> <span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">None</span>:</span>
+<span id="cb1-360">    <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">print</span>(<span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f"</span><span class="ch" style="color: #20794D;
+background-color: null;
+font-style: inherit;">\n</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">[&gt;] Monitoreando job </span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>job_id<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;"> (Ctrl+C sale sin cancelarlo)..."</span>)</span>
+<span id="cb1-361">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">try</span>:</span>
+<span id="cb1-362">        <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">while</span> <span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">True</span>:</span>
+<span id="cb1-363">            _, stdout, _ <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> ssh.exec_command(<span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f"squeue -j </span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>job_id<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;"> -h -o '%T %r'"</span>)</span>
+<span id="cb1-364">            state <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> stdout.read().decode().strip()</span>
+<span id="cb1-365">            <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">if</span> <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">not</span> state:</span>
+<span id="cb1-366">                <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">print</span>(<span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f"</span><span class="ch" style="color: #20794D;
+background-color: null;
+font-style: inherit;">\n</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">[OK] Job </span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>job_id<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;"> finalizado."</span>)</span>
+<span id="cb1-367">                _, so, _ <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> ssh.exec_command(<span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f"seff </span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>job_id<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span>)</span>
+<span id="cb1-368">                <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">print</span>(so.read().decode())</span>
+<span id="cb1-369">                <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">break</span></span>
+<span id="cb1-370">            <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">print</span>(<span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f"  [</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>time<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">.</span>strftime(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'%H:%M:%S'</span>)<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">] Estado: </span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>state<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span>, end<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span><span class="ch" style="color: #20794D;
+background-color: null;
+font-style: inherit;">\r</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span>)</span>
+<span id="cb1-371">            time.sleep(interval)</span>
+<span id="cb1-372">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">except</span> <span class="pp" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">KeyboardInterrupt</span>:</span>
+<span id="cb1-373">        <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">print</span>(<span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f"</span><span class="ch" style="color: #20794D;
+background-color: null;
+font-style: inherit;">\n</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">[!] Monitoreo interrumpido. Job </span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>job_id<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;"> sigue corriendo."</span>)</span>
+<span id="cb1-374"></span>
+<span id="cb1-375"></span>
+<span id="cb1-376"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># ---------------------------------------------</span></span>
+<span id="cb1-377"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 9. Pipeline principal</span></span>
+<span id="cb1-378"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># ---------------------------------------------</span></span>
+<span id="cb1-379"></span>
+<span id="cb1-380"><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">def</span> submit_job(r_file_path: <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">str</span>, config_path: <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">str</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">|</span> <span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">None</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">None</span>,</span>
+<span id="cb1-381">               env_path: <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">str</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">|</span> <span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">None</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">None</span>, monitor: <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">bool</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">False</span>) <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-&gt;</span> <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">str</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">|</span> <span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">None</span>:</span>
+<span id="cb1-382">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">if</span> config_path <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">is</span> <span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">None</span>:</span>
+<span id="cb1-383">        config_path <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> Path(<span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">__file__</span>).parent <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">/</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"nlhpc_config.toml"</span></span>
+<span id="cb1-384">    config <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> load_config(<span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">str</span>(config_path), env_path)</span>
+<span id="cb1-385"></span>
+<span id="cb1-386">    r_file <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> Path(r_file_path).resolve()</span>
+<span id="cb1-387">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">if</span> <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">not</span> r_file.exists():</span>
+<span id="cb1-388">        <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">print</span>(<span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f"[ERROR] El archivo R no existe: </span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>r_file<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span>)</span>
+<span id="cb1-389">        sys.exit(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>)</span>
+<span id="cb1-390">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">if</span> r_file.suffix.lower() <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">!=</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">".r"</span>:</span>
+<span id="cb1-391">        <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">print</span>(<span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f"[ERROR] El archivo no parece un script R "</span></span>
+<span id="cb1-392">              <span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f"(extension '</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>r_file<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">.</span>suffix<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">', se esperaba '.R')."</span>)</span>
+<span id="cb1-393">        <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">print</span>(<span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f"        Archivo recibido: </span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>r_file<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span>)</span>
+<span id="cb1-394">        sys.exit(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>)</span>
+<span id="cb1-395">    r_name <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> r_file.name</span>
+<span id="cb1-396"></span>
+<span id="cb1-397">    <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># -- Magic comments ---------------------------------------------------</span></span>
+<span id="cb1-398">    slurm_cfg <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">dict</span>(config[<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"slurm"</span>])</span>
+<span id="cb1-399">    magic_slurm, dbs <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> parse_magic_comments(r_file)</span>
+<span id="cb1-400">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">if</span> magic_slurm:</span>
+<span id="cb1-401">        <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">print</span>(<span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f"[i] Magic comments SLURM en </span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>r_name<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">: </span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>magic_slurm<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span>)</span>
+<span id="cb1-402">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">if</span> dbs:</span>
+<span id="cb1-403">        <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">print</span>(<span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f"[i] DBs declaradas: "</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">", "</span>.join(</span>
+<span id="cb1-404">            <span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f"</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>d[<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'path'</span>]<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}{</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">' (force)'</span> <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">if</span> d[<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'force'</span>] <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">else</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">''</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span> <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">for</span> d <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">in</span> dbs</span>
+<span id="cb1-405">        ))</span>
+<span id="cb1-406">    slurm_cfg.update(magic_slurm)</span>
+<span id="cb1-407"></span>
+<span id="cb1-408">    <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># -- Resolver DBs locales ---------------------------------------------</span></span>
+<span id="cb1-409">    db_files: <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">list</span>[<span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">dict</span>] <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> []</span>
+<span id="cb1-410">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">for</span> d <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">in</span> dbs:</span>
+<span id="cb1-411">        local <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> Path(d[<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"path"</span>]).expanduser()</span>
+<span id="cb1-412">        <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">if</span> <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">not</span> local.is_absolute():</span>
+<span id="cb1-413">            local <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> r_file.parent <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">/</span> local</span>
+<span id="cb1-414">        local <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> local.resolve()</span>
+<span id="cb1-415">        <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">if</span> <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">not</span> local.exists():</span>
+<span id="cb1-416">            <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">print</span>(<span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f"[ERROR] DB declarada pero no existe localmente: </span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>local<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span>)</span>
+<span id="cb1-417">            sys.exit(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>)</span>
+<span id="cb1-418">        db_files.append({<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"local"</span>: local, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"force"</span>: d[<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"force"</span>]})</span>
+<span id="cb1-419"></span>
+<span id="cb1-420">    <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># -- Conectar ---------------------------------------------------------</span></span>
+<span id="cb1-421">    host <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> config[<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"ssh"</span>][<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"host"</span>]</span>
+<span id="cb1-422">    <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">print</span>(<span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f"[&gt;] Conectando a </span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>host<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;"> como </span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>config[<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'ssh'</span>][<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'username'</span>]<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">..."</span>)</span>
+<span id="cb1-423">    ssh <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> connect_ssh(config)</span>
+<span id="cb1-424">    sftp <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> ssh.open_sftp()</span>
+<span id="cb1-425">    <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">print</span>(<span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f"[OK] Conexion SSH establecida"</span>)</span>
+<span id="cb1-426"></span>
+<span id="cb1-427">    <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># -- Resolver rutas remotas absolutas ---------------------------------</span></span>
+<span id="cb1-428">    runs_dir_cfg <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> config.get(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"remote"</span>, {}).get(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"runs_dir"</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"nlhpc-sender-runs"</span>)</span>
+<span id="cb1-429">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">if</span> runs_dir_cfg.startswith(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"/"</span>):</span>
+<span id="cb1-430">        runs_root <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> runs_dir_cfg</span>
+<span id="cb1-431">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">else</span>:</span>
+<span id="cb1-432">        home <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> sftp.normalize(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"."</span>)</span>
+<span id="cb1-433">        runs_root <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f"</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>home<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">/</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>runs_dir_cfg<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span></span>
+<span id="cb1-434"></span>
+<span id="cb1-435">    dbs_dir_abs <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f"</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>runs_root<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">/dbs"</span></span>
+<span id="cb1-436">    run_id <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f"</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>datetime<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">.</span>now()<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">.</span>strftime(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'%Y%m</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%d</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">_%H%M%S'</span>)<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">_</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>r_file<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">.</span>stem<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span></span>
+<span id="cb1-437">    run_dir_abs <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f"</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>runs_root<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">/</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>run_id<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span></span>
+<span id="cb1-438"></span>
+<span id="cb1-439">    sftp_mkdir_p(sftp, runs_root)</span>
+<span id="cb1-440">    sftp_mkdir_p(sftp, dbs_dir_abs)</span>
+<span id="cb1-441">    sftp_mkdir_p(sftp, run_dir_abs)</span>
+<span id="cb1-442">    <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">print</span>(<span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f"[OK] Run dir remoto         -&gt; </span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>run_dir_abs<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span>)</span>
+<span id="cb1-443"></span>
+<span id="cb1-444">    <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># -- Subir DBs (skip si existen) --------------------------------------</span></span>
+<span id="cb1-445">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">for</span> db <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">in</span> db_files:</span>
+<span id="cb1-446">        local <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> db[<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"local"</span>]</span>
+<span id="cb1-447">        remote_path <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f"</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>dbs_dir_abs<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">/</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>local<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">.</span>name<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span></span>
+<span id="cb1-448">        <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">if</span> <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">not</span> db[<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"force"</span>] <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">and</span> sftp_exists(sftp, remote_path):</span>
+<span id="cb1-449">            <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">print</span>(<span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f"[=] DB ya existe, se reutiliza  -&gt; </span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>remote_path<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span>)</span>
+<span id="cb1-450">        <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">else</span>:</span>
+<span id="cb1-451">            verb <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Re-subiendo (force)"</span> <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">if</span> db[<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"force"</span>] <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">and</span> sftp_exists(sftp, remote_path) <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">else</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Subiendo"</span></span>
+<span id="cb1-452">            <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">print</span>(<span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f"[&gt;] </span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>verb<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;"> DB              -&gt; </span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>remote_path<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span>)</span>
+<span id="cb1-453">            sftp.put(<span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">str</span>(local), remote_path,</span>
+<span id="cb1-454">                     callback<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>_make_progress_cb(local.name))</span>
+<span id="cb1-455">        <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Symlink en la carpeta de la corrida</span></span>
+<span id="cb1-456">        link_path <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f"</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>run_dir_abs<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">/</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>local<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">.</span>name<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span></span>
+<span id="cb1-457">        sftp_symlink_force(sftp, <span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f"../dbs/</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>local<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">.</span>name<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span>, link_path)</span>
+<span id="cb1-458"></span>
+<span id="cb1-459">    <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># -- Generar y subir .sh ----------------------------------------------</span></span>
+<span id="cb1-460">    sh_local <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> r_file.parent <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">/</span> (r_file.stem <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">".sh"</span>)</span>
+<span id="cb1-461">    sh_content <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> generate_slurm_script(r_name, slurm_cfg,</span>
+<span id="cb1-462">                                       dbs_dir_abs, run_dir_abs)</span>
+<span id="cb1-463">    <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># OJO: escribimos en binario para evitar la conversion de \n -&gt; \r\n que</span></span>
+<span id="cb1-464">    <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># hace Python en Windows con write_text. SLURM rechaza scripts con CRLF.</span></span>
+<span id="cb1-465">    sh_local.write_bytes(sh_content.encode(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"utf-8"</span>))</span>
+<span id="cb1-466">    <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">print</span>(<span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f"[OK] Script SLURM generado  -&gt; </span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>sh_local<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span>)</span>
+<span id="cb1-467">    <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">print</span>(<span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f"     |- partition=</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>slurm_cfg[<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'partition'</span>]<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">  "</span></span>
+<span id="cb1-468">          <span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f"cores=</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>slurm_cfg[<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'cores'</span>]<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">  time=</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>slurm_cfg[<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'time'</span>]<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span>)</span>
+<span id="cb1-469"></span>
+<span id="cb1-470">    sftp.put(<span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">str</span>(r_file), <span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f"</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>run_dir_abs<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">/</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>r_name<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span>)</span>
+<span id="cb1-471">    <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">print</span>(<span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f"[OK] Subido R script        -&gt; </span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>run_dir_abs<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">/</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>r_name<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span>)</span>
+<span id="cb1-472">    sftp.put(<span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">str</span>(sh_local), <span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f"</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>run_dir_abs<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">/</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>sh_local<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">.</span>name<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span>)</span>
+<span id="cb1-473">    <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">print</span>(<span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f"[OK] Subido SLURM script    -&gt; </span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>run_dir_abs<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">/</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>sh_local<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">.</span>name<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span>)</span>
+<span id="cb1-474">    sftp.close()</span>
+<span id="cb1-475"></span>
+<span id="cb1-476">    <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># -- sbatch desde la carpeta de la corrida ----------------------------</span></span>
+<span id="cb1-477">    cmd <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f"cd </span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>run_dir_abs<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;"> &amp;&amp; sbatch </span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>sh_local<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">.</span>name<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span></span>
+<span id="cb1-478">    _, stdout, stderr <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> ssh.exec_command(cmd)</span>
+<span id="cb1-479">    out <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> stdout.read().decode().strip()</span>
+<span id="cb1-480">    err <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> stderr.read().decode().strip()</span>
+<span id="cb1-481">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">if</span> err:</span>
+<span id="cb1-482">        <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">print</span>(<span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f"[!] STDERR: </span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>err<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span>)</span>
+<span id="cb1-483">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">if</span> out:</span>
+<span id="cb1-484">        <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">print</span>(<span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f"[OK] </span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>out<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span>)</span>
+<span id="cb1-485"></span>
+<span id="cb1-486">    job_id <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> out.split()[<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>] <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">if</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Submitted batch job"</span> <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">in</span> out <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">else</span> <span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">None</span></span>
+<span id="cb1-487">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">if</span> job_id:</span>
+<span id="cb1-488">        prefix <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> slurm_cfg.get(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"job_name_prefix"</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"R"</span>)</span>
+<span id="cb1-489">        sep <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"="</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">54</span></span>
+<span id="cb1-490">        <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">print</span>(<span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f"</span><span class="ch" style="color: #20794D;
+background-color: null;
+font-style: inherit;">\n</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>sep<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span>)</span>
+<span id="cb1-491">        <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">print</span>(<span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f"  Run ID    : </span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>run_id<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span>)</span>
+<span id="cb1-492">        <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">print</span>(<span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f"  Job ID    : </span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>job_id<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span>)</span>
+<span id="cb1-493">        <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">print</span>(<span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f"  Output    : </span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>run_dir_abs<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">/</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>prefix<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">_</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>r_file<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">.</span>stem<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">_</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>job_id<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">.out"</span>)</span>
+<span id="cb1-494">        <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">print</span>(<span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f"</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>sep<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ch" style="color: #20794D;
+background-color: null;
+font-style: inherit;">\n</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span>)</span>
+<span id="cb1-495"></span>
+<span id="cb1-496">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">if</span> monitor <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">and</span> job_id:</span>
+<span id="cb1-497">        monitor_job(ssh, job_id)</span>
+<span id="cb1-498"></span>
+<span id="cb1-499">    ssh.close()</span>
+<span id="cb1-500">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">return</span> job_id</span>
+<span id="cb1-501"></span>
+<span id="cb1-502"></span>
+<span id="cb1-503"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># ---------------------------------------------</span></span>
+<span id="cb1-504"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 10. CLI</span></span>
+<span id="cb1-505"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># ---------------------------------------------</span></span>
+<span id="cb1-506"></span>
+<span id="cb1-507"><span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">if</span> <span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">__name__</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">==</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"__main__"</span>:</span>
+<span id="cb1-508">    parser <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> argparse.ArgumentParser(</span>
+<span id="cb1-509">        description<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Sube y ejecuta un script R en NLHPC via SLURM/SSH"</span></span>
+<span id="cb1-510">    )</span>
+<span id="cb1-511">    parser.add_argument(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"r_file"</span>, <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">help</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Ruta al archivo .R"</span>)</span>
+<span id="cb1-512">    parser.add_argument(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"--config"</span>, default<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">None</span>, <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">help</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Ruta al .toml"</span>)</span>
+<span id="cb1-513">    parser.add_argument(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"--env"</span>, default<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">None</span>, <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">help</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Ruta al .env"</span>)</span>
+<span id="cb1-514">    parser.add_argument(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"--monitor"</span>, action<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"store_true"</span>,</span>
+<span id="cb1-515">                        <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">help</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Esperar hasta que el job termine"</span>)</span>
+<span id="cb1-516">    args <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> parser.parse_args()</span>
+<span id="cb1-517">    submit_job(args.r_file, args.config, args.env, args.monitor)</span></code></pre></div></div>
+
+
+
+ ]]></description>
+  <category>tesis</category>
+  <category>transporte</category>
+  <category>electrica</category>
+  <guid>https://diezvariante.cl/blog/posts/10-05-2026-slurm/slurm.html</guid>
+  <pubDate>Sun, 10 May 2026 04:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Preferencias declaradas</title>
+  <link>https://diezvariante.cl/blog/posts/preferencias-declaradas-1/pd-1.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+
+
+ ]]></description>
+  <category>transporte</category>
+  <category>tesis</category>
+  <guid>https://diezvariante.cl/blog/posts/preferencias-declaradas-1/pd-1.html</guid>
+  <pubDate>Thu, 07 May 2026 04:00:00 GMT</pubDate>
+</item>
 </channel>
 </rss>

@@ -66,63 +66,469 @@
 <figcaption>Resultados de los modelos</figcaption>
 </figure>
 </div>
+<div style="overflow-x: auto; width: 100%; margin-bottom: 2em;">
+<p><style> .qmd-latex-table { width: 100%; border-collapse: collapse; font-family: inherit; font-size: 0.75em; /* Letra más pequeña <em>/ min-width: 800px; } .qmd-latex-table caption { caption-side: top; font-weight: bold; margin-bottom: 0.5em; /</em> Margen reducido <em>/ text-align: center; color: inherit; } .qmd-latex-table th, .qmd-latex-table td { padding: 3px 8px; /</em> Espaciado vertical mucho más apretado <em>/ text-align: left; } .qmd-latex-table th { border-top: 2px solid currentColor; border-bottom: 1px solid currentColor; font-weight: bold; padding-top: 4px; padding-bottom: 4px; } .qmd-latex-table .center-col { text-align: center; } .qmd-latex-table tbody tr.midrule td { border-top: 1px solid currentColor; } .qmd-latex-table tbody tr.bottomrule td { border-bottom: 2px solid currentColor; } .qmd-latex-table .subheading td { font-weight: bold; padding-top: 8px; /</em> Reducido para que no se expanda tanto <em>/ padding-bottom: 2px; } .qmd-table-notes { font-size: 0.75em; /</em> Notas más pequeñas <em>/ line-height: 1.3; /</em> Interlineado más compacto <em>/ margin-top: 8px; /</em> Más cerca de la tabla */ text-align: justify; } .phantom { visibility: hidden; } </style></p>
+<table class="qmd-latex-table">
+<caption>
+Table 1: Comparison of Mixed Logit Specifications (Hess Error-Component Spec, Panel Data)
+</caption>
+<thead>
+<tr>
+<th>
+Parameter
+</th>
+<th>
+Category
+</th>
+<th class="center-col">
+Model 0
+</th>
+<th class="center-col">
+Model 1
+</th>
+<th class="center-col">
+Model 2
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="midrule">
+<td>
+<img src="https://latex.codecogs.com/png.latex?ASC_%7Btrain%7D"> (Fixed)
+</td>
+<td>
+–
+</td>
+<td class="center-col">
+0.0000 (–)
+</td>
+<td class="center-col">
+0.0000 (–)
+</td>
+<td class="center-col">
+0.0000 (–)
+</td>
+</tr>
+<tr>
+<td>
+<img src="https://latex.codecogs.com/png.latex?ASC_%7Bbus%7D">
+</td>
+<td>
+–
+</td>
+<td class="center-col">
+-1.4232 (-4.64)***
+</td>
+<td class="center-col">
+-1.6964 (-5.02)***
+</td>
+<td class="center-col">
+<span class="phantom">-</span>0.6692 (<span class="phantom">-</span>0.38)
+</td>
+</tr>
+<tr>
+<td>
+<img src="https://latex.codecogs.com/png.latex?ASC_%7Bmicro%7D">
+</td>
+<td>
+–
+</td>
+<td class="center-col">
+-1.2302 (-2.57)**
+</td>
+<td class="center-col">
+-1.2080 (-2.49)**
+</td>
+<td class="center-col">
+-0.1689 (-0.09)
+</td>
+</tr>
+<tr class="midrule">
+<td>
+<img src="https://latex.codecogs.com/png.latex?%5Cbeta_%7Btt%7D"> (Travel Time)
+</td>
+<td>
+Instrumental
+</td>
+<td class="center-col">
+-0.01295 (-2.78)***
+</td>
+<td class="center-col">
+-0.01253 (-2.62)***
+</td>
+<td class="center-col">
+-0.01212 (-2.55)**
+</td>
+</tr>
+<tr>
+<td>
+<img src="https://latex.codecogs.com/png.latex?%5Cbeta_%7Bcost%7D"> (Cost)
+</td>
+<td>
+Instrumental
+</td>
+<td class="center-col">
+-0.000173 (-2.86)***
+</td>
+<td class="center-col">
+-0.000150 (-2.45)**
+</td>
+<td class="center-col">
+-0.000151 (-2.48)**
+</td>
+</tr>
+<tr>
+<td>
+<img src="https://latex.codecogs.com/png.latex?%5Cbeta_%7Bhw%7D"> (Headway)
+</td>
+<td>
+Instrumental
+</td>
+<td class="center-col">
+-0.00452 (-1.26)
+</td>
+<td class="center-col">
+-0.00334 (-0.92)
+</td>
+<td class="center-col">
+-0.00332 (-0.90)
+</td>
+</tr>
+<tr>
+<td>
+<img src="https://latex.codecogs.com/png.latex?%5Cbeta_%7Bvar%7D"> (Variability)
+</td>
+<td>
+Instrumental
+</td>
+<td class="center-col">
+-0.00107 (-0.18)
+</td>
+<td class="center-col">
+<span class="phantom">-</span><img src="https://latex.codecogs.com/png.latex?3.4%20%5Ctimes%2010%5E%7B-5%7D"> (<span class="phantom">-</span>0.01)
+</td>
+<td class="center-col">
+-<img src="https://latex.codecogs.com/png.latex?8.2%20%5Ctimes%2010%5E%7B-5%7D"> (-0.01)
+</td>
+</tr>
+<tr>
+<td>
+<img src="https://latex.codecogs.com/png.latex?%5Cbeta_%7Blmt%7D"> (Last-Mile Time)
+</td>
+<td>
+Instrumental
+</td>
+<td class="center-col">
+<span class="phantom">-</span>0.00220 (<span class="phantom">-</span>0.17)
+</td>
+<td class="center-col">
+<span class="phantom">-</span>0.00783 (<span class="phantom">-</span>0.58)
+</td>
+<td class="center-col">
+<span class="phantom">-</span>0.00612 (<span class="phantom">-</span>0.45)
+</td>
+</tr>
+<tr>
+<td>
+<img src="https://latex.codecogs.com/png.latex?%5Cbeta_%7Bcrowd%7D"> (Crowding)
+</td>
+<td>
+Hedonic
+</td>
+<td class="center-col">
+–
+</td>
+<td class="center-col">
+-0.1569 (-3.58)***
+</td>
+<td class="center-col">
+-0.1570 (-3.57)***
+</td>
+</tr>
+<tr>
+<td>
+<img src="https://latex.codecogs.com/png.latex?%5Cbeta_%7Baircon%7D"> (Air Conditioning)
+</td>
+<td>
+Hedonic
+</td>
+<td class="center-col">
+–
+</td>
+<td class="center-col">
+<span class="phantom">-</span>0.1223 (<span class="phantom">-</span>0.92)
+</td>
+<td class="center-col">
+<span class="phantom">-</span>0.1200 (<span class="phantom">-</span>0.90)
+</td>
+</tr>
+<tr>
+<td>
+<img src="https://latex.codecogs.com/png.latex?%5Cbeta_%7Bsellers%7D"> (Vendors)
+</td>
+<td>
+Hedonic
+</td>
+<td class="center-col">
+–
+</td>
+<td class="center-col">
+-0.1033 (-0.73)
+</td>
+<td class="center-col">
+-0.0985 (-0.70)
+</td>
+</tr>
+<tr class="midrule subheading">
+<td colspan="5">
+Satisfaction Indices (sum of 9 Likert items per mode, range 9–45)
+</td>
+</tr>
+<tr>
+<td>
+<img src="https://latex.codecogs.com/png.latex?%5Cbeta_%7Bsatisf,train%7D">
+</td>
+<td>
+Latent proxy
+</td>
+<td class="center-col">
+–
+</td>
+<td class="center-col">
+–
+</td>
+<td class="center-col">
+<span class="phantom">-</span>0.1628 (<span class="phantom">-</span>3.54)***
+</td>
+</tr>
+<tr>
+<td>
+<img src="https://latex.codecogs.com/png.latex?%5Cbeta_%7Bsatisf,bus%7D">
+</td>
+<td>
+Latent proxy
+</td>
+<td class="center-col">
+–
+</td>
+<td class="center-col">
+–
+</td>
+<td class="center-col">
+<span class="phantom">-</span>0.1040 (<span class="phantom">-</span>1.96)*
+</td>
+</tr>
+<tr>
+<td>
+<img src="https://latex.codecogs.com/png.latex?%5Cbeta_%7Bsatisf,micro%7D">
+</td>
+<td>
+Latent proxy
+</td>
+<td class="center-col">
+–
+</td>
+<td class="center-col">
+–
+</td>
+<td class="center-col">
+<span class="phantom">-</span>0.1551 (<span class="phantom">-</span>3.58)***
+</td>
+</tr>
+<tr class="midrule subheading">
+<td colspan="5">
+Error Components (Hess et al.&nbsp;2008 spec, single shared <img src="https://latex.codecogs.com/png.latex?%5Csigma">)
+</td>
+</tr>
+<tr>
+<td>
+<img src="https://latex.codecogs.com/png.latex?%5Csigma_%7Bpanel%7D">
+</td>
+<td>
+–
+</td>
+<td class="center-col">
+1.6260 (8.88)***
+</td>
+<td class="center-col">
+1.6592 (8.90)***
+</td>
+<td class="center-col">
+1.4820 (9.11)***
+</td>
+</tr>
+<tr class="midrule subheading">
+<td colspan="5">
+Fit Statistics
+</td>
+</tr>
+<tr>
+<td>
+Observations / Individuals
+</td>
+<td>
+–
+</td>
+<td class="center-col">
+1225 / 96
+</td>
+<td class="center-col">
+1225 / 96
+</td>
+<td class="center-col">
+1225 / 96
+</td>
+</tr>
+<tr>
+<td>
+Estimated parameters
+</td>
+<td>
+–
+</td>
+<td class="center-col">
+8
+</td>
+<td class="center-col">
+11
+</td>
+<td class="center-col">
+14
+</td>
+</tr>
+<tr>
+<td>
+Final Log-Likelihood
+</td>
+<td>
+–
+</td>
+<td class="center-col">
+-695.26
+</td>
+<td class="center-col">
+-688.38
+</td>
+<td class="center-col">
+-677.46
+</td>
+</tr>
+<tr>
+<td>
+AIC
+</td>
+<td>
+–
+</td>
+<td class="center-col">
+1406.52
+</td>
+<td class="center-col">
+1398.77
+</td>
+<td class="center-col">
+1382.91
+</td>
+</tr>
+<tr>
+<td>
+BIC
+</td>
+<td>
+–
+</td>
+<td class="center-col">
+1447.41
+</td>
+<td class="center-col">
+1454.98
+</td>
+<td class="center-col">
+1454.46
+</td>
+</tr>
+<tr class="bottomrule">
+<td>
+Adj. <img src="https://latex.codecogs.com/png.latex?%5Crho%5E2"> (vs.&nbsp;Equal Shares)
+</td>
+<td>
+–
+</td>
+<td class="center-col">
+0.3450
+</td>
+<td class="center-col">
+0.3486
+</td>
+<td class="center-col">
+0.3560
+</td>
+</tr>
+</tbody>
+</table>
+<div class="qmd-table-notes">
+<pre><code>Robust t-ratios in parentheses. Significance: *** $p &amp;lt; 0.01$, ** $p &amp;lt; 0.05$, * $p &amp;lt; 0.10$.&lt;br&gt;
+All three models share the Hess et al. (2008) error-component specification: a single $\sigma_{panel}$ scaling iid normal draws on each of the three alternative-specific error components, identified by the independence of the draws under the panel data structure. Model 0 includes only instrumental attributes; Model 1 adds qualitative hedonic attributes; Model 2 further incorporates a satisfaction index per mode (sum of nine Likert items on perceived service quality), entering only the utility of its respective mode.&lt;br&gt;
+Likelihood Ratio Tests: Model 0 vs. Model 1: $LR = 13.76$, df=3, $p &amp;lt; 0.01$ (rejection of restricted model). Model 1 vs. Model 2: $LR = 21.84$, df=3, $\chi^2_{0.01,3}=11.345$, $p &amp;lt; 0.01$ (joint significance of the three satisfaction indices).</code></pre>
+</div>
+</div>
 </section>
 <section id="código" class="level2">
 <h2 class="anchored" data-anchor-id="código">Código</h2>
 <section id="mxl---efecto-panel" class="level3">
 <h3 class="anchored" data-anchor-id="mxl---efecto-panel">MXL - Efecto panel</h3>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="co" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># ==============================================================================</span></span>
-<span id="cb1-2"><span class="co" style="color: #5E5E5E;
+<span id="cb2-2"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># LOGIT MIXTO PANEL - ESPECIFICACION HESS et al. (2008)</span></span>
-<span id="cb1-3"><span class="co" style="color: #5E5E5E;
+<span id="cb2-3"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># ==============================================================================</span></span>
-<span id="cb1-4"><span class="co" style="color: #5E5E5E;
+<span id="cb2-4"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># Componentes de error iid (entre alternativas, no entre observaciones)</span></span>
-<span id="cb1-5"><span class="co" style="color: #5E5E5E;
+<span id="cb2-5"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># en las TRES alternativas, con UNA sola sigma compartida.</span></span>
-<span id="cb1-6"><span class="co" style="color: #5E5E5E;
+<span id="cb2-6"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># Identificacion garantizada por la independencia de los draws entre</span></span>
-<span id="cb1-7"><span class="co" style="color: #5E5E5E;
+<span id="cb2-7"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># alternativas y la estructura panel.</span></span>
-<span id="cb1-8"><span class="co" style="color: #5E5E5E;
+<span id="cb2-8"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># Referencia: Apollo Manual, seccion 6.2 / Figura 6.7.</span></span>
-<span id="cb1-9"><span class="co" style="color: #5E5E5E;
+<span id="cb2-9"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># ==============================================================================</span></span>
-<span id="cb1-10"></span>
-<span id="cb1-11"><span class="co" style="color: #5E5E5E;
+<span id="cb2-10"></span>
+<span id="cb2-11"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># -- Configuracion SLURM (procesado por submit_to_nlhpc.py) -------------------</span></span>
-<span id="cb1-12"><span class="co" style="color: #5E5E5E;
+<span id="cb2-12"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># @slurm partition   = "debug"</span></span>
-<span id="cb1-13"><span class="co" style="color: #5E5E5E;
+<span id="cb2-13"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># @slurm time        = "00:30:00"</span></span>
-<span id="cb1-14"><span class="co" style="color: #5E5E5E;
+<span id="cb2-14"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># @slurm cores       = 44</span></span>
-<span id="cb1-15"><span class="co" style="color: #5E5E5E;
+<span id="cb2-15"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># @slurm mem_per_cpu = 345</span></span>
-<span id="cb1-16"><span class="co" style="color: #5E5E5E;
+<span id="cb2-16"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># @db C:/Users/Pablo/Desktop/tesis-magister/SP/netquest-soft_start-v2/data/master_db_netquest_soft_start_v2.csv</span></span>
-<span id="cb1-17"></span>
-<span id="cb1-18"></span>
-<span id="cb1-19"><span class="co" style="color: #5E5E5E;
+<span id="cb2-17"></span>
+<span id="cb2-18"></span>
+<span id="cb2-19"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># 1. ENTORNO -------------------------------------------------------------------</span></span>
-<span id="cb1-20"><span class="cf" style="color: #003B4F;
+<span id="cb2-20"><span class="cf" style="color: #003B4F;
 background-color: null;
 font-weight: bold;
 font-style: inherit;">if</span> (<span class="sc" style="color: #5E5E5E;
@@ -136,7 +542,7 @@ background-color: null;
 font-style: inherit;">"SLURM_JOB_ID"</span>)) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">&amp;&amp;</span></span>
-<span id="cb1-21">  <span class="fu" style="color: #4758AB;
+<span id="cb2-21">  <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">requireNamespace</span>(<span class="st" style="color: #20794D;
 background-color: null;
@@ -147,12 +553,12 @@ background-color: null;
 font-style: inherit;">TRUE</span>) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">&amp;&amp;</span></span>
-<span id="cb1-22">  rstudioapi<span class="sc" style="color: #5E5E5E;
+<span id="cb2-22">  rstudioapi<span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">isAvailable</span>()) {</span>
-<span id="cb1-23">  <span class="fu" style="color: #4758AB;
+<span id="cb2-23">  <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">setwd</span>(<span class="fu" style="color: #4758AB;
 background-color: null;
@@ -163,34 +569,34 @@ background-color: null;
 font-style: inherit;">getSourceEditorContext</span>()<span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">$</span>path))</span>
-<span id="cb1-24">}</span>
-<span id="cb1-25"></span>
-<span id="cb1-26"><span class="co" style="color: #5E5E5E;
+<span id="cb2-24">}</span>
+<span id="cb2-25"></span>
+<span id="cb2-26"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># install.packages("apollo")</span></span>
-<span id="cb1-27"></span>
-<span id="cb1-28"><span class="fu" style="color: #4758AB;
+<span id="cb2-27"></span>
+<span id="cb2-28"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">library</span>(apollo)</span>
-<span id="cb1-29"><span class="fu" style="color: #4758AB;
+<span id="cb2-29"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">library</span>(dplyr)</span>
-<span id="cb1-30"></span>
-<span id="cb1-31"><span class="fu" style="color: #4758AB;
+<span id="cb2-30"></span>
+<span id="cb2-31"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">rm</span>(<span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">list =</span> <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">ls</span>())</span>
-<span id="cb1-32"><span class="fu" style="color: #4758AB;
+<span id="cb2-32"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">apollo_initialise</span>()</span>
-<span id="cb1-33"></span>
-<span id="cb1-34"><span class="co" style="color: #5E5E5E;
+<span id="cb2-33"></span>
+<span id="cb2-34"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># Cores: NLHPC lo dicta via SLURM; local default = 8</span></span>
-<span id="cb1-35">nCores_use <span class="ot" style="color: #003B4F;
+<span id="cb2-35">nCores_use <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
 background-color: null;
@@ -203,7 +609,7 @@ background-color: null;
 font-style: inherit;">unset =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"8"</span>))</span>
-<span id="cb1-36"><span class="fu" style="color: #4758AB;
+<span id="cb2-36"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">cat</span>(<span class="st" style="color: #20794D;
 background-color: null;
@@ -214,25 +620,25 @@ background-color: null;
 font-style: inherit;">\n</span><span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"</span>)</span>
-<span id="cb1-37"></span>
-<span id="cb1-38"><span class="co" style="color: #5E5E5E;
+<span id="cb2-37"></span>
+<span id="cb2-38"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># Path BBDD</span></span>
-<span id="cb1-39">db_dir <span class="ot" style="color: #003B4F;
+<span id="cb2-39">db_dir <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">Sys.getenv</span>(</span>
-<span id="cb1-40">  <span class="st" style="color: #20794D;
+<span id="cb2-40">  <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"NLHPC_DB_DIR"</span>,</span>
-<span id="cb1-41">  <span class="at" style="color: #657422;
+<span id="cb2-41">  <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">unset =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"C:/Users/Pablo/Desktop/tesis-magister/SP/netquest-soft_start-v2/data/"</span></span>
-<span id="cb1-42">)</span>
-<span id="cb1-43">database <span class="ot" style="color: #003B4F;
+<span id="cb2-42">)</span>
+<span id="cb2-43">database <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
 background-color: null;
@@ -241,7 +647,7 @@ background-color: null;
 font-style: inherit;">file.path</span>(db_dir, <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"master_db_netquest_soft_start_v2.csv"</span>))</span>
-<span id="cb1-44"><span class="fu" style="color: #4758AB;
+<span id="cb2-44"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">names</span>(database) <span class="ot" style="color: #003B4F;
 background-color: null;
@@ -250,18 +656,18 @@ background-color: null;
 font-style: inherit;">trimws</span>(<span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">names</span>(database))</span>
-<span id="cb1-45">database[<span class="fu" style="color: #4758AB;
+<span id="cb2-45">database[<span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">is.na</span>(database)] <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">0</span></span>
-<span id="cb1-46"></span>
-<span id="cb1-47"><span class="co" style="color: #5E5E5E;
+<span id="cb2-46"></span>
+<span id="cb2-47"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># FILTRO: Eliminar observaciones donde se eligio el opt-out (alternativa 4)</span></span>
-<span id="cb1-48">database <span class="ot" style="color: #003B4F;
+<span id="cb2-48">database <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
 background-color: null;
@@ -270,204 +676,204 @@ background-color: null;
 font-style: inherit;">!=</span> <span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">4</span>)</span>
-<span id="cb1-49"></span>
-<span id="cb1-50"><span class="co" style="color: #5E5E5E;
+<span id="cb2-49"></span>
+<span id="cb2-50"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># ==============================================================================</span></span>
-<span id="cb1-51"><span class="co" style="color: #5E5E5E;
+<span id="cb2-51"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># 2. CONFIGURACION DE APOLLO</span></span>
-<span id="cb1-52"><span class="co" style="color: #5E5E5E;
+<span id="cb2-52"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># ==============================================================================</span></span>
-<span id="cb1-53">apollo_control <span class="ot" style="color: #003B4F;
+<span id="cb2-53">apollo_control <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">list</span>(</span>
-<span id="cb1-54">  <span class="at" style="color: #657422;
+<span id="cb2-54">  <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">modelName       =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"modelo3-Panel_Hess_SinOptOut - Netquest v2"</span>,</span>
-<span id="cb1-55">  <span class="at" style="color: #657422;
+<span id="cb2-55">  <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">modelDescr      =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"Logit Mixto Panel - Hess et al. 2008 (EC iid en las 3 alternativas) - Sin Opt-Out - Netquest v2"</span>,</span>
-<span id="cb1-56">  <span class="at" style="color: #657422;
+<span id="cb2-56">  <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">indivID         =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"id_response"</span>,</span>
-<span id="cb1-57">  <span class="at" style="color: #657422;
+<span id="cb2-57">  <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">mixing          =</span> <span class="cn" style="color: #8f5902;
 background-color: null;
 font-style: inherit;">TRUE</span>,</span>
-<span id="cb1-58">  <span class="at" style="color: #657422;
+<span id="cb2-58">  <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">nCores          =</span> <span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">8</span>,</span>
-<span id="cb1-59">  <span class="at" style="color: #657422;
+<span id="cb2-59">  <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">outputDirectory =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"output"</span></span>
-<span id="cb1-60">)</span>
-<span id="cb1-61"></span>
-<span id="cb1-62"><span class="co" style="color: #5E5E5E;
+<span id="cb2-60">)</span>
+<span id="cb2-61"></span>
+<span id="cb2-62"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># ==============================================================================</span></span>
-<span id="cb1-63"><span class="co" style="color: #5E5E5E;
+<span id="cb2-63"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># 3. DEFINICION DE PARAMETROS A ESTIMAR</span></span>
-<span id="cb1-64"><span class="co" style="color: #5E5E5E;
+<span id="cb2-64"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># ==============================================================================</span></span>
-<span id="cb1-65">apollo_beta <span class="ot" style="color: #003B4F;
+<span id="cb2-65">apollo_beta <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">c</span>(</span>
-<span id="cb1-66">  <span class="at" style="color: #657422;
+<span id="cb2-66">  <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">asc_train =</span> <span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">0</span>,</span>
-<span id="cb1-67">  <span class="at" style="color: #657422;
+<span id="cb2-67">  <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">asc_bus   =</span> <span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">0</span>,</span>
-<span id="cb1-68">  <span class="at" style="color: #657422;
+<span id="cb2-68">  <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">asc_micro =</span> <span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">0</span>,</span>
-<span id="cb1-69"></span>
-<span id="cb1-70">  <span class="co" style="color: #5E5E5E;
+<span id="cb2-69"></span>
+<span id="cb2-70">  <span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># Nivel de Servicio</span></span>
-<span id="cb1-71">  <span class="at" style="color: #657422;
+<span id="cb2-71">  <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">b_tt      =</span> <span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">0</span>,</span>
-<span id="cb1-72">  <span class="at" style="color: #657422;
+<span id="cb2-72">  <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">b_cost    =</span> <span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">0</span>,</span>
-<span id="cb1-73">  <span class="at" style="color: #657422;
+<span id="cb2-73">  <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">b_lmt     =</span> <span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">0</span>,</span>
-<span id="cb1-74">  <span class="at" style="color: #657422;
+<span id="cb2-74">  <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">b_hw      =</span> <span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">0</span>,</span>
-<span id="cb1-75"></span>
-<span id="cb1-76">  <span class="co" style="color: #5E5E5E;
+<span id="cb2-75"></span>
+<span id="cb2-76">  <span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># Confort y Confiabilidad</span></span>
-<span id="cb1-77">  <span class="at" style="color: #657422;
+<span id="cb2-77">  <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">b_var     =</span> <span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">0</span>,</span>
-<span id="cb1-78">  <span class="at" style="color: #657422;
+<span id="cb2-78">  <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">b_crowd   =</span> <span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">0</span>,</span>
-<span id="cb1-79">  <span class="at" style="color: #657422;
+<span id="cb2-79">  <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">b_aircon  =</span> <span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">0</span>,</span>
-<span id="cb1-80">  <span class="at" style="color: #657422;
+<span id="cb2-80">  <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">b_sellers =</span> <span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">0</span>,</span>
-<span id="cb1-81"></span>
-<span id="cb1-82">  <span class="co" style="color: #5E5E5E;
+<span id="cb2-81"></span>
+<span id="cb2-82">  <span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># ----------------------------------------------------------------------------</span></span>
-<span id="cb1-83">  <span class="co" style="color: #5E5E5E;
+<span id="cb2-83">  <span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># CAMBIO CLAVE 1: una sola sigma compartida en lugar de sigma_bus y sigma_micro</span></span>
-<span id="cb1-84">  <span class="co" style="color: #5E5E5E;
+<span id="cb2-84">  <span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># Valor inicial 0.5 (no 0) para evitar partida en una region plana de la LL.</span></span>
-<span id="cb1-85">  <span class="co" style="color: #5E5E5E;
+<span id="cb2-85">  <span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># ----------------------------------------------------------------------------</span></span>
-<span id="cb1-86">  <span class="at" style="color: #657422;
+<span id="cb2-86">  <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">sigma_panel =</span> <span class="fl" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">0.5</span></span>
-<span id="cb1-87">)</span>
-<span id="cb1-88"></span>
-<span id="cb1-89"><span class="co" style="color: #5E5E5E;
+<span id="cb2-87">)</span>
+<span id="cb2-88"></span>
+<span id="cb2-89"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># Constante del tren como referencia (esto no cambia respecto al modelo anterior)</span></span>
-<span id="cb1-90">apollo_fixed <span class="ot" style="color: #003B4F;
+<span id="cb2-90">apollo_fixed <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"asc_train"</span></span>
-<span id="cb1-91"></span>
-<span id="cb1-92"><span class="co" style="color: #5E5E5E;
+<span id="cb2-91"></span>
+<span id="cb2-92"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># ==============================================================================</span></span>
-<span id="cb1-93"><span class="co" style="color: #5E5E5E;
+<span id="cb2-93"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># 4. CONFIGURACION DE DRAWS</span></span>
-<span id="cb1-94"><span class="co" style="color: #5E5E5E;
+<span id="cb2-94"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># ------------------------------------------------------------------------------</span></span>
-<span id="cb1-95"><span class="co" style="color: #5E5E5E;
+<span id="cb2-95"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># CAMBIO CLAVE 2: TRES draws normales independientes, uno por alternativa</span></span>
-<span id="cb1-96"><span class="co" style="color: #5E5E5E;
+<span id="cb2-96"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># (antes habian dos: draw_bus y draw_micro). Ahora se incluye tambien draw_train.</span></span>
-<span id="cb1-97"><span class="co" style="color: #5E5E5E;
+<span id="cb2-97"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># La independencia entre estos tres draws es lo que garantiza identificacion</span></span>
-<span id="cb1-98"><span class="co" style="color: #5E5E5E;
+<span id="cb2-98"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># en datos panel pese a tener EC en TODAS las alternativas.</span></span>
-<span id="cb1-99"><span class="co" style="color: #5E5E5E;
+<span id="cb2-99"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># ==============================================================================</span></span>
-<span id="cb1-100">apollo_draws <span class="ot" style="color: #003B4F;
+<span id="cb2-100">apollo_draws <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">=</span> <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">list</span>(</span>
-<span id="cb1-101">  <span class="at" style="color: #657422;
+<span id="cb2-101">  <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">interDrawsType =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"mlhs"</span>,</span>
-<span id="cb1-102">  <span class="at" style="color: #657422;
+<span id="cb2-102">  <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">interNDraws    =</span> <span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">2000</span>,</span>
-<span id="cb1-103">  <span class="at" style="color: #657422;
+<span id="cb2-103">  <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">interUnifDraws =</span> <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">c</span>(),</span>
-<span id="cb1-104">  <span class="at" style="color: #657422;
+<span id="cb2-104">  <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">interNormDraws =</span> <span class="fu" style="color: #4758AB;
 background-color: null;
@@ -478,111 +884,111 @@ background-color: null;
 font-style: inherit;">"draw_bus"</span>, <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"draw_micro"</span>),</span>
-<span id="cb1-105">  <span class="at" style="color: #657422;
+<span id="cb2-105">  <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">intraDrawsType =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"halton"</span>,</span>
-<span id="cb1-106">  <span class="at" style="color: #657422;
+<span id="cb2-106">  <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">intraNDraws    =</span> <span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">0</span>,</span>
-<span id="cb1-107">  <span class="at" style="color: #657422;
+<span id="cb2-107">  <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">intraUnifDraws =</span> <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">c</span>(),</span>
-<span id="cb1-108">  <span class="at" style="color: #657422;
+<span id="cb2-108">  <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">intraNormDraws =</span> <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">c</span>()</span>
-<span id="cb1-109">)</span>
-<span id="cb1-110"></span>
-<span id="cb1-111"><span class="co" style="color: #5E5E5E;
+<span id="cb2-109">)</span>
+<span id="cb2-110"></span>
+<span id="cb2-111"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># ==============================================================================</span></span>
-<span id="cb1-112"><span class="co" style="color: #5E5E5E;
+<span id="cb2-112"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># 5. COEFICIENTES ALEATORIOS</span></span>
-<span id="cb1-113"><span class="co" style="color: #5E5E5E;
+<span id="cb2-113"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># ------------------------------------------------------------------------------</span></span>
-<span id="cb1-114"><span class="co" style="color: #5E5E5E;
+<span id="cb2-114"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># Tres EC, todos con la MISMA sigma_panel (homocedasticidad). Cada EC usa</span></span>
-<span id="cb1-115"><span class="co" style="color: #5E5E5E;
+<span id="cb2-115"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># un draw distinto, lo que los hace independientes entre alternativas pero</span></span>
-<span id="cb1-116"><span class="co" style="color: #5E5E5E;
+<span id="cb2-116"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># constantes a lo largo de las T situaciones de cada persona (efecto panel).</span></span>
-<span id="cb1-117"><span class="co" style="color: #5E5E5E;
+<span id="cb2-117"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># ==============================================================================</span></span>
-<span id="cb1-118">apollo_randCoeff <span class="ot" style="color: #003B4F;
+<span id="cb2-118">apollo_randCoeff <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">=</span> <span class="cf" style="color: #003B4F;
 background-color: null;
 font-weight: bold;
 font-style: inherit;">function</span>(apollo_beta, apollo_inputs){</span>
-<span id="cb1-119">  randcoeff <span class="ot" style="color: #003B4F;
+<span id="cb2-119">  randcoeff <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">=</span> <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">list</span>()</span>
-<span id="cb1-120">  randcoeff[[<span class="st" style="color: #20794D;
+<span id="cb2-120">  randcoeff[[<span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"ec_train"</span>]] <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">=</span> sigma_panel <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">*</span> draw_train</span>
-<span id="cb1-121">  randcoeff[[<span class="st" style="color: #20794D;
+<span id="cb2-121">  randcoeff[[<span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"ec_bus"</span>]]   <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">=</span> sigma_panel <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">*</span> draw_bus</span>
-<span id="cb1-122">  randcoeff[[<span class="st" style="color: #20794D;
+<span id="cb2-122">  randcoeff[[<span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"ec_micro"</span>]] <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">=</span> sigma_panel <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">*</span> draw_micro</span>
-<span id="cb1-123">  <span class="fu" style="color: #4758AB;
+<span id="cb2-123">  <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">return</span>(randcoeff)</span>
-<span id="cb1-124">}</span>
-<span id="cb1-125"></span>
-<span id="cb1-126">apollo_inputs <span class="ot" style="color: #003B4F;
+<span id="cb2-124">}</span>
+<span id="cb2-125"></span>
+<span id="cb2-126">apollo_inputs <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">apollo_validateInputs</span>()</span>
-<span id="cb1-127"></span>
-<span id="cb1-128"><span class="co" style="color: #5E5E5E;
+<span id="cb2-127"></span>
+<span id="cb2-128"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># ==============================================================================</span></span>
-<span id="cb1-129"><span class="co" style="color: #5E5E5E;
+<span id="cb2-129"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># 6. FUNCION DE PROBABILIDADES</span></span>
-<span id="cb1-130"><span class="co" style="color: #5E5E5E;
+<span id="cb2-130"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># ------------------------------------------------------------------------------</span></span>
-<span id="cb1-131"><span class="co" style="color: #5E5E5E;
+<span id="cb2-131"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># CAMBIO CLAVE 3: el EC se suma a las TRES utilidades (incluida la del tren),</span></span>
-<span id="cb1-132"><span class="co" style="color: #5E5E5E;
+<span id="cb2-132"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># no solo a las J-1 alternativas como en el modelo anterior.</span></span>
-<span id="cb1-133"><span class="co" style="color: #5E5E5E;
+<span id="cb2-133"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># ==============================================================================</span></span>
-<span id="cb1-134">apollo_probabilities <span class="ot" style="color: #003B4F;
+<span id="cb2-134">apollo_probabilities <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="cf" style="color: #003B4F;
 background-color: null;
@@ -592,28 +998,28 @@ background-color: null;
 font-style: inherit;">functionality =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"estimate"</span>){</span>
-<span id="cb1-135"></span>
-<span id="cb1-136">  <span class="fu" style="color: #4758AB;
+<span id="cb2-135"></span>
+<span id="cb2-136">  <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">apollo_attach</span>(apollo_beta, apollo_inputs)</span>
-<span id="cb1-137">  <span class="fu" style="color: #4758AB;
+<span id="cb2-137">  <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">on.exit</span>(<span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">apollo_detach</span>(apollo_beta, apollo_inputs))</span>
-<span id="cb1-138"></span>
-<span id="cb1-139">  P <span class="ot" style="color: #003B4F;
+<span id="cb2-138"></span>
+<span id="cb2-139">  P <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">list</span>()</span>
-<span id="cb1-140">  V <span class="ot" style="color: #003B4F;
+<span id="cb2-140">  V <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">list</span>()</span>
-<span id="cb1-141"></span>
-<span id="cb1-142">  V[[<span class="st" style="color: #20794D;
+<span id="cb2-141"></span>
+<span id="cb2-142">  V[[<span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"train"</span>]] <span class="ot" style="color: #003B4F;
 background-color: null;
@@ -622,46 +1028,46 @@ background-color: null;
 font-style: inherit;">+</span> ec_train <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span id="cb1-143">    b_tt      <span class="sc" style="color: #5E5E5E;
+<span id="cb2-143">    b_tt      <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">*</span> train_tt <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span id="cb1-144">    b_cost    <span class="sc" style="color: #5E5E5E;
+<span id="cb2-144">    b_cost    <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">*</span> train_cost <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span id="cb1-145">    b_lmt     <span class="sc" style="color: #5E5E5E;
+<span id="cb2-145">    b_lmt     <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">*</span> train_lmt <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span id="cb1-146">    b_hw      <span class="sc" style="color: #5E5E5E;
+<span id="cb2-146">    b_hw      <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">*</span> train_headway <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span id="cb1-147">    b_var     <span class="sc" style="color: #5E5E5E;
+<span id="cb2-147">    b_var     <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">*</span> train_arrival_time_variability <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span id="cb1-148">    b_crowd   <span class="sc" style="color: #5E5E5E;
+<span id="cb2-148">    b_crowd   <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">*</span> train_crowding_ordinal <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span id="cb1-149">    b_aircon  <span class="sc" style="color: #5E5E5E;
+<span id="cb2-149">    b_aircon  <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">*</span> train_aircon_ordinal <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span id="cb1-150">    b_sellers <span class="sc" style="color: #5E5E5E;
+<span id="cb2-150">    b_sellers <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">*</span> train_sellers_ordinal</span>
-<span id="cb1-151"></span>
-<span id="cb1-152">  V[[<span class="st" style="color: #20794D;
+<span id="cb2-151"></span>
+<span id="cb2-152">  V[[<span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"bus"</span>]]   <span class="ot" style="color: #003B4F;
 background-color: null;
@@ -670,46 +1076,46 @@ background-color: null;
 font-style: inherit;">+</span> ec_bus <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span id="cb1-153">    b_tt      <span class="sc" style="color: #5E5E5E;
+<span id="cb2-153">    b_tt      <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">*</span> bus_tt <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span id="cb1-154">    b_cost    <span class="sc" style="color: #5E5E5E;
+<span id="cb2-154">    b_cost    <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">*</span> bus_cost <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span id="cb1-155">    b_lmt     <span class="sc" style="color: #5E5E5E;
+<span id="cb2-155">    b_lmt     <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">*</span> bus_lmt <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span id="cb1-156">    b_hw      <span class="sc" style="color: #5E5E5E;
+<span id="cb2-156">    b_hw      <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">*</span> bus_headway <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span id="cb1-157">    b_var     <span class="sc" style="color: #5E5E5E;
+<span id="cb2-157">    b_var     <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">*</span> bus_arrival_time_variability <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span id="cb1-158">    b_crowd   <span class="sc" style="color: #5E5E5E;
+<span id="cb2-158">    b_crowd   <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">*</span> bus_crowding_ordinal <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span id="cb1-159">    b_aircon  <span class="sc" style="color: #5E5E5E;
+<span id="cb2-159">    b_aircon  <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">*</span> bus_aircon_ordinal <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span id="cb1-160">    b_sellers <span class="sc" style="color: #5E5E5E;
+<span id="cb2-160">    b_sellers <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">*</span> bus_sellers_ordinal</span>
-<span id="cb1-161"></span>
-<span id="cb1-162">  V[[<span class="st" style="color: #20794D;
+<span id="cb2-161"></span>
+<span id="cb2-162">  V[[<span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"micro"</span>]] <span class="ot" style="color: #003B4F;
 background-color: null;
@@ -718,51 +1124,51 @@ background-color: null;
 font-style: inherit;">+</span> ec_micro <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span id="cb1-163">    b_tt      <span class="sc" style="color: #5E5E5E;
+<span id="cb2-163">    b_tt      <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">*</span> micro_tt <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span id="cb1-164">    b_cost    <span class="sc" style="color: #5E5E5E;
+<span id="cb2-164">    b_cost    <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">*</span> micro_cost <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span id="cb1-165">    b_lmt     <span class="sc" style="color: #5E5E5E;
+<span id="cb2-165">    b_lmt     <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">*</span> micro_lmt <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span id="cb1-166">    b_hw      <span class="sc" style="color: #5E5E5E;
+<span id="cb2-166">    b_hw      <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">*</span> micro_headway <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span id="cb1-167">    b_var     <span class="sc" style="color: #5E5E5E;
+<span id="cb2-167">    b_var     <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">*</span> micro_arrival_time_variability <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span id="cb1-168">    b_crowd   <span class="sc" style="color: #5E5E5E;
+<span id="cb2-168">    b_crowd   <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">*</span> micro_crowding_ordinal <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span id="cb1-169">    b_aircon  <span class="sc" style="color: #5E5E5E;
+<span id="cb2-169">    b_aircon  <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">*</span> micro_aircon_ordinal <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span id="cb1-170">    b_sellers <span class="sc" style="color: #5E5E5E;
+<span id="cb2-170">    b_sellers <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">*</span> micro_sellers_ordinal</span>
-<span id="cb1-171"></span>
-<span id="cb1-172">  mnl_settings <span class="ot" style="color: #003B4F;
+<span id="cb2-171"></span>
+<span id="cb2-172">  mnl_settings <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">list</span>(</span>
-<span id="cb1-173">    <span class="at" style="color: #657422;
+<span id="cb2-173">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">alternatives =</span> <span class="fu" style="color: #4758AB;
 background-color: null;
@@ -779,7 +1185,7 @@ background-color: null;
 font-style: inherit;">micro =</span> <span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">3</span>),</span>
-<span id="cb1-174">    <span class="at" style="color: #657422;
+<span id="cb2-174">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">avail        =</span> <span class="fu" style="color: #4758AB;
 background-color: null;
@@ -790,61 +1196,61 @@ background-color: null;
 font-style: inherit;">bus =</span> av_bus, <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">micro =</span> av_micro),</span>
-<span id="cb1-175">    <span class="at" style="color: #657422;
+<span id="cb2-175">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">choiceVar    =</span> choice,</span>
-<span id="cb1-176">    <span class="at" style="color: #657422;
+<span id="cb2-176">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">utilities    =</span> V</span>
-<span id="cb1-177">  )</span>
-<span id="cb1-178"></span>
-<span id="cb1-179">  P[[<span class="st" style="color: #20794D;
+<span id="cb2-177">  )</span>
+<span id="cb2-178"></span>
+<span id="cb2-179">  P[[<span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"model"</span>]] <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">apollo_mnl</span>(mnl_settings, functionality)</span>
-<span id="cb1-180">  P <span class="ot" style="color: #003B4F;
+<span id="cb2-180">  P <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">apollo_panelProd</span>(P, apollo_inputs, functionality)</span>
-<span id="cb1-181">  P <span class="ot" style="color: #003B4F;
+<span id="cb2-181">  P <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">apollo_avgInterDraws</span>(P, apollo_inputs, functionality)</span>
-<span id="cb1-182">  P <span class="ot" style="color: #003B4F;
+<span id="cb2-182">  P <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">apollo_prepareProb</span>(P, apollo_inputs, functionality)</span>
-<span id="cb1-183"></span>
-<span id="cb1-184">  <span class="fu" style="color: #4758AB;
+<span id="cb2-183"></span>
+<span id="cb2-184">  <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">return</span>(P)</span>
-<span id="cb1-185">}</span>
-<span id="cb1-186"></span>
-<span id="cb1-187"><span class="co" style="color: #5E5E5E;
+<span id="cb2-185">}</span>
+<span id="cb2-186"></span>
+<span id="cb2-187"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># ==============================================================================</span></span>
-<span id="cb1-188"><span class="co" style="color: #5E5E5E;
+<span id="cb2-188"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># 7. ESTIMACION Y RESULTADOS</span></span>
-<span id="cb1-189"><span class="co" style="color: #5E5E5E;
+<span id="cb2-189"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># ==============================================================================</span></span>
-<span id="cb1-190">model <span class="ot" style="color: #003B4F;
+<span id="cb2-190">model <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">apollo_estimate</span>(apollo_beta, apollo_fixed, apollo_probabilities, apollo_inputs)</span>
-<span id="cb1-191"></span>
-<span id="cb1-192"><span class="fu" style="color: #4758AB;
+<span id="cb2-191"></span>
+<span id="cb2-192"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">apollo_modelOutput</span>(model)</span>
-<span id="cb1-193"><span class="fu" style="color: #4758AB;
+<span id="cb2-193"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">apollo_saveOutput</span>(model)</span></code></pre></div></div>
 
@@ -857,6 +1263,49 @@ font-style: inherit;">apollo_saveOutput</span>(model)</span></code></pre></div><
   <category>transporte</category>
   <guid>https://diezvariante.cl/blog/posts/11-05-2026-resultados-piloto-1/resultados-pilot-1.html</guid>
   <pubDate>Mon, 11 May 2026 04:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>OSNCH - Shostakovich 6</title>
+  <link>https://diezvariante.cl/blog/posts/10-05-2026-musica/musica-10-5-2026.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Ayer fue el concierto N°5 “Armonías Corales” del CEAC. Partió con una cantanta de Bach y después del intermedio, la sexta de Shostakovich.</p>
+<p>Dejo a continuación una foto de Gerardo antes de partir el concierto:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://diezvariante.cl/blog/posts/10-05-2026-musica/gerardo.png" class="img-fluid figure-img"></p>
+<figcaption>Gerardo Salazar en los Timbales</figcaption>
+</figure>
+</div>
+<p>La segunda parte estuvo intensa. La orquesta en resta ocasión estaba en una disposición distinta a la que usualmente usan. Las violas estaba direcamente al frente y se sentia un tremulo constante pero muy suave que ponía todo más tenso.</p>
+<p>También, estaba en la audiencia Tobias Volkmann. Me dio un poco de lata pedirle una foto, pero dejo acá una imagen de referencia.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://www.concerto.com.br/sites/default/files/w-Tobias-Volkmann-%28foto-Karin-van-der-Broocke.jpg" class="img-fluid figure-img"></p>
+<figcaption>Tobias Volkmann</figcaption>
+</figure>
+</div>
+<p>Espero de corazón que quede él o Barbara Dragán dirigiendo el proximo año a la sinfónica.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://diezvariante.cl/blog/posts/10-05-2026-musica/dsch.jpg" class="img-fluid figure-img"></p>
+<figcaption>Shostakovich</figcaption>
+</figure>
+</div>
+<blockquote class="blockquote">
+<p>“(…) In my latest symphony, music of a contemplative and lyrical order predominates. I wanted to convey in it the moods of spring, joy, youth.” — Shostakovich a la prensa sobre su 6ta Sinfonía, 1939.</p>
+</blockquote>
+
+
+
+ ]]></description>
+  <category>musica</category>
+  <guid>https://diezvariante.cl/blog/posts/10-05-2026-musica/musica-10-5-2026.html</guid>
+  <pubDate>Sun, 10 May 2026 04:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Automatizando ejecución de código en el NLHPC</title>
@@ -3870,49 +4319,6 @@ font-style: inherit;">=</span> parser.parse_args()</span>
   <pubDate>Sun, 10 May 2026 04:00:00 GMT</pubDate>
 </item>
 <item>
-  <title>OSNCH - Shostakovich 6</title>
-  <link>https://diezvariante.cl/blog/posts/musica-10-5-2026/musica-10-5-2026.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>Ayer fue el concierto N°5 “Armonías Corales” del CEAC. Partió con una cantanta de Bach y después del intermedio, la sexta de Shostakovich.</p>
-<p>Dejo a continuación una foto de Gerardo antes de partir el concierto:</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://diezvariante.cl/blog/posts/musica-10-5-2026/gerardo.png" class="img-fluid figure-img"></p>
-<figcaption>Gerardo Salazar en los Timbales</figcaption>
-</figure>
-</div>
-<p>La segunda parte estuvo intensa. La orquesta en resta ocasión estaba en una disposición distinta a la que usualmente usan. Las violas estaba direcamente al frente y se sentia un tremulo constante pero muy suave que ponía todo más tenso.</p>
-<p>También, estaba en la audiencia Tobias Volkmann. Me dio un poco de lata pedirle una foto, pero dejo acá una imagen de referencia.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://www.concerto.com.br/sites/default/files/w-Tobias-Volkmann-%28foto-Karin-van-der-Broocke.jpg" class="img-fluid figure-img"></p>
-<figcaption>Tobias Volkmann</figcaption>
-</figure>
-</div>
-<p>Espero de corazón que quede él o Barbara Dragán dirigiendo el proximo año a la sinfónica.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://diezvariante.cl/blog/posts/musica-10-5-2026/dsch.jpg" class="img-fluid figure-img"></p>
-<figcaption>Shostakovich</figcaption>
-</figure>
-</div>
-<blockquote class="blockquote">
-<p>“(…) In my latest symphony, music of a contemplative and lyrical order predominates. I wanted to convey in it the moods of spring, joy, youth.” — Shostakovich, 1939.</p>
-</blockquote>
-
-
-
- ]]></description>
-  <category>musica</category>
-  <guid>https://diezvariante.cl/blog/posts/musica-10-5-2026/musica-10-5-2026.html</guid>
-  <pubDate>Sun, 10 May 2026 04:00:00 GMT</pubDate>
-</item>
-<item>
   <title>Preferencias declaradas</title>
   <link>https://diezvariante.cl/blog/posts/preferencias-declaradas-1/pd-1.html</link>
   <description><![CDATA[ 
@@ -3925,7 +4331,8 @@ font-style: inherit;">=</span> parser.parse_args()</span>
 
 
  ]]></description>
-  <category>transporte tesis</category>
+  <category>transporte</category>
+  <category>tesis</category>
   <guid>https://diezvariante.cl/blog/posts/preferencias-declaradas-1/pd-1.html</guid>
   <pubDate>Thu, 07 May 2026 04:00:00 GMT</pubDate>
 </item>
