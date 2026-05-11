@@ -1,13 +1,12 @@
 ---
 title: "No dejemos morir la micromovilidad compartida"
 description: "Columna Newsletter SOCHITRAN Octubre 2025"
-date: "2026-10-27"
+date: "2025-10-27"
 categories: [transporte]
 ---
 
-__Columna originalmente publicada en el [Newsletter de SOCHITRAN](https://www.sochitran.cl/2025/10/27/no-dejemos-morir-la-micromovilidad-compartida/)__
+> Columna originalmente publicada en el [Newsletter de SOCHITRAN](https://www.sochitran.cl/2025/10/27/no-dejemos-morir-la-micromovilidad-compartida/)
 
-# No dejemos morir la micromovilidad compartida
 _por Pablo González Aguilera, estudiante de Magíster en Ciencias de la Ingeniería mención Transporte, Universidad de Chile_
 
 Hace algunas semanas, fue noticia la abrupta salida de operación de más de 150 estaciones de bicicletas compartidas en la ciudad de Bogotá (Infobae, 2025). Exactamente lo mismo pasó a inicios de año en Santiago, donde -de un día para otro- fueron retiradas todas las estaciones de la zona centro de la ciudad (que era donde más se ocupaban) (Mix et al., 2022; The Clinic, 2025). Ahora, muchas ex-estaciones ﬁguran como simples estacionamientos, devolviendo al automóvil espacios que en algún momento fueron pilar y símbolo de la micromovilidad activa. Esta situación recién fue noticia tres semanas después, cuando con Ricardo Hurtubia y Bastian Henriquez publicamos una columna en La Tercera comentando al respecto (Henríquez & Hurtubia, 2025).

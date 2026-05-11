@@ -59,6 +59,20 @@
             </RMarkdownRenderProfile>
           </value>
         </entry>
+        <entry key="file://$PROJECT_DIR$/posts/07-05-2026-preferencias-declaradas-1/pd-1.qmd">
+          <value>
+            <RMarkdownRenderProfile>
+              <option name="outputDirectoryUrl" value="file://$PROJECT_DIR$/posts/07-05-2026-preferencias-declaradas-1" />
+            </RMarkdownRenderProfile>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/posts/10-05-2026-musica/musica-10-5-2026.qmd">
+          <value>
+            <RMarkdownRenderProfile>
+              <option name="outputDirectoryUrl" value="file://$PROJECT_DIR$/posts/10-05-2026-musica" />
+            </RMarkdownRenderProfile>
+          </value>
+        </entry>
         <entry key="file://$PROJECT_DIR$/posts/10-05-2026-slurm/slurm.qmd">
           <value>
             <RMarkdownRenderProfile>
