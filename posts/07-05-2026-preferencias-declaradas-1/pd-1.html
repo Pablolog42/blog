@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2026-05-07">
+<meta name="description" content="¿Cómo se diseña realmente una encuesta de preferencias declaradas?">
 
-<title>Blog Diez Variante – Diez variante 🚌</title>
+<title>Preferencias declaradas – Diez variante 🚌</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -26,30 +28,28 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./favicon.svg" rel="icon" type="image/svg+xml">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-4f6067c035d43aafc014afc75b6440f1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-6d801abfbd87c7c701673a6a3418e6c7.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-4f6067c035d43aafc014afc75b6440f1.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-6cf3a55c7d6f9892a1363138948118c6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-4b3f0399d562d34f0b7ae43bb00fe317.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-6cf3a55c7d6f9892a1363138948118c6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../favicon.svg" rel="icon" type="image/svg+xml">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-4f6067c035d43aafc014afc75b6440f1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-6d801abfbd87c7c701673a6a3418e6c7.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-4f6067c035d43aafc014afc75b6440f1.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-6cf3a55c7d6f9892a1363138948118c6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-4b3f0399d562d34f0b7ae43bb00fe317.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-6cf3a55c7d6f9892a1363138948118c6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -77,68 +77,10 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <style>html{ scroll-behavior: smooth; }</style>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="alternate" type="application/rss+xml" title="Diez variante 🚌" href="index.xml" data-external="1"></head>
+</head>
 
 <body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
@@ -309,7 +251,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Diez variante 🚌</span>
     </a>
   </div>
@@ -320,37 +262,37 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Inicio</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./categorias/transporte.html"> 
+    <a class="nav-link" href="../../categorias/transporte.html"> 
 <span class="menu-text">Transporte</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./categorias/tesis.html"> 
+    <a class="nav-link" href="../../categorias/tesis.html"> 
 <span class="menu-text">Tesis</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./categorias/electrica.html"> 
+    <a class="nav-link" href="../../categorias/electrica.html"> 
 <span class="menu-text">Eléctrica</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./categorias/musica.html"> 
+    <a class="nav-link" href="../../categorias/musica.html"> 
 <span class="menu-text">Música</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./categorias/fotos.html"> 
+    <a class="nav-link" href="../../categorias/fotos.html"> 
 <span class="menu-text">Fotos</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./categorias/otros.html"> 
+    <a class="nav-link" href="../../categorias/otros.html"> 
 <span class="menu-text">Otros</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">Sobre mí</span></a>
   </li>  
 </ul>
@@ -374,14 +316,29 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Blog Diez Variante</h1>
-</div>
+<h1 class="title">Preferencias declaradas</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">transporte</div>
+    <div class="quarto-category">tesis</div>
+  </div>
+  </div>
 
+<div>
+  <div class="description">
+    ¿Cómo se diseña realmente una encuesta de preferencias declaradas?
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">May 7, 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -391,132 +348,10 @@ window.Quarto = {
 </header>
 
 
-<p>Notas sobre transporte y otras cosas que he ido haciendo con el tiempo.</p>
 
 
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="dGVzaXMlMkN0cmFuc3BvcnRl" data-listing-date-sort="1778472000000" data-listing-file-modified-sort="1778485259583" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="16" data-listing-word-count-sort="3035">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/11-05-2026-resultados-piloto-1/resultados-pilot-1.html" class="no-external">Resultados piloto encuesta 1</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('dGVzaXM='); return false;">tesis</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('dHJhbnNwb3J0ZQ=='); return false;">transporte</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/11-05-2026-resultados-piloto-1/resultados-pilot-1.html" class="no-external">
-<p>Resultados de piloto de encuesta sobre elección entre micro bus y tren entre Santiago y Rancagua</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/11-05-2026-resultados-piloto-1/resultados-pilot-1.html" class="no-external">
-<div class="listing-date">
-11-05-2026
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="bXVzaWNh" data-listing-date-sort="1778385600000" data-listing-file-modified-sort="1778484891526" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="153">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/10-05-2026-musica/musica-10-5-2026.html" class="no-external">OSNCH - Shostakovich 6</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('bXVzaWNh'); return false;">musica</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/10-05-2026-musica/musica-10-5-2026.html" class="no-external">
-<p>Concierto N°5 - Armonías Corales</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/10-05-2026-musica/musica-10-5-2026.html" class="no-external">
-<div class="listing-date">
-10-05-2026
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="dGVzaXMlMkNlbGVjdHJpY2E=" data-listing-date-sort="1778385600000" data-listing-file-modified-sort="1778485220504" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="24" data-listing-word-count-sort="4719">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/10-05-2026-slurm/slurm.html" class="no-external">Automatizando ejecución de código en el NLHPC</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('dGVzaXM='); return false;">tesis</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('ZWxlY3RyaWNh'); return false;">electrica</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/10-05-2026-slurm/slurm.html" class="no-external">
-<p>Cómo usar un Supercomputador y R sin morir en el intento</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/10-05-2026-slurm/slurm.html" class="no-external">
-<div class="listing-date">
-10-05-2026
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="dHJhbnNwb3J0ZSUyQ3Rlc2lz" data-listing-date-sort="1778126400000" data-listing-file-modified-sort="1778484641040" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/07-05-2026-preferencias-declaradas-1/pd-1.html" class="no-external">Preferencias declaradas</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('dHJhbnNwb3J0ZQ=='); return false;">transporte</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('dGVzaXM='); return false;">tesis</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/07-05-2026-preferencias-declaradas-1/pd-1.html" class="no-external">
-<p>¿Cómo se diseña realmente una encuesta de preferencias declaradas?</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/07-05-2026-preferencias-declaradas-1/pd-1.html" class="no-external">
-<div class="listing-date">
-07-05-2026
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="dHJhbnNwb3J0ZQ==" data-listing-date-sort="1761534000000" data-listing-file-modified-sort="1778486518165" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1007">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/01-10-2025-sochitran-micromovilidad/01-10-2025-sochitran-micromovilidad.html" class="no-external">No dejemos morir la micromovilidad compartida</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('dHJhbnNwb3J0ZQ=='); return false;">transporte</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/01-10-2025-sochitran-micromovilidad/01-10-2025-sochitran-micromovilidad.html" class="no-external">
-<p>Columna Newsletter SOCHITRAN Octubre 2025</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/01-10-2025-sochitran-micromovilidad/01-10-2025-sochitran-micromovilidad.html" class="no-external">
-<div class="listing-date">
-27-10-2025
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
@@ -935,5 +770,5 @@ window.Quarto = {
 
 
 
-<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

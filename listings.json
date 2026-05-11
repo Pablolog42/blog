@@ -2,9 +2,9 @@
   {
     "listing": "/categorias/transporte.html",
     "items": [
-      "/posts/01-10-2025-sochitran-micromovilidad/01-10-2025-sochitran-micromovilidad.html",
       "/posts/11-05-2026-resultados-piloto-1/resultados-pilot-1.html",
-      "/posts/preferencias-declaradas-1/pd-1.html"
+      "/posts/07-05-2026-preferencias-declaradas-1/pd-1.html",
+      "/posts/01-10-2025-sochitran-micromovilidad/01-10-2025-sochitran-micromovilidad.html"
     ]
   },
   {
@@ -32,17 +32,17 @@
     "items": [
       "/posts/11-05-2026-resultados-piloto-1/resultados-pilot-1.html",
       "/posts/10-05-2026-slurm/slurm.html",
-      "/posts/preferencias-declaradas-1/pd-1.html"
+      "/posts/07-05-2026-preferencias-declaradas-1/pd-1.html"
     ]
   },
   {
     "listing": "/index.html",
     "items": [
-      "/posts/01-10-2025-sochitran-micromovilidad/01-10-2025-sochitran-micromovilidad.html",
       "/posts/11-05-2026-resultados-piloto-1/resultados-pilot-1.html",
       "/posts/10-05-2026-musica/musica-10-5-2026.html",
       "/posts/10-05-2026-slurm/slurm.html",
-      "/posts/preferencias-declaradas-1/pd-1.html"
+      "/posts/07-05-2026-preferencias-declaradas-1/pd-1.html",
+      "/posts/01-10-2025-sochitran-micromovilidad/01-10-2025-sochitran-micromovilidad.html"
     ]
   }
 ]
