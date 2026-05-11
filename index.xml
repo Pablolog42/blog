@@ -10,7 +10,53 @@
 <atom:link href="https://diezvariante.cl/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.9.37</generator>
-<lastBuildDate>Sun, 10 May 2026 04:00:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 11 May 2026 04:00:00 GMT</lastBuildDate>
+<item>
+  <title>Resultados piloto encuesta 1</title>
+  <link>https://diezvariante.cl/blog/posts/11-05-2026-resultados-piloto-1/resultados-pilot-1.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="caracterización-de-la-muestra" class="level2">
+<h2 class="anchored" data-anchor-id="caracterización-de-la-muestra">Caracterización de la muestra</h2>
+<p>El primer piloto contó con 224 respuestas desde <a href="https://www.netquest.com/encuestas-online-investigacion">Netquest</a>, de las cuales 96 respuestas fueron consideradas válidas (gente que efectivamente usaba el corredor).</p>
+<p>Es un poco complejo el índice de incidencia (estamos bajo el 50% de opbacioón objetivo vs población encuestada). Ojalá se pueda hacer algo al respecto desde Netquest.</p>
+<p>A continuación, se muestran algunos gráficos de caracterización:</p>
+<p><a href="demografia.png">Caract. Demográfica</a></p>
+<p><a href="viajes.png">Caract. viajes</a></p>
+<p><a href="likert.png">Resultados Items Likert</a></p>
+</section>
+<section id="modelos-preliminares" class="level2">
+<h2 class="anchored" data-anchor-id="modelos-preliminares">Modelos preliminares</h2>
+<p>Se plantearon 3 modelos de Logit Mixto. Las especificaciones se muestran a continuación</p>
+<section id="mxl---efecto-panel-variables-instrumentales-medibles" class="level3">
+<h3 class="anchored" data-anchor-id="mxl---efecto-panel-variables-instrumentales-medibles">MXL - Efecto panel + variables instrumentales (medibles)</h3>
+</section>
+<section id="mxl---efecto-panel-variables-instrumentales-variables-hedónicas" class="level3">
+<h3 class="anchored" data-anchor-id="mxl---efecto-panel-variables-instrumentales-variables-hedónicas">MXL - Efecto panel + variables instrumentales + variables hedónicas</h3>
+</section>
+<section id="mxl---indicadores-de-satisfacción-por-modo-agregados" class="level3">
+<h3 class="anchored" data-anchor-id="mxl---indicadores-de-satisfacción-por-modo-agregados">MXL - Indicadores de satisfacción por modo agregados</h3>
+</section>
+</section>
+<section id="resultados" class="level2">
+<h2 class="anchored" data-anchor-id="resultados">Resultados</h2>
+<p>A continuación, se muestran los resultados de las estimaciones de los modelos anteriores:</p>
+$$
+<p>$$</p>
+
+
+</section>
+
+ ]]></description>
+  <category>tesis</category>
+  <category>transporte</category>
+  <guid>https://diezvariante.cl/blog/posts/11-05-2026-resultados-piloto-1/resultados-pilot-1.html</guid>
+  <pubDate>Mon, 11 May 2026 04:00:00 GMT</pubDate>
+</item>
 <item>
   <title>OSNCH - Shostakovich 6</title>
   <link>https://diezvariante.cl/blog/posts/musica-10-5-2026/musica-10-5-2026.html</link>
@@ -55,7 +101,7 @@
   <pubDate>Sun, 10 May 2026 04:00:00 GMT</pubDate>
 </item>
 <item>
-  <title>Preferencias declaradas</title>
+  <title>Modelos iniciales</title>
   <link>https://diezvariante.cl/blog/posts/iclv-1/iclv-1.html</link>
   <description><![CDATA[ 
 

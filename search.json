@@ -1,45 +1,10 @@
 [
   {
-    "objectID": "categorias/transporte.html",
-    "href": "categorias/transporte.html",
-    "title": "Transporte",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Blog - Pablo González",
     "section": "",
-    "text": "Posts sobre transporte.\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "categorias/otros.html",
-    "href": "categorias/otros.html",
-    "title": "Otros",
-    "section": "",
-    "text": "Posts misceláneos.\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "categorias/fotos.html",
-    "href": "categorias/fotos.html",
-    "title": "Fotos",
-    "section": "",
-    "text": "Posts con fotos.\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Sobre mí",
-    "section": "",
-    "text": "Hola! Soy Pablo. Acá dejaré algunas cosas que he hecho últimamente."
-  },
-  {
-    "objectID": "categorias/electrica.html",
-    "href": "categorias/electrica.html",
-    "title": "Eléctrica",
-    "section": "",
-    "text": "Posts sobre electricidad y electrónica.\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "categorias/musica.html",
-    "href": "categorias/musica.html",
-    "title": "Música",
-    "section": "",
-    "text": "Posts sobre música.\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Notas sobre transporte y otras cosas que he ido haciendo con el tiempo.\n\n\n\n\n\n\n\n\n\nResultados piloto encuesta 1\n\n\n\ntesis\n\ntransporte\n\n\n\nResultados de piloto de encuesta sobre elección entre micro bus y tren entre Santiago y Rancagua\n\n\n\n\n\nMay 11, 2026\n\n\n\n\n\n\n\nOSNCH - Shostakovich 6\n\n\n\nmusica\n\n\n\nConcierto N°5 - Armonías Corales\n\n\n\n\n\nMay 10, 2026\n\n\n\n\n\n\n\nModelos iniciales\n\n\n\ntransporte tesis\n\n\n\nModelo 1 de Variables latentes. Usando solo encuesta PD de Netquest.\n\n\n\n\n\nMay 7, 2026\n\n\n\n\n\n\n\nPreferencias declaradas\n\n\n\ntransporte tesis\n\n\n\n¿Cómo se diseña realmente una encuesta de preferencias declaradas?\n\n\n\n\n\nMay 7, 2026\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "categorias/tesis.html",
@@ -49,11 +14,74 @@
     "text": "Avances en mi tesis de magister.\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Blog - Pablo González",
+    "objectID": "categorias/musica.html",
+    "href": "categorias/musica.html",
+    "title": "Música",
     "section": "",
-    "text": "Notas sobre transporte y otras cosas que he ido haciendo con el tiempo.\n\n\n\n\n\n\n\n\n\nOSNCH - Shostakovich 6\n\n\n\nmusica\n\n\n\nConcierto N°5 - Armonías Corales\n\n\n\n\n\nMay 10, 2026\n\n\n\n\n\n\n\nPreferencias declaradas\n\n\n\ntransporte tesis\n\n\n\nModelo 1 de Variables latentes. Usando solo encuesta PD de Netquest.\n\n\n\n\n\nMay 7, 2026\n\n\n\n\n\n\n\nPreferencias declaradas\n\n\n\ntransporte tesis\n\n\n\n¿Cómo se diseña realmente una encuesta de preferencias declaradas?\n\n\n\n\n\nMay 7, 2026\n\n\n\n\n\nNo matching items"
+    "text": "Posts sobre música.\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "categorias/electrica.html",
+    "href": "categorias/electrica.html",
+    "title": "Eléctrica",
+    "section": "",
+    "text": "Posts sobre electricidad y electrónica.\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Sobre mí",
+    "section": "",
+    "text": "Hola! Soy Pablo. Acá dejaré algunas cosas que he hecho últimamente."
+  },
+  {
+    "objectID": "categorias/fotos.html",
+    "href": "categorias/fotos.html",
+    "title": "Fotos",
+    "section": "",
+    "text": "Posts con fotos.\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "categorias/otros.html",
+    "href": "categorias/otros.html",
+    "title": "Otros",
+    "section": "",
+    "text": "Posts misceláneos.\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "categorias/transporte.html",
+    "href": "categorias/transporte.html",
+    "title": "Transporte",
+    "section": "",
+    "text": "Posts sobre transporte.\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/11-05-2026-resultados-piloto-1/resultados-pilot-1.html",
+    "href": "posts/11-05-2026-resultados-piloto-1/resultados-pilot-1.html",
+    "title": "Resultados piloto encuesta 1",
+    "section": "",
+    "text": "El primer piloto contó con 224 respuestas desde Netquest, de las cuales 96 respuestas fueron consideradas válidas (gente que efectivamente usaba el corredor).\nEs un poco complejo el índice de incidencia (estamos bajo el 50% de opbacioón objetivo vs población encuestada). Ojalá se pueda hacer algo al respecto desde Netquest.\nA continuación, se muestran algunos gráficos de caracterización:\nCaract. Demográfica\nCaract. viajes\nResultados Items Likert"
+  },
+  {
+    "objectID": "posts/11-05-2026-resultados-piloto-1/resultados-pilot-1.html#caracterización-de-la-muestra",
+    "href": "posts/11-05-2026-resultados-piloto-1/resultados-pilot-1.html#caracterización-de-la-muestra",
+    "title": "Resultados piloto encuesta 1",
+    "section": "",
+    "text": "El primer piloto contó con 224 respuestas desde Netquest, de las cuales 96 respuestas fueron consideradas válidas (gente que efectivamente usaba el corredor).\nEs un poco complejo el índice de incidencia (estamos bajo el 50% de opbacioón objetivo vs población encuestada). Ojalá se pueda hacer algo al respecto desde Netquest.\nA continuación, se muestran algunos gráficos de caracterización:\nCaract. Demográfica\nCaract. viajes\nResultados Items Likert"
+  },
+  {
+    "objectID": "posts/11-05-2026-resultados-piloto-1/resultados-pilot-1.html#modelos-preliminares",
+    "href": "posts/11-05-2026-resultados-piloto-1/resultados-pilot-1.html#modelos-preliminares",
+    "title": "Resultados piloto encuesta 1",
+    "section": "Modelos preliminares",
+    "text": "Modelos preliminares\nSe plantearon 3 modelos de Logit Mixto. Las especificaciones se muestran a continuación\n\nMXL - Efecto panel + variables instrumentales (medibles)\n\n\nMXL - Efecto panel + variables instrumentales + variables hedónicas\n\n\nMXL - Indicadores de satisfacción por modo agregados"
+  },
+  {
+    "objectID": "posts/11-05-2026-resultados-piloto-1/resultados-pilot-1.html#resultados",
+    "href": "posts/11-05-2026-resultados-piloto-1/resultados-pilot-1.html#resultados",
+    "title": "Resultados piloto encuesta 1",
+    "section": "Resultados",
+    "text": "Resultados\nA continuación, se muestran los resultados de las estimaciones de los modelos anteriores:\n$$\n$$"
   },
   {
     "objectID": "posts/musica-10-5-2026/musica-10-5-2026.html",
