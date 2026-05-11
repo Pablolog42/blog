@@ -45,6 +45,13 @@
             </RMarkdownRenderProfile>
           </value>
         </entry>
+        <entry key="file://$PROJECT_DIR$/posts/11-05-2026-resultados-piloto-1/resultados-pilot-1.qmd">
+          <value>
+            <RMarkdownRenderProfile>
+              <option name="outputDirectoryUrl" value="file://$PROJECT_DIR$/posts/11-05-2026-resultados-piloto-1" />
+            </RMarkdownRenderProfile>
+          </value>
+        </entry>
         <entry key="file://$PROJECT_DIR$/posts/hola-mundo/index.qmd">
           <value>
             <RMarkdownRenderProfile>
