@@ -1,80 +1,10 @@
 [
   {
-    "objectID": "posts/preferencias-declaradas-1/pd-1.html",
-    "href": "posts/preferencias-declaradas-1/pd-1.html",
-    "title": "Variables latentes",
+    "objectID": "categorias/transporte.html",
+    "href": "categorias/transporte.html",
+    "title": "Transporte",
     "section": "",
-    "text": "Bienvenido al blog. Este primer post muestra las capacidades básicas del formato."
-  },
-  {
-    "objectID": "posts/preferencias-declaradas-1/pd-1.html#texto-y-listas",
-    "href": "posts/preferencias-declaradas-1/pd-1.html#texto-y-listas",
-    "title": "Variables latentes",
-    "section": "Texto y listas",
-    "text": "Texto y listas\nPuedes escribir en Markdown normal. Las listas funcionan como siempre:\n\nPunto uno\nPunto dos\nPunto tres"
-  },
-  {
-    "objectID": "posts/preferencias-declaradas-1/pd-1.html#ecuaciones-con-latex",
-    "href": "posts/preferencias-declaradas-1/pd-1.html#ecuaciones-con-latex",
-    "title": "Variables latentes",
-    "section": "Ecuaciones con LaTeX",
-    "text": "Ecuaciones con LaTeX\nInline: la fórmula de Euler es \\(e^{i\\pi} + 1 = 0\\).\nBloque centrado:\n\\[\n\\int_{-\\infty}^{\\infty} e^{-x^2} \\, dx = \\sqrt{\\pi}\n\\]\nOtra más:\n\\[\nf(x) = \\frac{1}{\\sigma\\sqrt{2\\pi}} \\exp\\!\\left(-\\frac{(x-\\mu)^2}{2\\sigma^2}\\right)\n\\]"
-  },
-  {
-    "objectID": "posts/preferencias-declaradas-1/pd-1.html#código",
-    "href": "posts/preferencias-declaradas-1/pd-1.html#código",
-    "title": "Variables latentes",
-    "section": "Código",
-    "text": "Código\ndef fibonacci(n: int) -&gt; list[int]:\n    a, b = 0, 1\n    result = []\n    for _ in range(n):\n        result.append(a)\n        a, b = b, a + b\n    return result\n\nprint(fibonacci(10))"
-  },
-  {
-    "objectID": "posts/preferencias-declaradas-1/pd-1.html#cita",
-    "href": "posts/preferencias-declaradas-1/pd-1.html#cita",
-    "title": "Variables latentes",
-    "section": "Cita",
-    "text": "Cita\n\n“La simplicidad es la sofisticación definitiva.” — Leonardo da Vinci"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Blog - Pablo González",
-    "section": "",
-    "text": "Notas sobre transporte y otras cosas que he ido haciendo con el tiempo.\n\n\n\n\n\n\n\n\n\nPreferencias declaradas\n\n\n\ntesis\n\n\n\nResultados preliminares de la primera encuesta de preferencias declaradas (PD) de la tesis.\n\n\n\n\n\nMay 7, 2026\n\n\n\n\n\n\n\nVariables latentes\n\n\n\nmeta\n\n\n\nEl primer post del blog — una demostración de texto, código y ecuaciones.\n\n\n\n\n\nMay 7, 2026\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "categorias/tesis.html",
-    "href": "categorias/tesis.html",
-    "title": "Tesis",
-    "section": "",
-    "text": "Avances en mi tesis de magister.\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "categorias/musica.html",
-    "href": "categorias/musica.html",
-    "title": "Música",
-    "section": "",
-    "text": "Posts sobre música.\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "categorias/electrica.html",
-    "href": "categorias/electrica.html",
-    "title": "Eléctrica",
-    "section": "",
-    "text": "Posts sobre electricidad y electrónica.\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Sobre mí",
-    "section": "",
-    "text": "Hola! Soy Pablo. Acá dejaré algunas cosas que he hecho últimamente."
-  },
-  {
-    "objectID": "categorias/fotos.html",
-    "href": "categorias/fotos.html",
-    "title": "Fotos",
-    "section": "",
-    "text": "Posts con fotos.\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Posts sobre transporte.\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "categorias/otros.html",
@@ -84,45 +14,59 @@
     "text": "Posts misceláneos.\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "categorias/transporte.html",
-    "href": "categorias/transporte.html",
-    "title": "Transporte",
+    "objectID": "categorias/fotos.html",
+    "href": "categorias/fotos.html",
+    "title": "Fotos",
     "section": "",
-    "text": "Posts sobre transporte.\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Posts con fotos.\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "posts/iclv-1/iclv-1.html",
-    "href": "posts/iclv-1/iclv-1.html",
-    "title": "Preferencias declaradas",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Sobre mí",
     "section": "",
-    "text": "Bienvenido al blog. Este primer post muestra las capacidades básicas del formato."
+    "text": "Hola! Soy Pablo. Acá dejaré algunas cosas que he hecho últimamente."
   },
   {
-    "objectID": "posts/iclv-1/iclv-1.html#texto-y-listas",
-    "href": "posts/iclv-1/iclv-1.html#texto-y-listas",
-    "title": "Preferencias declaradas",
+    "objectID": "categorias/electrica.html",
+    "href": "categorias/electrica.html",
+    "title": "Eléctrica",
+    "section": "",
+    "text": "Posts sobre electricidad y electrónica.\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "categorias/musica.html",
+    "href": "categorias/musica.html",
+    "title": "Música",
+    "section": "",
+    "text": "Posts sobre música.\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "categorias/tesis.html",
+    "href": "categorias/tesis.html",
+    "title": "Tesis",
+    "section": "",
+    "text": "Avances en mi tesis de magister.\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Blog - Pablo González",
+    "section": "",
+    "text": "Notas sobre transporte y otras cosas que he ido haciendo con el tiempo.\n\n\n\n\n\n\n\n\n\nOSNCH - Shostakovich 6\n\n\n\nmusica\n\n\n\nConcierto N°5 - Armonías Corales\n\n\n\n\n\nMay 10, 2026\n\n\n\n\n\n\n\nPreferencias declaradas\n\n\n\ntransporte tesis\n\n\n\nModelo 1 de Variables latentes. Usando solo encuesta PD de Netquest.\n\n\n\n\n\nMay 7, 2026\n\n\n\n\n\n\n\nPreferencias declaradas\n\n\n\ntransporte tesis\n\n\n\n¿Cómo se diseña realmente una encuesta de preferencias declaradas?\n\n\n\n\n\nMay 7, 2026\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/musica-10-5-2026/musica-10-5-2026.html",
+    "href": "posts/musica-10-5-2026/musica-10-5-2026.html",
+    "title": "OSNCH - Shostakovich 6",
+    "section": "",
+    "text": "Ayer fue el concierto N°5 “Armonías Corales” del CEAC. Partió con una cantanta de Bach y después del intermedio, la sexta de Shostakovich.\nDejo a continuación una foto de Gerardo antes de partir el concierto:\nLa segunda parte estuvo tensa. La orquesta en resta ocasión estaba en una disposición distinta a la que usualmente usan. Las violas estaba direcamente al frente y se sentia un tremulo constante pero muy suave que ponía todo más tenso.\nTambién, estaba en la audiencia Tobias Volkmann. Me dio un poco de lata pedirle una foto, pero dejo acá una imagen de referencia.\nEspero de corazón que quede él o Barbara Dragán dirigiendo el proximo año a la sinfónica."
+  },
+  {
+    "objectID": "posts/musica-10-5-2026/musica-10-5-2026.html#texto-y-listas",
+    "href": "posts/musica-10-5-2026/musica-10-5-2026.html#texto-y-listas",
+    "title": "OSNCH - Shostakovich 6",
     "section": "Texto y listas",
-    "text": "Texto y listas\nPuedes escribir en Markdown normal. Las listas funcionan como siempre:\n\nPunto uno\nPunto dos\nPunto tres"
-  },
-  {
-    "objectID": "posts/iclv-1/iclv-1.html#ecuaciones-con-latex",
-    "href": "posts/iclv-1/iclv-1.html#ecuaciones-con-latex",
-    "title": "Preferencias declaradas",
-    "section": "Ecuaciones con LaTeX",
-    "text": "Ecuaciones con LaTeX\nInline: la fórmula de Euler es \\(e^{i\\pi} + 1 = 0\\).\nBloque centrado:\n\\[\n\\int_{-\\infty}^{\\infty} e^{-x^2} \\, dx = \\sqrt{\\pi}\n\\]\nOtra más:\n\\[\nf(x) = \\frac{1}{\\sigma\\sqrt{2\\pi}} \\exp\\!\\left(-\\frac{(x-\\mu)^2}{2\\sigma^2}\\right)\n\\]"
-  },
-  {
-    "objectID": "posts/iclv-1/iclv-1.html#código",
-    "href": "posts/iclv-1/iclv-1.html#código",
-    "title": "Preferencias declaradas",
-    "section": "Código",
-    "text": "Código\ndef fibonacci(n: int) -&gt; list[int]:\n    a, b = 0, 1\n    result = []\n    for _ in range(n):\n        result.append(a)\n        a, b = b, a + b\n    return result\n\nprint(fibonacci(10))"
-  },
-  {
-    "objectID": "posts/iclv-1/iclv-1.html#cita",
-    "href": "posts/iclv-1/iclv-1.html#cita",
-    "title": "Preferencias declaradas",
-    "section": "Cita",
-    "text": "Cita\n\n“La simplicidad es la sofisticación definitiva.” — Leonardo da Vinci"
+    "text": "Texto y listas\n\n“(…) In my latest symphony, music of a contemplative and lyrical order predominates. I wanted to convey in it the moods of spring, joy, youth.” — Shostakovich, 1939."
   }
 ]

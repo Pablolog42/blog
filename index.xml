@@ -10,7 +10,53 @@
 <atom:link href="https://diezvariante.cl/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.9.37</generator>
-<lastBuildDate>Thu, 07 May 2026 04:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 10 May 2026 04:00:00 GMT</lastBuildDate>
+<item>
+  <title>OSNCH - Shostakovich 6</title>
+  <link>https://diezvariante.cl/blog/posts/musica-10-5-2026/musica-10-5-2026.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Ayer fue el concierto N°5 “Armonías Corales” del CEAC. Partió con una cantanta de Bach y después del intermedio, la sexta de Shostakovich.</p>
+<p>Dejo a continuación una foto de Gerardo antes de partir el concierto:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://diezvariante.cl/blog/posts/musica-10-5-2026/gerardo.png" class="img-fluid figure-img"></p>
+<figcaption>gerardo</figcaption>
+</figure>
+</div>
+<p>La segunda parte estuvo tensa. La orquesta en resta ocasión estaba en una disposición distinta a la que usualmente usan. Las violas estaba direcamente al frente y se sentia un tremulo constante pero muy suave que ponía todo más tenso.</p>
+<p>También, estaba en la audiencia Tobias Volkmann. Me dio un poco de lata pedirle una foto, pero dejo acá una imagen de referencia.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://www.concerto.com.br/sites/default/files/w-Tobias-Volkmann-%28foto-Karin-van-der-Broocke.jpg" class="img-fluid figure-img"></p>
+<figcaption>tobias</figcaption>
+</figure>
+</div>
+<p>Espero de corazón que quede él o Barbara Dragán dirigiendo el proximo año a la sinfónica.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://diezvariante.cl/blog/posts/musica-10-5-2026/Shostakovich.jpg" class="img-fluid figure-img"></p>
+<figcaption>Shostakovich</figcaption>
+</figure>
+</div>
+<section id="texto-y-listas" class="level2">
+<h2 class="anchored" data-anchor-id="texto-y-listas">Texto y listas</h2>
+<blockquote class="blockquote">
+<p>“(…) In my latest symphony, music of a contemplative and lyrical order predominates. I wanted to convey in it the moods of spring, joy, youth.” — Shostakovich, 1939.</p>
+</blockquote>
+
+
+</section>
+
+ ]]></description>
+  <category>musica</category>
+  <guid>https://diezvariante.cl/blog/posts/musica-10-5-2026/musica-10-5-2026.html</guid>
+  <pubDate>Sun, 10 May 2026 04:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Preferencias declaradas</title>
   <link>https://diezvariante.cl/blog/posts/iclv-1/iclv-1.html</link>
@@ -20,90 +66,16 @@
 
 
 
-<p>Bienvenido al blog. Este primer post muestra las capacidades básicas del formato.</p>
-<section id="texto-y-listas" class="level2">
-<h2 class="anchored" data-anchor-id="texto-y-listas">Texto y listas</h2>
-<p>Puedes escribir en <strong>Markdown</strong> normal. Las listas funcionan como siempre:</p>
-<ul>
-<li>Punto uno</li>
-<li>Punto dos</li>
-<li>Punto tres</li>
-</ul>
-</section>
-<section id="ecuaciones-con-latex" class="level2">
-<h2 class="anchored" data-anchor-id="ecuaciones-con-latex">Ecuaciones con LaTeX</h2>
-<p>Inline: la fórmula de Euler es <img src="https://latex.codecogs.com/png.latex?e%5E%7Bi%5Cpi%7D%20+%201%20=%200">.</p>
-<p>Bloque centrado:</p>
-<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cint_%7B-%5Cinfty%7D%5E%7B%5Cinfty%7D%20e%5E%7B-x%5E2%7D%20%5C,%20dx%20=%20%5Csqrt%7B%5Cpi%7D%0A"></p>
-<p>Otra más:</p>
-<p><img src="https://latex.codecogs.com/png.latex?%0Af(x)%20=%20%5Cfrac%7B1%7D%7B%5Csigma%5Csqrt%7B2%5Cpi%7D%7D%20%5Cexp%5C!%5Cleft(-%5Cfrac%7B(x-%5Cmu)%5E2%7D%7B2%5Csigma%5E2%7D%5Cright)%0A"></p>
-</section>
-<section id="código" class="level2">
-<h2 class="anchored" data-anchor-id="código">Código</h2>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="kw" style="color: #003B4F;
-background-color: null;
-font-weight: bold;
-font-style: inherit;">def</span> fibonacci(n: <span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">int</span>) <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">-&gt;</span> <span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">list</span>[<span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">int</span>]:</span>
-<span id="cb1-2">    a, b <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">0</span>, <span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span></span>
-<span id="cb1-3">    result <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> []</span>
-<span id="cb1-4">    <span class="cf" style="color: #003B4F;
-background-color: null;
-font-weight: bold;
-font-style: inherit;">for</span> _ <span class="kw" style="color: #003B4F;
-background-color: null;
-font-weight: bold;
-font-style: inherit;">in</span> <span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">range</span>(n):</span>
-<span id="cb1-5">        result.append(a)</span>
-<span id="cb1-6">        a, b <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> b, a <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">+</span> b</span>
-<span id="cb1-7">    <span class="cf" style="color: #003B4F;
-background-color: null;
-font-weight: bold;
-font-style: inherit;">return</span> result</span>
-<span id="cb1-8"></span>
-<span id="cb1-9"><span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">print</span>(fibonacci(<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">10</span>))</span></code></pre></div></div>
-</section>
-<section id="cita" class="level2">
-<h2 class="anchored" data-anchor-id="cita">Cita</h2>
-<blockquote class="blockquote">
-<p>“La simplicidad es la sofisticación definitiva.” — Leonardo da Vinci</p>
-</blockquote>
 
 
-</section>
 
  ]]></description>
-  <category>tesis</category>
+  <category>transporte tesis</category>
   <guid>https://diezvariante.cl/blog/posts/iclv-1/iclv-1.html</guid>
   <pubDate>Thu, 07 May 2026 04:00:00 GMT</pubDate>
 </item>
 <item>
-  <title>Variables latentes</title>
+  <title>Preferencias declaradas</title>
   <link>https://diezvariante.cl/blog/posts/preferencias-declaradas-1/pd-1.html</link>
   <description><![CDATA[ 
 
@@ -111,85 +83,11 @@ font-style: inherit;">10</span>))</span></code></pre></div></div>
 
 
 
-<p>Bienvenido al blog. Este primer post muestra las capacidades básicas del formato.</p>
-<section id="texto-y-listas" class="level2">
-<h2 class="anchored" data-anchor-id="texto-y-listas">Texto y listas</h2>
-<p>Puedes escribir en <strong>Markdown</strong> normal. Las listas funcionan como siempre:</p>
-<ul>
-<li>Punto uno</li>
-<li>Punto dos</li>
-<li>Punto tres</li>
-</ul>
-</section>
-<section id="ecuaciones-con-latex" class="level2">
-<h2 class="anchored" data-anchor-id="ecuaciones-con-latex">Ecuaciones con LaTeX</h2>
-<p>Inline: la fórmula de Euler es <img src="https://latex.codecogs.com/png.latex?e%5E%7Bi%5Cpi%7D%20+%201%20=%200">.</p>
-<p>Bloque centrado:</p>
-<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cint_%7B-%5Cinfty%7D%5E%7B%5Cinfty%7D%20e%5E%7B-x%5E2%7D%20%5C,%20dx%20=%20%5Csqrt%7B%5Cpi%7D%0A"></p>
-<p>Otra más:</p>
-<p><img src="https://latex.codecogs.com/png.latex?%0Af(x)%20=%20%5Cfrac%7B1%7D%7B%5Csigma%5Csqrt%7B2%5Cpi%7D%7D%20%5Cexp%5C!%5Cleft(-%5Cfrac%7B(x-%5Cmu)%5E2%7D%7B2%5Csigma%5E2%7D%5Cright)%0A"></p>
-</section>
-<section id="código" class="level2">
-<h2 class="anchored" data-anchor-id="código">Código</h2>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="kw" style="color: #003B4F;
-background-color: null;
-font-weight: bold;
-font-style: inherit;">def</span> fibonacci(n: <span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">int</span>) <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">-&gt;</span> <span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">list</span>[<span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">int</span>]:</span>
-<span id="cb1-2">    a, b <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">0</span>, <span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span></span>
-<span id="cb1-3">    result <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> []</span>
-<span id="cb1-4">    <span class="cf" style="color: #003B4F;
-background-color: null;
-font-weight: bold;
-font-style: inherit;">for</span> _ <span class="kw" style="color: #003B4F;
-background-color: null;
-font-weight: bold;
-font-style: inherit;">in</span> <span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">range</span>(n):</span>
-<span id="cb1-5">        result.append(a)</span>
-<span id="cb1-6">        a, b <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> b, a <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">+</span> b</span>
-<span id="cb1-7">    <span class="cf" style="color: #003B4F;
-background-color: null;
-font-weight: bold;
-font-style: inherit;">return</span> result</span>
-<span id="cb1-8"></span>
-<span id="cb1-9"><span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">print</span>(fibonacci(<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">10</span>))</span></code></pre></div></div>
-</section>
-<section id="cita" class="level2">
-<h2 class="anchored" data-anchor-id="cita">Cita</h2>
-<blockquote class="blockquote">
-<p>“La simplicidad es la sofisticación definitiva.” — Leonardo da Vinci</p>
-</blockquote>
 
 
-</section>
 
  ]]></description>
-  <category>meta</category>
+  <category>transporte tesis</category>
   <guid>https://diezvariante.cl/blog/posts/preferencias-declaradas-1/pd-1.html</guid>
   <pubDate>Thu, 07 May 2026 04:00:00 GMT</pubDate>
 </item>
