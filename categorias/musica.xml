@@ -10,7 +10,296 @@
 <atom:link href="https://diezvariante.cl/blog/categorias/musica.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.9.37</generator>
-<lastBuildDate>Sun, 10 May 2026 04:00:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 09 Jun 2026 04:00:00 GMT</lastBuildDate>
+<item>
+  <title>Música clásica favorita</title>
+  <link>https://diezvariante.cl/blog/posts/09-06-2026-musica-clasica/musica-clasica.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://diezvariante.cl/blog/posts/09-06-2026-musica-clasica/Sala.jpg" class="img-fluid figure-img"></p>
+<figcaption>Gran Sala Sinfónica Nacional</figcaption>
+</figure>
+</div>
+<p>Esta es una selección personal de obras del repertorio clásico que más disfruto. La tabla se puede ordenar por cualquier columna y filtrar por búsqueda o época.</p>
+<style>
+.mc-controls {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding: 1rem 0 0.75rem;
+  align-items: center;
+}
+.mc-controls input {
+  flex: 1;
+  min-width: 180px;
+  font-size: 14px;
+  padding: 7px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background: inherit;
+  color: inherit;
+}
+.mc-filter-btns {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+.mc-filter-btn {
+  font-size: 12px;
+  padding: 5px 12px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+  transition: all .15s;
+}
+.mc-filter-btn:hover { background: rgba(0,0,0,0.06); }
+.mc-filter-btn.mc-active {
+  background: #2c7be5;
+  color: #fff;
+  border-color: transparent;
+}
+.mc-count {
+  font-size: 13px;
+  color: #666;
+  padding: 0 0 0.5rem;
+}
+.mc-tbl-wrap { overflow-x: auto; }
+.mc-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85em;
+  min-width: 640px;
+}
+.mc-table thead th {
+  text-align: left;
+  padding: 8px 10px;
+  font-weight: 600;
+  font-size: 0.8em;
+  border-bottom: 2px solid currentColor;
+  cursor: pointer;
+  user-select: none;
+  white-space: nowrap;
+}
+.mc-table thead th:hover { opacity: 0.75; }
+.mc-table thead th.mc-sorted { color: #2c7be5; }
+.mc-table tbody tr { border-bottom: 1px solid rgba(0,0,0,0.08); transition: background .1s; }
+.mc-table tbody tr:hover { background: rgba(0,0,0,0.04); }
+.mc-table td { padding: 8px 10px; vertical-align: middle; }
+.mc-table td.mc-title { font-weight: 500; }
+.mc-table td.mc-year { font-variant-numeric: tabular-nums; }
+.mc-era-badge {
+  display: inline-block;
+  font-size: 0.75em;
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.mc-era-baroque  { background: #fff3cd; color: #7d4e00; }
+.mc-era-clasico  { background: #d1e7dd; color: #0a3622; }
+.mc-era-romantic { background: #e8d5f5; color: #4a1672; }
+.mc-era-xx       { background: #fde2e2; color: #7d1010; }
+.mc-era-cont     { background: #d0ebff; color: #0c3a6e; }
+.mc-yt-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: #c00;
+  text-decoration: none;
+  font-size: 0.8em;
+  padding: 3px 9px;
+  border: 1px solid #fcc;
+  border-radius: 20px;
+  white-space: nowrap;
+}
+.mc-yt-link:hover { background: #fff0f0; }
+.mc-no-link { color: #aaa; font-size: 0.8em; }
+.mc-no-results { text-align: center; padding: 2.5rem; color: #888; font-size: 0.9em; }
+</style>
+
+<div class="mc-controls">
+  <input type="text" id="mc-search" placeholder="Buscar obra o compositor…" oninput="mcRender()">
+  <div class="mc-filter-btns" id="mc-era-filters"></div>
+</div>
+<div class="mc-count" id="mc-count"></div>
+
+<div class="mc-tbl-wrap">
+  
+<table class="mc-table caption-top">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th" onclick="mcSort('title')">Obra <span id="mc-si-title">↕</span></th>
+<th data-quarto-table-cell-role="th" onclick="mcSort('composer')">Compositor <span id="mc-si-composer">↕</span></th>
+<th data-quarto-table-cell-role="th" onclick="mcSort('year')">Estreno <span id="mc-si-year">↕</span></th>
+<th data-quarto-table-cell-role="th" onclick="mcSort('era')">Época <span id="mc-si-era">↕</span></th>
+<th data-quarto-table-cell-role="th" onclick="mcSort('country')">País <span id="mc-si-country">↕</span></th>
+<th data-quarto-table-cell-role="th">Escuchar</th>
+</tr>
+</thead>
+<tbody id="mc-tbody">
+</tbody>
+</table>
+
+</div>
+
+<script>
+const mcData=[
+{title:"La Traviata",composer:"Verdi",year:1853,era:"Romántico",country:"Italia",yt:"https://www.youtube.com/watch?v=_3tYP9OFUIQ"},
+{title:"Nessun Dorma (Turandot)",composer:"Puccini",year:1926,era:"Romántico",country:"Italia",yt:"https://www.youtube.com/watch?v=cWDMqcaJzIQ"},
+{title:"Concierto para violín (Sibelius)",composer:"Sibelius",year:1905,era:"Romántico",country:"Finlandia",yt:"https://www.youtube.com/watch?v=ng9MlhPpfWA"},
+{title:"Sinfonía nº 2 (Sibelius)",composer:"Sibelius",year:1902,era:"Romántico",country:"Finlandia",yt:"https://www.youtube.com/watch?v=ub60ikq0F-U"},
+{title:"Valse Triste (Sibelius)",composer:"Sibelius",year:1904,era:"Romántico",country:"Finlandia",yt:"https://www.youtube.com/watch?v=2fGPOhiBabA"},
+{title:"Finlandia (Sibelius)",composer:"Sibelius",year:1900,era:"Romántico",country:"Finlandia",yt:"https://www.youtube.com/watch?v=bqdWEa2aLkk"},
+{title:"Sinfonía nº 5 – Shostakóvich",composer:"Shostakóvich",year:1937,era:"Siglo XX",country:"URSS",yt:"https://www.youtube.com/watch?v=YKl6RIi7Xvk"},
+{title:"Sinfonía nº 6 – Shostakóvich",composer:"Shostakóvich",year:1939,era:"Siglo XX",country:"URSS",yt:"https://www.youtube.com/watch?v=pLSVXBB8FrI"},
+{title:"Sinfonía nº 10 – Shostakóvich",composer:"Shostakóvich",year:1953,era:"Siglo XX",country:"URSS",yt:"https://www.youtube.com/watch?v=LMSFvZ5n1Po"},
+{title:"Cuarteto de cuerdas nº 8 – Shostakóvich",composer:"Shostakóvich",year:1960,era:"Siglo XX",country:"URSS",yt:"https://www.youtube.com/watch?v=sReBiLGkGJc"},
+{title:"Suite de jazz nº 2 – Shostakóvich",composer:"Shostakóvich",year:1938,era:"Siglo XX",country:"URSS",yt:"https://www.youtube.com/watch?v=4DImYrSZTpc"},
+{title:"Sinfonía alpina (R. Strauss)",composer:"R. Strauss",year:1915,era:"Romántico",country:"Alemania",yt:"https://www.youtube.com/watch?v=6yLt5bDZPr4"},
+{title:"Así habló Zaratustra (R. Strauss)",composer:"R. Strauss",year:1896,era:"Romántico",country:"Alemania",yt:"https://www.youtube.com/watch?v=IFPwm0e_K98"},
+{title:"Danza Macabra (Saint-Saëns)",composer:"Saint-Saëns",year:1875,era:"Romántico",country:"Francia",yt:"https://www.youtube.com/watch?v=YyknBTm_YyM"},
+{title:"Sinfonía nº 3 (Brahms)",composer:"Brahms",year:1883,era:"Romántico",country:"Alemania",yt:"https://www.youtube.com/watch?v=JF-iBJN5d0M"},
+{title:"Sinfonía nº 4 (Brahms)",composer:"Brahms",year:1885,era:"Romántico",country:"Alemania",yt:"https://www.youtube.com/watch?v=yvClBsA09mE"},
+{title:"Danzón nº 2 (Márquez)",composer:"A. Márquez",year:1994,era:"Contemporáneo",country:"México",yt:"https://www.youtube.com/watch?v=I6MnkSvGFDY"},
+{title:"Concierto para piano nº 1 (Rajmáninov)",composer:"Rajmáninov",year:1892,era:"Romántico",country:"Rusia",yt:"https://www.youtube.com/watch?v=mhBMQqEXYrY"},
+{title:"Concierto para piano nº 2 (Rajmáninov)",composer:"Rajmáninov",year:1901,era:"Romántico",country:"Rusia",yt:"https://www.youtube.com/watch?v=rEGOihjqO9w"},
+{title:"Sinfonía nº 2 (Rajmáninov)",composer:"Rajmáninov",year:1908,era:"Romántico",country:"Rusia",yt:"https://www.youtube.com/watch?v=vSMhZCMCKdY"},
+{title:"Sinfonía nº 5 (Kancheli)",composer:"Kancheli",year:1977,era:"Siglo XX",country:"Georgia",yt:"https://www.youtube.com/watch?v=7jIL4qHQjz0"},
+{title:"Sinfonía nº 1 (Mahler)",composer:"Mahler",year:1889,era:"Romántico",country:"Austria",yt:"https://www.youtube.com/watch?v=4XbHLFkg_Mw"},
+{title:"Sinfonía nº 2 (Mahler)",composer:"Mahler",year:1895,era:"Romántico",country:"Austria",yt:"https://www.youtube.com/watch?v=sHsFIv8VA7w"},
+{title:"Sinfonía nº 5 (Mahler)",composer:"Mahler",year:1904,era:"Romántico",country:"Austria",yt:"https://www.youtube.com/watch?v=fEGNNuEM3Gg"},
+{title:"Sinfonía nº 9 (Mahler)",composer:"Mahler",year:1912,era:"Romántico",country:"Austria",yt:"https://www.youtube.com/watch?v=FnOXVNdBQig"},
+{title:"Sinfonía nº 5 (Beethoven)",composer:"Beethoven",year:1808,era:"Clásico",country:"Alemania",yt:"https://www.youtube.com/watch?v=_4IRMYuE1hI"},
+{title:"Sinfonía nº 9 (Beethoven)",composer:"Beethoven",year:1824,era:"Clásico",country:"Alemania",yt:"https://www.youtube.com/watch?v=rOjHhS5MtvA"},
+{title:"Obertura Egmont (Beethoven)",composer:"Beethoven",year:1810,era:"Clásico",country:"Alemania",yt:"https://www.youtube.com/watch?v=CCXN7oMmRHM"},
+{title:"Sonata para piano nº 14 «Claro de luna»",composer:"Beethoven",year:1802,era:"Clásico",country:"Alemania",yt:"https://www.youtube.com/watch?v=_CluudivCyI"},
+{title:"Rapsodia húngara nº 2 (Liszt)",composer:"Liszt",year:1847,era:"Romántico",country:"Hungría",yt:"https://www.youtube.com/watch?v=n4UfSTQCQAQ"},
+{title:"Adagio de Espartaco y Frigia (Jachaturián)",composer:"Jachaturián",year:1956,era:"Siglo XX",country:"Armenia/URSS",yt:"https://www.youtube.com/watch?v=U7lHvBdVm9U"},
+{title:"Pas de deux – El cascanueces (Chaikovski)",composer:"Chaikovski",year:1892,era:"Romántico",country:"Rusia",yt:"https://www.youtube.com/watch?v=K5mGFqBkrCc"},
+{title:"Sinfonía nº 5 (Chaikovski)",composer:"Chaikovski",year:1888,era:"Romántico",country:"Rusia",yt:"https://www.youtube.com/watch?v=a_B02BZp-5Y"},
+{title:"Sinfonía nº 6 «Patética» (Chaikovski)",composer:"Chaikovski",year:1893,era:"Romántico",country:"Rusia",yt:"https://www.youtube.com/watch?v=VuRGNh4i7Jo"},
+{title:"Obertura 1812 (Chaikovski)",composer:"Chaikovski",year:1882,era:"Romántico",country:"Rusia",yt:"https://www.youtube.com/watch?v=VbxgYlcNxE8"},
+{title:"Obertura Romeo y Julieta (Chaikovski)",composer:"Chaikovski",year:1870,era:"Romántico",country:"Rusia",yt:"https://www.youtube.com/watch?v=SbJJxBSHeCw"},
+{title:"Marcha eslava (Chaikovski)",composer:"Chaikovski",year:1876,era:"Romántico",country:"Rusia",yt:"https://www.youtube.com/watch?v=Ol1S8aw-F3U"},
+{title:"Concierto para violín (Chaikovski)",composer:"Chaikovski",year:1879,era:"Romántico",country:"Rusia",yt:"https://www.youtube.com/watch?v=VU_Bm5X8eXk"},
+{title:"Concierto para piano nº 1 (Chaikovski)",composer:"Chaikovski",year:1875,era:"Romántico",country:"Rusia",yt:"https://www.youtube.com/watch?v=SnyNx2FpMEg"},
+{title:"La consagración de la primavera (Stravinski)",composer:"Stravinski",year:1913,era:"Siglo XX",country:"Rusia",yt:"https://www.youtube.com/watch?v=jF1OQkHybEQ"},
+{title:"El pájaro de fuego (Stravinski)",composer:"Stravinski",year:1910,era:"Siglo XX",country:"Rusia",yt:"https://www.youtube.com/watch?v=KxnFBSHlDIc"},
+{title:"Concierto para piano en fa sostenido (Scriábin)",composer:"Scriábin",year:1897,era:"Romántico",country:"Rusia",yt:"https://www.youtube.com/watch?v=GxX2qMXGiSA"},
+{title:"Una noche en el Monte Pelado (Músorgski)",composer:"Músorgski",year:1867,era:"Romántico",country:"Rusia",yt:"https://www.youtube.com/watch?v=jkMJ4XFCK6g"},
+{title:"España (Chabrier)",composer:"Chabrier",year:1883,era:"Romántico",country:"Francia",yt:"https://www.youtube.com/watch?v=lAVE_AOVNZE"},
+{title:"La novia vendida – obertura (Smetana)",composer:"Smetana",year:1866,era:"Romántico",country:"Chequia",yt:"https://www.youtube.com/watch?v=RLBUxpnXFtE"},
+{title:"Má vlast (Smetana)",composer:"Smetana",year:1882,era:"Romántico",country:"Chequia",yt:"https://www.youtube.com/watch?v=eOBVDIcMBVw"},
+{title:"Concierto para piano en mi mayor (Moszkowski)",composer:"Moszkowski",year:1898,era:"Romántico",country:"Polonia/Alemania",yt:"https://www.youtube.com/watch?v=wBJ0OIBZFSU"},
+{title:"Danzas sinfónicas de West Side Story (Bernstein)",composer:"Bernstein",year:1961,era:"Siglo XX",country:"EE.UU.",yt:"https://www.youtube.com/watch?v=JThz0fG5WQk"},
+{title:"Tico-Tico no Fubá (Abreu)",composer:"Z. Abreu",year:1917,era:"Siglo XX",country:"Brasil",yt:"https://www.youtube.com/watch?v=mV-P6sEJCi0"},
+{title:"Concerto Grosso nº 1 (Schnittke)",composer:"Schnittke",year:1977,era:"Siglo XX",country:"URSS/Alemania",yt:"https://www.youtube.com/watch?v=_FrMwHhYB9k"},
+{title:"Concierto para viola (Schnittke)",composer:"Schnittke",year:1985,era:"Siglo XX",country:"URSS/Alemania",yt:"https://www.youtube.com/watch?v=qsxA7SNMKIw"},
+{title:"Serenata para cuerdas (Dvořák)",composer:"Dvořák",year:1876,era:"Romántico",country:"Chequia",yt:"https://www.youtube.com/watch?v=pq0p1_y5OEo"},
+{title:"Sinfonía nº 9 «Del Nuevo Mundo» (Dvořák)",composer:"Dvořák",year:1893,era:"Romántico",country:"Chequia",yt:"https://www.youtube.com/watch?v=vSfzRB1KHXY"},
+{title:"Concierto para cello (Dvořák)",composer:"Dvořák",year:1896,era:"Romántico",country:"Chequia",yt:"https://www.youtube.com/watch?v=IqizszXqOAo"},
+{title:"La cabalgata de las valquirias (Wagner)",composer:"Wagner",year:1870,era:"Romántico",country:"Alemania",yt:"https://www.youtube.com/watch?v=GGL9RiU2jIE"},
+{title:"Concierto para cello (Vivaldi)",composer:"Vivaldi",year:1720,era:"Barroco",country:"Italia",yt:"https://www.youtube.com/watch?v=yIEXkIEBNXg"},
+{title:"Carmen – preludio, habanera y obertura (Bizet)",composer:"Bizet",year:1875,era:"Romántico",country:"Francia",yt:"https://www.youtube.com/watch?v=PNEBdqvJCvc"},
+{title:"Huapango (Moncayo)",composer:"Moncayo",year:1941,era:"Siglo XX",country:"México",yt:"https://www.youtube.com/watch?v=43oMOobx7Jg"},
+{title:"Bolero (Ravel)",composer:"Ravel",year:1928,era:"Siglo XX",country:"Francia",yt:"https://www.youtube.com/watch?v=bDilyVQ6bls"},
+{title:"El mandarín maravilloso (Bartók)",composer:"Bartók",year:1926,era:"Siglo XX",country:"Hungría",yt:"https://www.youtube.com/watch?v=uNUGRiVp_WM"},
+{title:"Concierto para piano nº 21 (Mozart)",composer:"Mozart",year:1785,era:"Clásico",country:"Austria",yt:"https://www.youtube.com/watch?v=ubYHGNAOSPM"},
+{title:"Sonata para piano nº 11 «Alla Turca» (Mozart)",composer:"Mozart",year:1783,era:"Clásico",country:"Austria",yt:"https://www.youtube.com/watch?v=SrcOcKYQX3c"},
+{title:"Adagio para cuerdas (Barber)",composer:"Barber",year:1938,era:"Siglo XX",country:"EE.UU.",yt:"https://www.youtube.com/watch?v=izQsgE0L450"},
+{title:"Sinfonía fantástica (Berlioz)",composer:"Berlioz",year:1830,era:"Romántico",country:"Francia",yt:"https://www.youtube.com/watch?v=5HgqPpjIH5c"},
+{title:"Concierto para cello (Elgar)",composer:"Elgar",year:1919,era:"Romántico",country:"Reino Unido",yt:"https://www.youtube.com/watch?v=JmBBpjPDDLY"},
+{title:"Los planetas (Holst)",composer:"Holst",year:1918,era:"Siglo XX",country:"Reino Unido",yt:"https://www.youtube.com/watch?v=Isic2Z2e2xs"},
+];
+
+const mcEras=["Todos","Barroco","Clásico","Romántico","Siglo XX","Contemporáneo"];
+const mcEraClass={
+  "Barroco":"mc-era-baroque",
+  "Clásico":"mc-era-clasico",
+  "Romántico":"mc-era-romantic",
+  "Siglo XX":"mc-era-xx",
+  "Contemporáneo":"mc-era-cont"
+};
+
+let mcSortKey="year", mcSortDir=1, mcActiveEra="Todos";
+
+function mcBuildFilters(){
+  const c=document.getElementById("mc-era-filters");
+  mcEras.forEach(e=>{
+    const b=document.createElement("button");
+    b.className="mc-filter-btn"+(e==="Todos"?" mc-active":"");
+    b.textContent=e;
+    b.onclick=()=>{
+      mcActiveEra=e;
+      document.querySelectorAll(".mc-filter-btn").forEach(x=>x.classList.remove("mc-active"));
+      b.classList.add("mc-active");
+      mcRender();
+    };
+    c.appendChild(b);
+  });
+}
+
+function mcSort(key){
+  if(mcSortKey===key) mcSortDir*=-1;
+  else{mcSortKey=key; mcSortDir=1;}
+  document.querySelectorAll(".mc-table thead th").forEach(th=>th.classList.remove("mc-sorted"));
+  ["title","composer","year","era","country"].forEach(k=>{
+    const si=document.getElementById("mc-si-"+k);
+    if(si){
+      si.textContent=k===mcSortKey?(mcSortDir===1?"↑":"↓"):"↕";
+      if(k===mcSortKey) si.closest("th").classList.add("mc-sorted");
+    }
+  });
+  mcRender();
+}
+
+function mcRender(){
+  const q=(document.getElementById("mc-search").value||"").toLowerCase();
+  let rows=mcData.filter(d=>{
+    const mq=!q||d.title.toLowerCase().includes(q)||d.composer.toLowerCase().includes(q);
+    const me=mcActiveEra==="Todos"||d.era===mcActiveEra;
+    return mq&&me;
+  });
+  rows.sort((a,b)=>{
+    const av=mcSortKey==="year"?a.year:(a[mcSortKey]||"").toString().toLowerCase();
+    const bv=mcSortKey==="year"?b.year:(b[mcSortKey]||"").toString().toLowerCase();
+    return av<bv?-mcSortDir:av>bv?mcSortDir:0;
+  });
+  const tb=document.getElementById("mc-tbody");
+  document.getElementById("mc-count").textContent=rows.length+" obra"+(rows.length!==1?"s":"");
+  if(!rows.length){
+    tb.innerHTML='<tr><td colspan="6" class="mc-no-results">Sin resultados</td></tr>';
+    return;
+  }
+  tb.innerHTML=rows.map(d=>`<tr>
+    <td class="mc-title">${d.title}</td>
+    <td>${d.composer}</td>
+    <td class="mc-year">${d.year}</td>
+    <td><span class="mc-era-badge ${mcEraClass[d.era]||'mc-era-xx'}">${d.era}</span></td>
+    <td style="font-size:0.8em">${d.country}</td>
+    <td>${d.yt?`<a class="mc-yt-link" href="${d.yt}" target="_blank">▶ YouTube</a>`:'<span class="mc-no-link">—</span>'}</td>
+  </tr>`).join("");
+}
+
+mcBuildFilters();
+mcSort("year");
+</script>
+
+
+
+ ]]></description>
+  <category>musica</category>
+  <guid>https://diezvariante.cl/blog/posts/09-06-2026-musica-clasica/musica-clasica.html</guid>
+  <pubDate>Tue, 09 Jun 2026 04:00:00 GMT</pubDate>
+</item>
 <item>
   <title>OSNCH - Shostakovich 6</title>
   <link>https://diezvariante.cl/blog/posts/10-05-2026-musica/musica-10-5-2026.html</link>
