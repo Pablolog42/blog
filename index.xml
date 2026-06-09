@@ -152,6 +152,7 @@
 
 <script>
 const mcData=[
+{title:"Morbus Sacer",composer:"Tomas Brantmayer",year:2022,era:"Contemporáneo",country:"Chile",yt:"https://www.youtube.com/watch?v=4Uh7uqQY8Jo"},
 {title:"La Traviata",composer:"Verdi",year:1853,era:"Romántico",country:"Italia",yt:"https://www.youtube.com/watch?v=_3tYP9OFUIQ"},
 {title:"Nessun Dorma (Turandot)",composer:"Puccini",year:1926,era:"Romántico",country:"Italia",yt:"https://www.youtube.com/watch?v=cWDMqcaJzIQ"},
 {title:"Concierto para violín (Sibelius)",composer:"Sibelius",year:1905,era:"Romántico",country:"Finlandia",yt:"https://www.youtube.com/watch?v=ng9MlhPpfWA"},
